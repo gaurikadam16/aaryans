@@ -6,7 +6,7 @@ const Chairman = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const letterheadImg = "/images/chairmanLetterhead.png";
+  const letterheadImg = "/images/Letterhead.png";
   const heroBgImg = "/images/bg_i2.jpg";
 
   return (

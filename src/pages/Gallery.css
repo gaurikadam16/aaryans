@@ -7,278 +7,304 @@
   --bg-light: #f8fafc;
   --white: #ffffff;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --border-radius-sm: 4px;
 }
 
-/* --- Base Styles --- */
-.gallery-page-wrapper {
+/* --- Base Layout --- */
+.gallery-page-container {
   background-color: var(--bg-light);
   min-height: 100vh;
+  width: 100%;
 }
-/* --- Namespaced Hero Section --- */
 
+.main-content-area {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 5rem;
+}
+
+/* --- Hero Section --- */
 .gallery-hero-section {
   position: relative;
-  height: 65vh; 
-  min-height: 400px;
+  height: 82vh; 
+  min-height: 380px;
   width: 100%;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
-  align-items: center;    /* Keeps text centered vertically */
-  justify-content: center; /* Keeps text centered horizontally */
-  z-index: 1;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery-hero-text-box {
   position: relative;
-  z-index: 3;
+  z-index: 2;
   text-align: center;
-  color: white;
-  padding: 0 20px;
+  color: var(--white);
+  padding: 0 1.5rem;
+  max-width: 900px;
 }
 
 .gallery-hero-title {
-  font-size: clamp(2rem, 6vw, 4rem);
-  font-weight: 900;
-  letter-spacing: 6px;
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  font-weight: 800;
+  letter-spacing: 4px;
   text-transform: uppercase;
   margin: 0;
+  line-height: 1.15;
 }
 
 .gallery-hero-accent-line {
-  width: 60px;
+  width: 70px;
   height: 4px;
-  background: #7a1f1f;
-  margin: 15px auto;
+  background: var(--primary-maroon);
+  margin: 1.25rem auto;
+  border-radius: 2px;
 }
 
-/* --- Perfect Mobile Media Query (Under 768px) --- */
-@media (max-width: 768px) {
-  .gallery-hero-section {
-    /* Adjusting height for mobile; flexbox above keeps text in the dead center */
-    height: 45vh; 
-    min-height: 350px;
-  }
-
-  .gallery-hero-title {
-    /* Reduced letter spacing so text doesn't break poorly on narrow screens */
-    letter-spacing: 3px;
-    line-height: 1.1;
-  }
-
-  .gallery-hero-accent-line {
-    width: 40px;
-    height: 3px;
-    margin: 12px auto;
-  }
-
-  .gallery-hero-text-box {
-    /* Ensures no extra padding or margin pushes the text away from the center */
-    padding: 0 15px;
-    margin: 0px; 
-  }
-}
-/* --- Filter Area (Vertical Column Layout) --- */
-.main-content-area {
-  max-width: 12 00px;
-  margin: 0 auto;
-  padding: 3rem 5%;
+.gallery-hero-subtitle {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  letter-spacing: 1px;
 }
 
-/* 1. This container stacks the Year group on top of the Category group */
+/* --- Filter Container --- */
 .filter-container {
-  display: flex !important;
-  flex-direction: column !important; 
-  gap: 3rem;                /* Space between Year section and Category section */
-  margin-bottom: 4rem;
-  align-items: center;      /* Centers both sections on the page */
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  margin: 0 auto 3rem auto;
+  align-items: center;
   width: 100%;
+  max-width: 850px;
+  padding: 2rem;
+  background: var(--white);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e8f0;
 }
 
-/* 2. This group stacks the Label on top of the Button Row */
 .filter-group {
-  display: flex !important;
-  flex-direction: column !important; 
-  align-items: center;      /* Centers label and buttons relative to each other */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  max-width: 800px;
 }
 
 .filter-label {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--text-muted);
-  margin-bottom: 1rem;      /* Gap between label and buttons */
-  letter-spacing: 2px;
-  display: block;
+  margin-bottom: 0.75rem;
+  letter-spacing: 1.5px;
 }
 
-/* 3. This row holds the buttons side-by-side */
 .filter-row {
   display: flex;
-  flex-wrap: wrap;          /* Allows wrapping on mobile */
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;                /* Space between individual buttons */
+  gap: 10px;
   width: 100%;
 }
 
-/* --- Buttons --- */
+/* Filter Buttons */
 .btn-year, .btn-type {
-  padding: 12px 28px;
-  border-radius: 8px;
+  padding: 9px 20px;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   cursor: pointer;
   transition: var(--transition);
-  border: 2px solid;
+  border: 1.5px solid;
   background: var(--white);
-  min-width: 110px;
+  min-width: 90px;
+  text-align: center;
 }
 
-/* Specific Colors for Year */
 .btn-year {
   color: var(--primary-maroon);
   border-color: var(--primary-maroon);
 }
+
 .btn-year.active, .btn-year:hover {
   background: var(--primary-maroon);
   color: var(--white);
   box-shadow: 0 4px 12px rgba(122, 31, 31, 0.2);
 }
 
-/* Specific Colors for Category */
 .btn-type {
   color: var(--primary-blue);
-  border-color: #e2e8f0;
+  border-color: #cbd5e1;
 }
+
 .btn-type.active, .btn-type:hover {
   background: var(--primary-blue);
   color: var(--white);
   border-color: var(--primary-blue);
+  box-shadow: 0 4px 12px rgba(26, 74, 142, 0.2);
 }
 
-
-/* --- Grid System --- */
+/* --- Items Grid --- */
 .items-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 2rem;
 }
 
-/* Information Card (Full Width) */
+/* --- Information Card --- */
 .info-card-full {
   grid-column: 1 / -1;
   background: var(--white);
-  border-radius: 16px;
-  border-left: 8px solid var(--primary-blue);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-  overflow: hidden;
+  border-left: 6px solid var(--primary-blue);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  border-top: 1px solid #e2e8f0;
+  border-right: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .info-card-content {
-  padding: 3rem;
+  padding: 2.5rem;
+}
+
+.meta-badge-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 0.75rem;
 }
 
 .meta-badge {
-  color: var(--primary-blue);
-  font-weight: 800;
-  font-size: 0.75rem;
+  font-weight: 700;
+  font-size: 0.8rem;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
+.meta-badge.year { color: var(--primary-maroon); }
+.meta-badge.type { color: var(--primary-blue); }
+.meta-badge-divider { color: var(--text-muted); font-size: 0.8rem; }
+
 .info-card-title {
-  font-size: 1.75rem;
-  margin: 1rem 0;
+  font-size: 1.6rem;
+  margin: 0 0 1.25rem 0;
   color: var(--text-dark);
+  line-height: 1.3;
 }
 
 .info-card-text {
   line-height: 1.8;
-  color: #475569;
-  font-size: 1.05rem;
-  text-align: justify;
+  color: #334155;
+  font-size: 1rem;
+  white-space: pre-line;
 }
 
 .info-card-footer {
   margin-top: 2rem;
-  padding-top: 1.5rem;
+  padding-top: 1.25rem;
   border-top: 1px solid #f1f5f9;
   font-style: italic;
+  font-weight: 500;
   color: var(--text-muted);
 }
 
-/* Media Cards */
+/* --- Media Cards --- */
 .media-card {
   background: var(--white);
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
   transition: var(--transition);
+  display: flex;
+  flex-direction: column;
 }
 
 .media-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
 }
 
 .media-header {
-  height: 240px;
+  height: 230px;
   position: relative;
-  background: #cbd5e1;
+  background: #0f172a;
+  overflow: hidden;
 }
 
-.media-header img, .media-header video {
+.media-header img,
+.media-header video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
-.type-tag {
+/* Badge Overlays on Media Image */
+.year-tag-overlay {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: var(--primary-maroon);
-  color: white;
+  top: 0.75rem;
+  left: 0.75rem;
+  background: var(--primary-blue);
+  color: var(--white);
   padding: 4px 10px;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  border-radius: 4px;
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.type-tag-overlay {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: var(--primary-maroon);
+  color: var(--white);
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
 .media-body {
-  padding: 1.5rem;
-}
-
-.year-tag {
-  color: var(--primary-blue);
-  font-weight: 700;
-  font-size: 0.8rem;
+  padding: 1.25rem;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
 }
 
 .media-body h4 {
-  margin: 0.5rem 0 0;
-  font-size: 1.15rem;
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
   color: var(--text-dark);
+  line-height: 1.4;
 }
 
 /* --- Empty State --- */
 .no-results {
   grid-column: 1 / -1;
   text-align: center;
-  padding: 5rem;
+  padding: 4rem 1rem;
+  background: var(--white);
+  border: 1px dashed #cbd5e1;
   color: var(--text-muted);
-  font-size: 1.2rem;
 }
 
-/* --- Responsive Adjustments --- */
-
+/* --- Responsive Layout --- */
 @media (max-width: 768px) {
-  .hero-section { height: 40vh; }
-  
-  .filter-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 buttons per row */
+  .gallery-hero-section {
+    height: 35vh;
+    min-height: 280px;
+  }
+
+  .gallery-hero-title {
+    letter-spacing: 2px;
+  }
+
+  .filter-container {
+    padding: 1.25rem 1rem;
+    max-width: 100%;
   }
 
   .info-card-content {
@@ -286,18 +312,22 @@
   }
 
   .info-card-title {
-    font-size: 1.4rem;
+    font-size: 1.35rem;
   }
 
   .items-grid {
-    grid-template-columns: 1fr; /* Single column for images */
+    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 480px) {
-  .hero-title { font-size: 2.5rem; }
-  
   .filter-row {
-    grid-template-columns: 1fr; /* Single column buttons on tiny screens */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .btn-year, .btn-type {
+    min-width: unset;
+    width: 100%;
   }
 }

@@ -18,29 +18,10 @@ const OurTeam = () => {
         { name: "Executive Name", role: "Chairman & MD", img: "/images/mukundj.png", linkedin: "https://www.linkedin.com/in/gauri-kadam-521686292/" },
         { name: "Executive Name", role: "Chief Executive Officer", img: "/images/manoharj.png", linkedin: "#" },
         { name: "Executive Name", role: "Director of Operations", img: "/images/smitaj.png", linkedin: "#" },
-        { name: "Executive Name", role: "CFO", img: "/images/mukundj.png", linkedin: "#" },
+       
       ]
     },
-    {
-      category: "Technical Experts",
-      description: "Pioneering innovation in Green Energy, AI, and Infrastructure.",
-      members: [
-        { name: "Expert Name", role: "Head of AI & Tech", img: "/images/smitajagtap.jpg", linkedin: "#" },
-        { name: "Expert Name", role: "Renewable Specialist", img: "/images/manoharjagtap.jpg", linkedin: "#" },
-        { name: "Expert Name", role: "Lead Architect", img: "/images/mukundjagtap.jpg", linkedin: "#" },
-        { name: "Expert Name", role: "System Engineer", img: "/images/smitajagtap.jpg", linkedin: "#" },
-      ]
-    },
-    {
-      category: "Strategic Advisors",
-      description: "Expert counsel shaping our business and legal frameworks.",
-      members: [
-        { name: "Advisor Name", role: "Business Consultant", img: "/images/manoharj.png", linkedin: "#" },
-        { name: "Advisor Name", role: "Legal Advisor", img: "/images/mukundj.png", linkedin: "#" },
-        { name: "Advisor Name", role: "Financial Strategist", img: "/images/smitaj.png", linkedin: "#" },
-        { name: "Advisor Name", role: "Market Analyst", img: "/images/manoharj.png", linkedin: "#" },
-      ]
-    }
+ 
   ];
 
   return (

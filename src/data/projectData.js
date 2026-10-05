@@ -6,13 +6,8 @@ export const sectorData = {
     subtitle: "FARMING",
     description: "Modern soil-less cultivation techniques using nutrient-rich water solutions to produce high-yield, pesticide-free crops.",
     image: "/images/hydroponic.jpg", 
-    video: "/assets/videos/Hydro.mp4",
-    pages: [
-      "/images/hydro-1.png",
-      "/images/hydro-2.png",
-      "/images/hydro-3.png",
-      "/images/hydro-4.png"
-    ]
+    video: "/assets/videos/hydroponic_1.mp4"
+    
   },
   "organic-farming": {
     tag: "Agriculture Sector",
@@ -21,15 +16,15 @@ export const sectorData = {
     description: "Sustainable farming practices that rely on natural fertilizers and biological pest control for chemical-free produce.",
     image: "/images/organic.jpg",
     introTitle: "Agriculture / Organic Farming",
-    introText: "We have already signed a deal to produce vegetables and fruits using organic farming with the Israel based technology. We will commence in this venture by August 2023. Our aim here is to produce fruits and vegetables and supply them to the consumers at very reasonable rates. At the same time we will employ the people from the vicinity for this project with adequate training. Consumers purchase organic foods for many different reasons. Many want to buy food products that are free of chemical pesticides or grown without any chemical fertilizers. Approximately 5% of consumers are inclined to buy 50% of the organic produce. Aaryans group has already acquired land in Satara district of Maharashtra for planting of all such fruits and vegetables along with other plantation. This activity will start from August 2023.",
-    introImage: "/images/organic1.png",
-    video: "/assets/videos/Organic.mp4",
-    pages: [
-      "/images/oragnic-1.png",
-      "/images/organic-2.png",
-      "/images/organic-3.png",
-      "/images/organic-4.png"
+    introPoints: [
+      "Aaryans Group has secured a deal to implement organic farming using advanced Israel-based technology, commencing operations in August 2023.",
+      "Land has been acquired in the Satara district of Maharashtra for cultivation, focusing on growing chemical-free fruits and vegetables to supply consumers at highly reasonable rates.",
+      "The initiative aims to meet consumer demand for chemical-pesticide-free food—a market where roughly 5% of consumers buy 50% of organic produce—while empowering the local community through employment and adequate training."
     ],
+    introImage: "/images/organic1.png",
+    video: "/assets/videos/Organic_1.mp4",
+  
+    
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -58,13 +53,8 @@ export const sectorData = {
     subtitle: "FERTILISERS",
     description: "High-yield hybrid seeds and scientifically balanced fertilizers engineered to maximize crop resistance.",
     image: "/images/seed.jpg",
-    video: "/assets/videos/Seeds.mp4",
-    pages: [
-      "/images/seed-1.png",
-      "/images/seed-2.png",
-      "/images/seed-3.png",
-      "/images/seed-4.png"
-    ]
+    video: "/assets/videos/Seeds_1.mp4"
+   
   },
   "sugar-production": {
     tag: "Agriculture Sector",
@@ -73,15 +63,14 @@ export const sectorData = {
     description: "Advanced milling and refining technology producing premium grade sugar for global industries.",
     image: "/images/sugar.jpg",
     introTitle: "Sugar Production",
-    introText: "Aaryans group is all set to take over an existing sugar factory which has production capacity of 3500 TCD with 8 MW COGEN Power. The group is also in talks with a existing ethanol producing company in Karnataka which has a installed capacity of 120 KLPD Etthanol production permission and it looking for a financial partner, where Aaryans will be playing a crucial role and is getting onboard with this company by July 2023. The commercial operation of the Ethanol plant will commence by November 2023. The total investment in this sector will be Rs. 550 crore and shall generate job opportunities for 550 youth. This sector will be working as a forward and backward integration pattern and sugar and ethanol plant will contemplate each other",
-    introImage: "/images/sugar1.png",
-    video: "/assets/videos/Sugar.mp4",
-    pages: [
-      "/images/sugar-1.png",
-      "/images/sugar-2.png",
-      "/images/sugar-3.png",
-      "/images/sugar-4.png"
+    introPoints: [
+      "Aaryans Group is taking over an existing sugar factory with a production capacity of 3,500 TCD integrated with an 8 MW COGEN power plant.",
+      "The group is partnering with a Karnataka-based ethanol company holding a 120 KLPD capacity license, targeting onboard completion by July 2023 and commercial operations by November 2023.",
+      "With a total investment of Rs. 550 crore generating 550 youth job opportunities, the sector operates on a forward and backward integration model where sugar and ethanol production complement each other."
     ],
+    introImage: "/images/sugar1.png",
+    video: "/assets/videos/Sugar_1.mp4",
+   
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -114,13 +103,8 @@ export const sectorData = {
     subtitle: "PRODUCTION",
     description: "Traditional chemical-free clarification with modern hygiene standards for nutrient-rich jaggery.",
     image: "/images/jaggery.jpg",
-    video: "/assets/videos/Jaggery.mp4",
-    pages: [
-      "/images/jaggery-1.png",
-      "/images/jaggery-2.png",
-      "/images/jaggery-3.png",
-      "/images/jaggery-4.png"
-    ]
+    video: "/assets/videos/Jaggery_1.mp4"
+    
   },
 
   // --- MANUFACTURING ---
@@ -130,14 +114,15 @@ export const sectorData = {
     subtitle: "& EV",
     description: "Pioneering the future of mobility with high-performance electric vehicles and AI-driven assembly lines.",
     image: "/images/ev.jpg",
-    introTitle: "Automobiles And Electric Vehicals",
-    introText: "Aaryans P. Ltd. group has already joined hands with M/s Exerval Pvt Ltd, Pune for manufacturing Electric vehicles. This will cater to the high-speed segment of two-wheelers and B2B two-wheelers. The sourcing of raw materials and other components is around 80% indigenous as on date and we have already implemented plans to have 100% indigenous source of Raw Materials. Aaryans have signed an agreement for technical collaboration and manufacturing of electric four-wheelers, commercial vehicles and buses in the segment. We had already rolled out our EV Bikes in Feb 2022 and are looking forward to launching electric 4 wheeler and commercial vehicle by the last quarter of 2024. We are also venturing in to backward integration of the said segment by developing and setting up production facility to manufacture Batteries and Semiconductors which are the main components in an Electric Vehicle. Both the components are under the business plan of Aaryans and the produce will be for the captive consumption and for the open market and exports.",
+    introTitle: "Automobiles And Electric Vehicles",
+    introPoints: [
+      "Aaryans Group has partnered with M/s Exerval Pvt Ltd, Pune to manufacture high-speed two-wheelers and B2B EV two-wheelers, with raw material indigeneity currently at ~80% and active plans to reach 100%.",
+      "Having rolled out EV bikes in February 2022, agreements are signed for technical collaboration to manufacture electric 4-wheelers, commercial vehicles, and buses scheduled for rollout by Q4 2024.",
+      "The group is executing backward integration by establishing production facilities for Batteries and Semiconductors for both captive consumption and external commercial sales/exports."
+    ],
     introImage: "/images/auto1.png",
-    video: "/assets/videos/EV.mp4",
-    pages: ["/images/ev-1.png", 
-      "/images/ev-2.png", 
-      "/images/ev-3.png", 
-      "/images/ev-4.png"],
+    video: "/assets/videos/EV_1.mp4",
+    
         differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -163,11 +148,7 @@ export const sectorData = {
     subtitle: "PHONE",
     description: "Precision electronics manufacturing utilizing robotic SMT lines for next-generation hardware.",
     image: "/images/cell.jpg",
-    video: "/assets/videos/cell.mp4",
-    pages: ["/images/cell-1.png", 
-      "/images/cell-2.png", 
-      "/images/cell-3.png", 
-      "/images/cell-4.png"]
+    video: "/assets/videos/cell_1.mp4"
   },
   "drone-mfg": {
     tag: "Manufacturing Sector",
@@ -175,28 +156,22 @@ export const sectorData = {
     subtitle: "MFG",
     description: "Aerospace engineering specializing in UAV systems for industrial and agricultural applications.",
     image: "/images/drone.jpg",
-    video: "/assets/videos/Drone.mp4",
-    pages: ["/images/drone-1.png", 
-      "/images/drone-2.png",
-       "/images/drone-3.png", 
-       "/images/drone-4.png"
-      ]
+    video: "/assets/videos/Drone_1.mp4"
   },
-  "solar-panels": {
+"solar-panels": {
     tag: "Manufacturing Sector",
     title: "SOLAR",
     subtitle: "PANELS",
     description: "High-efficiency photovoltaic modules designed for maximum power output and durability in extreme conditions.",
     image: "/images/solarpanel.jpg",
     introTitle: "Solar Panel Manufacturing",
-    introText: "The solar panel manufacturing project focuses on producing high-quality photovoltaic solar panels that convert sunlight into electricity. With a significant rise in demand for renewable energy, the solar industry has become a key player in the global transition to sustainable energy. The business will specialise in the design, manufacture, and sale of solar panels to residential, commercial, and industrial customers, both within India and globally. This business will leverage advanced technologies, sustainable practices, and local resources to meet the increasing demand for green energy solutions.",
+    introPoints: [
+      "The solar panel manufacturing project focuses on producing high-quality photovoltaic modules that convert sunlight into clean electricity to support the global renewable energy transition.",
+      "The business specializes in the end-to-end design, manufacture, and distribution of solar panels for residential, commercial, and industrial markets across India and globally.",
+      "Operations leverage cutting-edge technology, eco-friendly manufacturing practices, and local resources to effectively satisfy the rapidly increasing demand for sustainable green energy solutions."
+    ],
     introImage: "/images/solar1.jpg",
-    video: "/assets/videos/Solar.mp4",
-    pages: ["/images/panel-1.png",
-       "/images/panel-2.png", 
-       "/images/panel-3.png", 
-       "/images/panel-4.png"
-      ]
+    video: "/assets/videos/Solar_1.mp4"
   },
   "space-vehicles": {
     tag: "Manufacturing Sector",
@@ -204,11 +179,7 @@ export const sectorData = {
     subtitle: "VEHICLES",
     description: "Advanced aerospace manufacturing of satellite components and launch vehicle structures for global space exploration.",
     image: "/images/space.webp",
-    video: "/assets/videos/Space.mp4",
-    pages: ["/images/space-1.png", 
-      "/images/space-2.png", 
-      "/images/space-3.png", 
-      "/images/space-4.png"]
+    video: "/assets/videos/Space_1.mp4"
   },
   "steel-metal": {
     tag: "Manufacturing Sector",
@@ -217,7 +188,11 @@ export const sectorData = {
     description: "High-capacity smelting and automated rolling mills producing specialized alloys for global infrastructure.",
     image: "/images/steel.jpg",
     introTitle: "Steel (Metal) Manufacturing",
-    introText: "Aaryans Group establishes cutting-edge manufacturing plants in Maharashtra and near Kolkata, with a combined investment of Rs. 9,000 Crores. The initial investment of Rs. 5,000 Crores is dedicated to setting up world-class facilities, while an additional Rs. 4,000 Crores is invested in producing Titanium metal, catering to global demand. These ventures create 3,000 local job opportunities.",
+    introPoints: [
+      "Aaryans Group is establishing state-of-the-art metal manufacturing plants in Maharashtra and near Kolkata, backed by a combined total investment of Rs. 9,000 Crores.",
+      "The core project allocates Rs. 5,000 Crores toward world-class steel processing facilities, while an additional Rs. 4,000 Crores is dedicated specifically to Titanium metal production for international markets.",
+      "This massive industrial expansion will generate over 3,000 direct employment opportunities for local talent across both regions."
+    ],
     introImage: "/images/steelmetal1.png",
     introCards: [
       {
@@ -236,11 +211,7 @@ export const sectorData = {
         text: "We are having a vision of establishing plants in various parts of India, starting from Maharashtra."
       }
     ],
-    video: "/assets/videos/Steel.mp4",
-    pages: ["/images/steel-1.png", 
-      "/images/steel-2.png", 
-      "/images/steel-3.png", 
-      "/images/steel-4.png"]
+    video: "/assets/videos/Steel_1.mp4"
   },
   "solar-cell": {
     tag: "Manufacturing Sector",
@@ -248,11 +219,7 @@ export const sectorData = {
     subtitle: "CELL",
     description: "Specialized manufacturing of high-efficiency silicon wafers and crystalline solar cells for next-generation renewable energy.",
     image: "/images/solarcell.jpg",
-    video: "/assets/videos/Solarcell.mp4",
-    pages: ["/images/cell-1.png", 
-      "/images/cell-2.png", 
-      "/images/cell-3.png", 
-      "/images/cell-4.png"]
+    video: "/assets/videos/Solarcell_1.mp4"
   },
   "electrolyzers-for-hydrogen-fuel": {
     tag: "Manufacturing Sector",
@@ -260,26 +227,22 @@ export const sectorData = {
     subtitle: "FOR HYDROGEN",
     description: "Advanced manufacturing of PEM and Alkaline electrolyzers to drive the global green hydrogen revolution.",
     image: "/images/electrolyzer.jpg", 
-    video: "/assets/videos/Electrolyzer.mp4",
-    pages: ["/images/electro-1.png", 
-      "/images/electro-2.png", 
-      "/images/electro-3.png", 
-      "/images/electro-4.png"]
+    video: "/assets/videos/Electrolyzer_1.mp4"
   },
-  "ready-made-garments": {
+"ready-made-garments": {
     tag: "Manufacturing Sector",
     title: "READY-MADE",
     subtitle: "GARMENTS",
     description: "Fully automated textile production and precision stitching for high-volume global apparel export.",
     image: "/images/garments.jpg",
     introTitle: "Ready-Made Garments",
-    introText: "The ready-made garments manufacturing business involves the production and supply of clothing that is pre-made, available for immediate sale, and does not require customisation before purchase. The industry includes a variety of clothing such as shirts, trousers, dresses, coats, and activewear, catering to different markets globally. The business focuses on mass production, where standard sizes and styles are made for retail or wholesale distribution.",
+    introPoints: [
+      "The ready-made garments division specializes in mass-producing off-the-rack, immediate-sale apparel without requiring individual post-purchase customization.",
+      "Product lines encompass a wide range of attire—including shirts, trousers, dresses, coats, and activewear—crafted to meet standardized international sizing requirements.",
+      "The business leverages automated production workflows designed for high-volume wholesale distribution and retail supply channels worldwide."
+    ],
     introImage: "/images/ready0.jpg",
-    video: "/assets/videos/Garments.mp4",
-    pages: ["/images/garments-1.png", 
-      "/images/garments-2.png", 
-      "/images/garments-3.png", 
-      "/images/garments-4.png"]
+    video: "/assets/videos/Garments_1.mp4"
   },
   // --- INDUSTRY SECTOR ---
   "battery-mfg": {
@@ -288,13 +251,7 @@ export const sectorData = {
     subtitle: "MFG",
     description: "Specializing in the production of high-capacity Lithium-ion and solid-state batteries for EVs and industrial power storage solutions.",
     image: "/images/battery.jpg",
-    video: "/assets/videos/Battery.mp4",
-    pages: [
-      "/images/battery-1.png",
-      "/images/battery-3.png",
-      "/images/battery-2.png",
-      "/images/battery-4.png"
-    ]
+    video: "/assets/videos/Battery_1.mp4"
   },
   "chemical-industries": {
     tag: "Industry Sector",
@@ -303,15 +260,15 @@ export const sectorData = {
     description: "Advanced molecular engineering and production of industrial catalysts, reagents, and specialty polymers.",
     image: "/images/chemical.jpg",
     introTitle: "Chemical Industry",
-    introText: "Aaryans group has collaborated with few companies from Taiwan / Germany to set up ETHANOL MANUFACTURING PLANT in Maharashtra. This will be a Hi-Tech manufacturing facility having more stress and emphasis on the quality and purity of the chemicals produced. We see a greater scope of consumption because of the guidelines given by the central ministry for using 20% ethanol in the petroleum. We have also entered in to consensus with an existing sugar and ethanol manufacturing plant to expand its facility to manufacture 120 KLPD of Ethanol and this plant is based in Bengaluru.",
-    introImage: "/images/chemical1.png",
-    video: "/assets/videos/Chemical.mp4",
-    pages: [
-      "/images/chemical-1.png",
-      "/images/chemical-2.png",
-      "/images/chemical-3.png"
-      
+    introPoints: [
+      "Aaryans Group has collaborated with key technology partners from Taiwan and Germany to establish a high-tech ethanol manufacturing facility in Maharashtra focused on chemical purity and quality.",
+      "The venture leverages central ministry mandates requiring a 20% ethanol blend in petroleum to meet rising domestic industrial and fuel demand.",
+      "The group has also reached an agreement with an existing Bengaluru-based sugar and ethanol plant to expand its manufacturing capacity to 120 KLPD."
     ],
+    introImage: "/images/chemical1.png",
+    video: "/assets/videos/Chemical_1.mp4",
+  
+    
      differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -319,22 +276,20 @@ export const sectorData = {
       "Consumer motivations for purchasing organic foods vary, but a significant percentage prioritize products free from chemical pesticides and synthetic fertilizers. Our dedication to offering naturally grown, chemical-free produce reflects this understanding. Approximately 5% of consumers contribute to around 50% of the demand for organic produce, indicating a growing market trend."
     ]
   },
-  "petroleum-industry": {
+ "petroleum-industry": {
     tag: "Industry Sector",
     title: "PETROLEUM",
     subtitle: "INDUSTRY",
     description: "Integrated energy operations spanning upstream exploration and downstream refining with high-efficiency distillation.",
     image: "/images/petrolum.jpg",
     introTitle: "Petroleum Industry",
-    introText: "Aaryans group is getting into retail segment of the petroleum industry. This will be done by establishing petrol pumps and gas stations. These also will have other facilities which will serve the daily needs of the traveller or the people of near my locality. Petrol pumps will be equipped with other amenities and facilities. We shall spread our chain of petrol pumps in various states of India. The group has already identified 3 petrol pumps which will be taken over with the land and shall give a face lift to these pumps which will house petrol / diesel station, CNG station, Charging Station, Food court, Recreational area for kids and much more.",
-    introImage: "/images/petrol1.jpg",
-    video: "/assets/videos/Petrolium.mp4" ,
-    pages: [
-      "/images/petroleum-1.png",
-      "/images/petroleum-2.png",
-      "/images/petroleum-3.png",
-      "/images/petroleum-4.png"
+    introPoints: [
+      "Aaryans Group is expanding into the petroleum retail sector by building a nationwide chain of modern petrol pumps and gas stations.",
+      "Initial operations involve acquiring 3 prime locations with land rights to modernize them into multi-service energy hubs.",
+      "Each transformed location will feature fuel dispensers (petrol/diesel/CNG), EV charging stations, food courts, and dedicated kids' recreational amenities."
     ],
+    introImage: "/images/petrol1.jpg",
+    video: "/assets/videos/Petrolium_1.mp4",
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -363,13 +318,7 @@ export const sectorData = {
     subtitle: "STORAGE",
     description: "Utility-scale energy storage systems (BESS) and grid stabilization technologies to support renewable distribution.",
     image: "/images/power.jpg",
-    video: "/assets/videos/Power.mp4",
-    pages: [
-      "/images/power-1.png",
-      "/images/power-2.png",
-      "/images/power-3.png",
-      "/images/power-4.png"
-    ]
+    video: "/assets/videos/Power_1.mp4"
   },
 
   // --- MINING SECTOR ---
@@ -379,13 +328,7 @@ export const sectorData = {
     subtitle: "MINING",
     description: "Operating high-density data centers powered by renewable energy for blockchain and decentralized computing.",
     image: "/images/crypto.jpg",
-    video: "/assets/videos/Cryptocurrency.mp4",
-    pages: [
-      "/images/crypto-1.png",
-      "/images/crypto-2.png",
-      "/images/crypto-3.png",
-      "/images/crypto-4.png"
-    ]
+    video: "/assets/videos/Cryptocurrency_1.mp4"
   },
   "heavy-metal": {
     tag: "Mining Sector",
@@ -393,16 +336,16 @@ export const sectorData = {
     subtitle: "METAL",
     description: "Industrial-scale extraction of essential ores including iron, copper, and aluminum using sustainable technologies.",
     image: "/images/heavy-metal.jpg",
-     introTitle: "Heavy Metal Mining",
-    introText: "Aaryans have decided to venture in to this segment as it will support the other business verticals of Aaryans namely, the gold refinery, Semiconductor segment needs on silica, Battery verticals need for Titanium and silicon, to name a few. Aaryans group has already signed the LOI with overseas partners in South Africa and In India and the same will be completed on paper work by the end of 2023.",
-    introImage: "/images/",
-    video: "/assets/videos/Heavy.mp4",
-    pages: [
-      "/images/heavy-1.png",
-      "/images/heavy-2.png",
-      "/images/heavy-3.png",
-      "/images/heavy-4.png"
+    introTitle: "Heavy Metal Mining",
+    introPoints: [
+      "Aaryans Group is entering the mining sector to provide essential raw materials—such as silica, titanium, and silicon—directly feeding into internal verticals including gold refining, semiconductors, and battery manufacturing.",
+      "The division has executed Letters of Intent (LOI) with strategic overseas partners in South Africa and within India.",
+      "All formal paperwork and legal agreements for these mining partnerships were scheduled for full completion by late 2023."
     ],
+    introImage: "/images/",
+    video: "/assets/videos/Heavy_1.mp4",
+  
+    
         differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -428,13 +371,7 @@ export const sectorData = {
     subtitle: "ELEMENTS",
     description: "Specialized mining of Gold, Platinum, and Rare Earth Elements critical for advanced electronics and aerospace.",
     image: "/images/precious.jpg",
-    video: "/assets/videos/Precious.mp4",
-    pages: [
-      "/images/precious-1.png",
-      "/images/precious-2.png",
-      "/images/precious-3.png",
-      "/images/precious-4.png"
-    ]
+    video: "/assets/videos/Precious_1.mp4"
   },
   "refinery": {
     tag: "Mining Sector",
@@ -442,13 +379,7 @@ export const sectorData = {
     subtitle: "PLANTS",
     description: "State-of-the-art smelting and purification facilities processing raw ores into industrial-grade metals.",
     image: "/images/refinery.jpg",
-    video: "/assets/videos/PreciousMetal.mp4",
-    pages: [
-      "/images/refinery-1.png",
-      "/images/refinery-2.png",
-      "/images/refinery-3.png",
-      "/images/refinery-4.png"
-    ]
+    video: "/assets/videos/PreciousMetal_1.mp4"
   },
 
   // --- POWER GENERATION SECTOR ---
@@ -459,15 +390,15 @@ export const sectorData = {
     description: "Processing organic matter into high-energy liquid fuels for a carbon-neutral transport alternative.",
     image: "/images/biofuel.jpg",
     introTitle: "Bio Fuel Generation",
-    introText: "Aaryans group is not lagging behind in exploiting the BIO FUEL source of energy or power as this is also the best and the most easiest way to generate power or fuel for our day to day needs. This fuel is made from the plant and food waste and its a very simple and friendly process to do so with indegenious source of technology and machinery. Aaryans will be looking at setting up this plant in Maharashtra and Rajasthan in the initial phase and have already done the technical tie-up with the compnay already engaged in the process of manufacturing BIO FUEL.",
-    introImage: "/images/biofuel1.jpg",
-    video: "/assets/videos/Biofuel.mp4",
-    pages: [
-      "/images/biofuel-1.png",
-      "/images/biofuel-2.png",
-      "/images/biofuel-3.png",
-      "/images/biofuel-4.png"
+    introPoints: [
+      "Aaryans Group actively harnesses biofuel energy as an accessible, eco-friendly solution for everyday power and fuel needs derived from plant and food waste.",
+      "The conversion process utilizes simplified, user-friendly techniques powered by indigenous machinery and technology.",
+      "Initial operations focus on establishing processing plants in Maharashtra and Rajasthan, supported by completed technical partnerships with established biofuel manufacturers."
     ],
+    introImage: "/images/biofuel1.jpg",
+    video: "/assets/videos/Biofuel_1.mp4",
+  
+  
         differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -489,13 +420,7 @@ export const sectorData = {
     subtitle: "GENERATION",
     description: "Advanced compression and purification of natural gas for urban transit and logistics fuel solutions.",
     image: "/images/cng.jpg",
-    video: "/assets/videos/CNG.mp4",
-    pages: [
-      "/images/cng-1.png",
-      "/images/cng-2.png",
-      "/images/cng-3.png",
-      "/images/cng-4.png"
-    ]
+    video: "/assets/videos/CNG_1.mp4"
   },
   "biogas-generation": {
     tag: "Power Generation",
@@ -503,13 +428,7 @@ export const sectorData = {
     subtitle: "GENERATION",
     description: "Utilizing anaerobic digestion to convert organic waste into methane-rich biogas for electricity.",
     image: "/images/biogas.jpg",
-    video: "/assets/videos/Biogas.mp4",
-    pages: [
-      "/images/biogas-1.png",
-      "/images/biogas-2.png",
-      "/images/biogas-3.png",
-      "/images/biogas-4.png"
-    ]
+    video: "/assets/videos/Biogas_1.mp4"
   },
   "biomass-generation": {
     tag: "Power Generation",
@@ -517,30 +436,22 @@ export const sectorData = {
     subtitle: "GENERATION",
     description: "Converting agricultural and forest residues into renewable energy through combustion or gasification.",
     image: "/images/biomass.jpg",
-    video: "/assets/videos/Biomass.mp4",
-    pages: [
-      "/images/biomass-1.png",
-      "/images/biomass-2.png",
-      "/images/biomass-3.png",
-      "/images/biomass-4.png"
-    ]
+    video: "/assets/videos/Biomass_1.mp4"
   },
-  "hydrogen-fuel-green-hydrogen": {
+ "hydrogen-fuel-green-hydrogen": {
     tag: "Power Generation",
     title: "GREEN",
     subtitle: "HYDROGEN",
     description: "Leading the transition to zero-emission through water electrolysis powered entirely by renewables.",
     image: "/images/hydrogen.jpg",
-     introTitle: "Hydrogen Fuel",
-    introText: "The latest source of Green Energy as envisaged and contemplated by researchers across the globe is GREEN HYDROGEN and Aaryans is proud to announce that the group has already developed and partnered with technology partner to produce green hydrogen. There are different types of hydrogen like Blue, Gray and Green etc but the best suitable as non-polluting fuel is Green Hydrogen.",
-    introImage: "/images/hydrogenfuel1.png",
-    video: "/assets/videos/Hydrogen.mp4",
-    pages: [
-      "/images/hydrogen-1.png",
-      "/images/hydrogen-2.png",
-      "/images/hydrogen-3.png",
-      "/images/hydrogen-4.png"
+    introTitle: "Hydrogen Fuel",
+    introPoints: [
+      "Aaryans Group has joined global research efforts in green energy by developing in-house technical capabilities and strategic partnerships to manufacture Green Hydrogen.",
+      "Recognizing the spectrum of hydrogen forms (including Blue and Gray), the group specifically targets Green Hydrogen as the premier non-polluting fuel for long-term sustainability."
     ],
+    introImage: "/images/hydrogenfuel1.png",
+    video: "/assets/videos/Hydrogen_1.mp4",
+    
      futureTitle: "FUTURE PROSPECTS FOR AARYANS",
     futureProspects: [
       {
@@ -571,16 +482,14 @@ export const sectorData = {
     subtitle: "ENERGY",
     description: "Utility-scale photovoltaic installations harvesting sunlight to provide clean power to the grid.",
     image: "/images/solar-energy.jpg",
-     introTitle: "Solar Energy",
-    introText: "Aaryans have already entered into a technical collaboration with a company based in Israel, for setting up a power generation project, which will also deal in renewable energy, in Maharashtra, Goa, Rajasthan, Assam, and Telangana. We have already signed an MOU for setting up a waste recycling power plant in Pune city and are also in advanced talks for acquiring an existing Solar Power plant with a capacity of 100 MW in Tamil Nadu. Additionally, we will also be setting up plants to produce solar cells in Hyderabad and Jaipur and this plant is expected to be operational by March 2023. Aaryans Group will be mainly focusing on solar power and Biopower as its core competence. Aaryans group also endeavors to set up Research and Development wing for green power segment in order to identify alternate sources of energy through various means and contribute to a greener world to live in.",
-    introImage: "/images/greenenergy.png",
-    video: "/assets/videos/Solar.mp4",
-    pages: [
-      "/images/energy-1.png",
-      "/images/energy-2.png",
-      "/images/energy-3.png",
-      "/images/energy-4.png"
+    introTitle: "Solar Energy",
+    introPoints: [
+      "Aaryans Group has established an Israeli technical collaboration for renewable power projects spanning Maharashtra, Goa, Rajasthan, Assam, and Telangana, while signing an MOU for a waste recycling power plant in Pune and negotiating the acquisition of a 100 MW solar plant in Tamil Nadu.",
+      "Manufacturing facilities for solar cells are targeted for operational deployment in Hyderabad and Jaipur, positioning solar and biopower as core organizational competencies.",
+      "The group is launching a dedicated Green Power R&D wing to discover alternative energy sources and advance environmental sustainability."
     ],
+    introImage: "/images/greenenergy.png",
+    video: "/assets/videos/Solar_1.mp4",
      differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -588,22 +497,20 @@ export const sectorData = {
       "Consumer motivations for purchasing organic foods vary, but a significant percentage prioritize products free from chemical pesticides and synthetic fertilizers. Our dedication to offering naturally grown, chemical-free produce reflects this understanding. Approximately 5% of consumers contribute to around 50% of the demand for organic produce, indicating a growing market trend."
     ]
   },
-  "thermal-solar-power": {
+ "thermal-solar-power": {
     tag: "Power Generation",
     title: "THERMAL",
     subtitle: "SOLAR",
     description: "Concentrated Solar Power (CSP) systems using mirrors to generate heat for large-scale electricity.",
     image: "/images/thermal.jpg",
-     introTitle: "Thermal Solar Power",
-    introText: "Powering the Future Aaryans ventures into the solar power sector with an investment of Rs. 3500 crores, aiming to meet the growing energy demands sustainably. With the support of state and central governments, Aaryans is setting up a 1 GW solar power plant in Maharashtra. The company will also produce solar panels and cells using innovative TOPCON technology, catering to both local and global markets. Leveraging its own silicon and other raw materials, Aaryans ensures cost-effective solutions, while a collaboration with Israeli and Korean firms boosts its renewable energy efforts.1000 job opportunities.Solar power and panel production.",
-    introImage: "/images/solarpower0.jpg",
-    video: "/assets/videos/SolarEnergy.mp4" ,
-    pages: [
-      "/images/thermal-1.png",
-      "/images/thermal-2.png",
-      "/images/thermal-3.png",
-      "/images/thermal-4.png"
+    introTitle: "Thermal Solar Power",
+    introPoints: [
+      "Aaryans is investing Rs. 3,500 crores in the solar power sector to establish a flagship 1 GW solar power plant in Maharashtra with state and central government support, creating 1,000 employment opportunities.",
+      "The facility will manufacture solar panels and solar cells using advanced TOPCON technology for both domestic and global distribution.",
+      "The operation leverages internal raw materials like silicon for cost efficiency, bolstered by strategic technical collaborations with Israeli and Korean partners."
     ],
+    introImage: "/images/solarpower0.jpg",
+    video: "/assets/videos/SolarPower_1.mp4",
      differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -617,16 +524,15 @@ export const sectorData = {
     subtitle: "ENERGY",
     description: "Transforming municipal waste into steam and electricity through controlled incineration and filtration.",
     image: "/images/waste-power.jpg",
-     introTitle: "Tourism Industry",
-    introText: "This is the industry which has high potential in the days to come as people opt for regular breaks from their monotonous and daily routines and look for some recreational activities.",
-    introImage: "/images/waste1.jpg",
-    video: "/assets/videos/Waste.mp4",
-    pages: [
-      "/images/waste-1.png",
-      "/images/waste-2.png",
-      "/images/waste-3.png",
-      "/images/waste-4.png"
+    introTitle: "Waste To Energy",
+    introPoints: [
+      "The waste-to-energy sector represents a high-potential market addressing urban waste management while producing sustainable power.",
+      "This initiative aligns with growing societal shifts toward environmental sustainability and regular recreational energy balance.",
+      "The division focuses on turning municipal and industrial waste streams into renewable grid power."
     ],
+    introImage: "/images/waste1.jpg",
+    video: "/assets/videos/Waste_1.mp4",
+    
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -654,13 +560,7 @@ export const sectorData = {
     subtitle: "STORAGE SYSTEMS",
     description: "Developing specialized storage, pipeline networks, and refueling infrastructure for the global hydrogen economy.",
     image: "/images/hydrogen-infras.jpg",
-    video: "/assets/videos/HydrogenFuel.mp4",
-    pages: [
-      "/images/hsystem-1.png",
-      "/images/hsystem-2.png",
-      "/images/hsystem-3.png",
-      "/images/hsystem-4.png"
-    ]
+    video: "/assets/videos/HydrogenFuel_1.mp4"
   },
   "infrastructure-dept": {
     tag: "Infrastructure Sector",
@@ -668,30 +568,23 @@ export const sectorData = {
     subtitle: "DEPT",
     description: "Managing large-scale civil engineering projects, from smart highways to sustainable urban planning.",
     image: "/images/infra-dept.jpeg",
-    video: "/assets/videos/Infrastructure.mp4",
-    pages: [
-      "/images/infra-1.png",
-      "/images/infra-2.png",
-      "/images/infra-3.png",
-      "/images/infra-4.png"
-    ]
+    video: "/assets/videos/Infrastructure_1.mp4"
   },
-  "real-estate": {
+ "real-estate": {
     tag: "Infrastructure Sector",
     title: "REAL",
     subtitle: "ESTATE",
     description: "Pioneering sustainable commercial and residential developments with green-building technologies.",
     image: "/images/real-estate.jpg",
     introTitle: "Real Estate",
-    introText: "The Aaryans group will also spread its wings and establish its footprints in real estate and infrastructure projects to be in tune with the national growth of this sector. Aaryans group will start its real estate redevelopment projects in the cities of Mumbai and Pune. Our Landmark project shall be a township project in the city of New Delhi, which is estimated to be spread over 150 acres of land with all amenities and services available at very economical rates. We are more inclined towards working on the concept of affordable housing schemes which can cater to the masses and not for classes alone. The Securities And Exchange Board of India - SEBI has given its approval for the Real Estate Investment Trust (REIT). This platform will allow all kinds of investors to invest in the Indian real estate market. It would create an opportunity worth of Rs. 1.25 million (USD 19.65 million) in the Indian markets in forthcoming years. This will definitely give a boost to the Indian real estate market. Government of India has announced creation of an Alternative Investment Fund of Rs. 25000 Crs. which shall make and help the real estate industry to sustain in tough times and come out stronger. The Government of India is also promoting low cost and affordable housing segment in the form of Pradhan Mantri Aawas Yojana. This has really kick-started real estate projects. The group is also foreseeing to get in to infrastructural development, by taking up such projects for implementation and execution across India. The group already has team of experts, required machinery and administrative infrastructure, etc for implementation of this project. Under this segment we have decided to develop one city and one village which will be a flag ship model of Aaryans and will be termed as SMART CITY and SMART VILLAGE respectively.",
-    introImage: "/images/real1.jpg",
-    video: "/assets/videos/Transforming.mp4",
-    pages: [
-      "/images/real-1.png",
-      "/images/real-2.png",
-      "/images/real-3.png",
-      "/images/real-4.png"
+    introPoints: [
+      "Aaryans Group is expanding into real estate redevelopment projects across Mumbai and Pune, anchored by a flagship 150-acre affordable township project in New Delhi.",
+      "The group focuses on affordable housing initiatives aligned with national programs like Pradhan Mantri Awas Yojana, supported by industry drivers such as SEBI-approved REITs and the Government's Rs. 25,000 Crore Alternative Investment Fund.",
+      "Backed by an expert team, machinery, and administrative infrastructure, Aaryans is entering national infrastructure development with plans to model a signature Smart City and Smart Village."
     ],
+    introImage: "/images/real1.jpg",
+    video: "/assets/videos/Transforming_1.mp4",
+    
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -726,13 +619,7 @@ export const sectorData = {
     subtitle: "WATER PARK",
     description: "World-class entertainment hubs featuring high-thrill rides and advanced water filtration theme parks.",
     image: "/images/amusement.jpg",
-    video: "/assets/videos/Amusement.mp4",
-    pages: [
-      "/images/park-1.png",
-      "/images/park-2.png",
-      "/images/park-3.png",
-      "/images/park-4.png"
-    ]
+    video: "/assets/videos/Amusement_1.mp4"
   },
   "local-tourism": {
     tag: "Tourism Sector",
@@ -740,13 +627,7 @@ export const sectorData = {
     subtitle: "TOURISM",
     description: "Promoting regional heritage and eco-tourism destinations to support local economies and culture.",
     image: "/images/local-tour.jpg",
-    video: "/assets/videos/LocalTour.mp4",
-    pages: [
-      "/images/local-1.png",
-      "/images/local-2.png",
-      "/images/local-3.png",
-      "/images/local-4.png"
-    ]
+    video: "/assets/videos/LocalTour_1.mp4"
   },
   "museums": {
     tag: "Tourism Sector",
@@ -754,13 +635,7 @@ export const sectorData = {
     subtitle: "MUSEUMS",
     description: "Preserving history through interactive digital archives and curated physical exhibitions.",
     image: "/images/museum.jpg",
-    video: "/assets/videos/Museums.mp4",
-    pages: [
-      "/images/museums-1.png",
-      "/images/museums-2.png",
-      "/images/museums-3.png",
-      "/images/museums-4.png"
-    ]
+    video: "/assets/videos/Museums_1.mp4"
   },
   "science-park": {
     tag: "Tourism Sector",
@@ -768,13 +643,7 @@ export const sectorData = {
     subtitle: "PARK",
     description: "Educational tourism centers focusing on robotics, space science, and interactive physics exhibits.",
     image: "/images/science-park.jpg",
-    video: "/assets/videos/SciencePark.mp4",
-    pages: [
-      "/images/spark-1.png",
-      "/images/spark-2.png",
-      "/images/spark-3.png",
-      "/images/spark-4.png"
-    ]
+    video: "/assets/videos/SciencePark_1.mp4"
   },
   "space-tourism": {
     tag: "Tourism Sector",
@@ -782,15 +651,7 @@ export const sectorData = {
     subtitle: "TOURISM",
     description: "Developing orbital travel experiences and high-altitude terrestrial simulation centers.",
     image: "/images/space-tour.jpg",
-    video: "/assets/videos/SpaceTour.mp4",
-    pages: [
-      "/images/tspace-1.png",
-      "/images/tspace-2.png",
-      "/images/tspace-3.png",
-      "/images/tspace-4.png",
-      "/images/tspace-5.png"
-
-    ]
+    video: "/assets/videos/SpaceTour_1.mp4"
   },
   "underwater-tourism": {
     tag: "Tourism Sector",
@@ -798,31 +659,23 @@ export const sectorData = {
     subtitle: "TOURISM",
     description: "Exclusive sub-surface hospitality and marine life observation modules with zero ecological impact.",
     image: "/images/underwater.jpg",
-    video: "/assets/videos/Underwater.mp4",
-    pages: [
-      "/images/underwater-1.png",
-      "/images/underwater-2.png",
-      "/images/underwater-3.png",
-      "/images/underwater-4.png"
-    ]
+    video: "/assets/videos/Underwater_1.mp4"
   },
   "tourism-industry-and-services": {
     tag: "Tourism Sector",
     title: "TOURISM",
     subtitle: "SERVICES",
-    introTitle: "Tourism Industry",
-    introText: "This is the industry which has high potential in the days to come as people opt for regular breaks from their monotonous and daily routines and look for some recreational activities.",
-    introImage: "/images/tourismindustry1.png",
     description: "Comprehensive hospitality management and travel logistics for international luxury tourism.",
     image: "/images/tour-services.jpg",
-    video: "/assets/videos/TourServices.mp4",
-    
-    pages: [
-      "/images/tindustry-1.png",
-      "/images/tindustry-2.png",
-      "/images/tindustry-3.png",
-      "/images/tindustry-4.png"
+    introTitle: "Tourism Industry",
+    introPoints: [
+      "The tourism and hospitality sector presents high growth potential as demand increases for leisure, wellness, and recreational getaways.",
+      "Aaryans Group focuses on delivering comprehensive travel logistics, luxury hospitality experiences, and curated leisure services.",
+      "Operations aim to cater to both domestic and international travelers seeking premium recreation and leisure escapes."
     ],
+    introImage: "/images/tourismindustry1.png",
+    video: "/assets/videos/TourServices_1.mp4",
+    
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -852,13 +705,7 @@ export const sectorData = {
     subtitle: "UNIVERSITY",
     description: "A premier institution for pilot training, ground staff management, and aerospace administration with state-of-the-art flight simulators.",
     image: "/images/aviation-edu.jpg",
-    video: "/assets/videos/AviationEdu.mp4",
-    pages: [
-      "/images/avi-1.png",
-      "/images/avi-2.png",
-      "/images/avi-3.png",
-      "/images/avi-4.png"
-    ]
+    video: "/assets/videos/AviationEdu_1.mp4"
   },
   "broadcasting-engineering-education": {
     tag: "Education Sector",
@@ -866,13 +713,7 @@ export const sectorData = {
     subtitle: "ENGINEERING",
     description: "Specialized technical training in signal processing, live production hardware, and digital media transmission technologies.",
     image: "/images/broadcast-edu.jpg",
-    video: "/assets/videos/BroadcastEdu.mp4",
-    pages: [
-      "/images/boradcast-1.png",
-      "/images/boradcast-2.png",
-      "/images/boradcast-3.png",
-      "/images/boradcast-4.png"
-    ]
+    video: "/assets/videos/BroadcastEdu.mp4"
   },
   "education-sector-practical-knowledge-based": {
     tag: "Education Sector",
@@ -880,16 +721,15 @@ export const sectorData = {
     subtitle: "EDUCATION",
     description: "Bridging the gap between theory and industry with hands-on vocational training and real-world project execution.",
     image: "/images/practical-edu.jpg",
-    introTitle: "Education Sector(Practical Knowledge-Based)",
-    introText: "Education services industry is composed of establishments that provide theoretical knowledge and training on a wide variety of subjects. These are institutions including schools, colleges and Universities, training centers either privately or publicly owned. Market size of education sector in India was estimated at USD 91.7 billion in FY19 and is expected to reach USD 101.1 billion in FY 2024. The number of colleges and Universities in India are 39931 and 993 respectively in a FY2019. India had 37.4 million students enrolled in higher education.",
+    introTitle: "Education Sector (Practical Knowledge-Based)",
+    introPoints: [
+      "The education services sector encompasses public and private institutions—including schools, colleges, universities, and specialized training centers—focused on delivering both theoretical knowledge and vocational expertise.",
+      "The Indian education market was estimated at USD 91.7 billion in FY19 and projected to reach USD 101.1 billion by FY2024.",
+      "With over 39,931 colleges, 993 universities, and 37.4 million higher education enrollments recorded in FY2019, the sector provides a massive foundation for practical and industry-aligned skill acquisition."
+    ],
     introImage: "/images/education1.png",
     video: "/assets/videos/PracticalEdu.mp4",
-    pages: [
-      "/images/education-1.png",
-      "/images/education-2.png",
-      "/images/education-3.png",
-      "/images/education-4.png"
-    ],
+  
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -910,13 +750,7 @@ export const sectorData = {
     subtitle: "EDUCATION",
     description: "Empowering the next generation with AI, machine learning, and robotic engineering labs for industrial automation.",
     image: "/images/robotics-edu.jpg",
-    video: "/assets/videos/RoboticsEdu.mp4",
-    pages: [
-      "/images/robot-1.png",
-      "/images/robot-2.png",
-      "/images/robot-3.png",
-      "/images/robot-4.png"
-    ]
+    video: "/assets/videos/RoboticsEdu_1.mp4"
   },
   "sport-university": {
     tag: "Education Sector",
@@ -924,32 +758,24 @@ export const sectorData = {
     subtitle: "UNIVERSITY",
     description: "Comprehensive athletic development combining sports science, nutrition, and professional coaching for elite global performance.",
     image: "/images/sport-uni.jpg",
-    video: "/assets/videos/SportUni.mp4",
-    pages: [
-      "/images/sport-1.png",
-      "/images/sport-2.png",
-      "/images/sport-3.png",
-      "/images/sport-4.png"
-    ]
+    video: "/assets/videos/SportUni_1.mp4"
   },
   // --- HEALTHCARE SECTOR ---
- "health-services-multi-speciality-hospital": {
+"health-services-multi-speciality-hospital": {
     tag: "Healthcare Sector",
     title: "HEALTH SERVICES",
     subtitle: "MULTI-SPECIALITY HOSPITAL",
     description: "Advanced tertiary care facilities equipped with cutting-edge diagnostic imaging, modular operation theaters, and 24/7 emergency response units.",
     image: "/images/multi-speciality.jpg",
-     introTitle: "Health Services And Multi-Speciality Hospital",
-    introText: "Aaryans has already signed a deal for takeover of a plant which deals in manufacturing of Active Pharmaceutical Ingredient (API). This plant is equipped with modern machinery and has been running successfully. We intend to expand production capacity to manufacture other raw materials and critical products required for Pharmaceutical industry under Aaryans Flagship Group. In the Healthcare sector, we are looking forward to set up hospitals with all modern medical equipment and making health privileges available to the masses. The other verticals of Aaryans, like the Oxygen processing plant connected with the Hydrogen production plant and Aviation sector shall help as backward integration for this segment for Medical oxygen and Air ambulance services respectively. As a part of a good Healthcare program, we also intend to set up gymnasium, spa with Herbal and Natural Therapy. Aaryans are set to invest Rs. 1140 crores in setting up of Multi-specialty hospitals, diagnosis center, Pathology labs, ENT care center, etc and we will be also building a FREE CANCER HOSPITAL for the down trodden sections of the society and also as a part of our social responsibility. This venture shall generate employment options for 1200 people of the country.",
-    introImage: "/images/healthcare1.png",
-    video: "/assets/videos/Hospital.mp4",
-    pages: [
-      "/images/health-1.png",
-      "/images/health-2.png",
-      "/images/health-3.png",
-      "/images/health-4.png"
+    introTitle: "Health Services And Multi-Speciality Hospital",
+    introPoints: [
+      "Aaryans Group has executed the takeover of an operational Active Pharmaceutical Ingredient (API) manufacturing plant, with plans to expand capacity for critical pharmaceutical raw materials under the flagship brand.",
+      "Investing Rs. 1,140 crores across healthcare verticals, the group is establishing multi-specialty hospitals, diagnostic centers, pathology labs, ENT care facilities, wellness centers (gymnasiums, spas with herbal and natural therapy), and a dedicated free cancer hospital for underprivileged communities.",
+      "The segment leverages internal group synergies—utilizing oxygen from hydrogen production plants and air ambulance support from the aviation vertical—creating 1,200 direct job opportunities."
     ],
-      differentTitle: "Why we are different?",
+    introImage: "/images/healthcare1.png",
+    video: "/assets/videos/Hospital_1.mp4",
+    differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
       "This endeavor aligns with our overarching goal of providing consumers access to high-quality organic produce at affordable rates. As part of our commitment to community development, Aaryans Group aims to create job opportunities for the local populace. To ensure the success of this vision, we plan to implement comprehensive training programs, equipping individuals from the vicinity with the necessary skills for active participation in the project.",
@@ -959,19 +785,19 @@ export const sectorData = {
     futureProspects: [
       {
         text: "This is a big opportunity as the Healthcare industry is growing rapidly in recent years. We will be emerging in the market with new technological innovations and initiating new Health Care research. Aaryans group is planning an investment of total Rs. 2000 Cr in the Healthcare & Pharmaceuticals sector to begin with and shall keep exploring more opportunities of expansion.",
-        image: "/images/healthcare2.jpg" // Image with hikers
+        image: "/images/healthcare2.jpg"
       },
       {
         text: "To cope up with the growing Healthcare market because of the growing population, we intend to set up more health care service centers across India.",
-        image: "/images/healthcare3.jpg" // Image with beach wedding
+        image: "/images/healthcare3.jpg"
       },
       {
         text: "Our vision would be to set up hospitals with state of art equipment’s and advance laboratory testing Research Centers which will be manned by the expert medical personnel.",
-        image: "/images/healthcare4.jpg" // Image with beach wedding
+        image: "/images/healthcare4.jpg"
       },
       {
         text: "As a social obligation, we would be offering our services at discounted prices compared to the prevalent practices for the patients below the poverty line. Our ventures in pharmaceutical and Healthcare industry are expected to generate employment for about 1800 persons.",
-        image: "/images/healthcare5.jpg" // Image with beach wedding
+        image: "/images/healthcare5.jpg"
       }
     ]
   },
@@ -981,13 +807,7 @@ export const sectorData = {
     subtitle: "INDUSTRY",
     description: "Pharmaceutical manufacturing specializing in life-saving drugs, vaccine development, and automated packaging systems following global FDA standards.",
     image: "/images/medicine-industry.jpg",
-    video: "/assets/videos/Medicine.mp4",
-    pages: [
-      "/images/medicine-1.png",
-      "/images/medicine-2.png",
-      "/images/medicine-3.png",
-      "/images/medicine-4.png"
-    ]
+    video: "/assets/videos/Medicine_1.mp4"
   },
   "specialist-cancer-hospital": {
     tag: "Healthcare Sector",
@@ -995,13 +815,31 @@ export const sectorData = {
     subtitle: "HOSPITAL",
     description: "Specialized oncology center focusing on precision radiotherapy, chemotherapy, and advanced robotic surgeries for comprehensive cancer care.",
     image: "/images/cancer-hospital.jpg",
-    video: "/assets/videos/CancerCare.mp4",
-    pages: [
-      "/images/cancer-1.png",
-      "/images/cancer-2.png",
-      "/images/cancer-3.png",
-      "/images/cancer-4.png"
-    ]
+    video: "/assets/videos/CancerCare_1.mp4"
+  },
+  "injectables": {
+    tag: "Healthcare Sector",
+    title: "INJECTABLES",
+    subtitle: "MANUFACTURING & SUPPLY",
+    description: "High-precision sterile injectable formulations, pre-filled syringes, and lyophilized products adhering to stringent international quality controls.",
+    image: "/images/injectables.jpg",
+    video: "/assets/videos/Injectables_1.mp4"
+  },
+  "active-pharmaceutical-ingredients": {
+    tag: "Healthcare Sector",
+    title: "PHARMACEUTICAL",
+    subtitle: "INGREDIENTS (API)",
+    description: "High-potency bulk drug synthesis and chemical processing units engineered to produce essential active ingredients for global therapeutic formulation.",
+    image: "/images/api-manufacturing.jpg",
+    video: "/assets/videos/API_1.mp4"
+  },
+  "intravenous-fluids": {
+    tag: "Healthcare Sector",
+    title: "INTRAVENOUS",
+    subtitle: "FLUIDS (IV)",
+    description: "Advanced Blow-Fill-Seal (BFS) technology manufacturing facilities producing sterile large and small volume parenterals for critical patient care.",
+    image: "/images/iv-fluids.jpg",
+    video: "/assets/videos/IVFluids_1.mp4"
   },
 
   // --- SERVICES SECTOR ---
@@ -1011,16 +849,14 @@ export const sectorData = {
     subtitle: "(BUSINESS ANALYSIS)",
     description: "Expert business architecture and strategic analysis providing data-driven insights to optimize corporate structures and operational growth.",
     image: "/images/aadya-sanrachna.jpg",
-     introTitle: "Tourism Industry",
-    introText: "This is the industry which has high potential in the days to come as people opt for regular breaks from their monotonous and daily routines and look for some recreational activities.",
-    introImage: "/images/aadya1.png",
-    video: "/assets/videos/BusinessAnalysis.mp4",
-    pages: [
-      "/images/aadya-1.png",
-      "/images/aadya-2.png",
-      "/images/aadya-3.png",
-      "/images/aadya-4.png"
+    introTitle: "Aadya Sanrachna (Business Analysis)",
+    introPoints: [
+      "Aadya Sanrachna delivers expert strategic consulting and data-driven business analysis to optimize corporate architectures across group verticals.",
+      "The division focuses on organizational restructuring, feasibility studies, and growth modeling to streamline operational efficiencies.",
+      "Through systematic market research and process optimization, it provides foundational analytical support for expanding business ventures."
     ],
+    introImage: "/images/aadya1.png",
+    video: "/assets/videos/BusinessAnalysis_1.mp4",
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -1034,13 +870,7 @@ export const sectorData = {
     subtitle: "SERVICES",
     description: "Revolutionizing urban transit with premium point-to-point aerial mobility solutions for time-efficient executive travel.",
     image: "/images/air-cab.jpg",
-    video: "/assets/videos/AirCab.mp4",
-    pages: [
-      "/images/aircab-1.png",
-      "/images/aircab-2.png",
-      "/images/aircab-3.png",
-      "/images/aircab-4.png"
-    ]
+    video: "/assets/videos/AirCab_1.mp4"
   },
   "aviation-sector": {
     tag: "Services Sector",
@@ -1049,15 +879,14 @@ export const sectorData = {
     description: "Comprehensive aviation management encompassing fleet operations, ground handling, and global aerospace logistics.",
     image: "/images/aviation-sector.jpg",
     introTitle: "Aviation Sector",
-    introText: "Aaryans group is venturing in to aviation sector by starting Air cab services for major cities and villages where proximity or frequency of commercial flights is less. There is a increasing demand in the country for an economical air trip services as it saves time and it is also availed by the elite class of people for celebrating their special days with their loved ones in air and in a different way.",
-    introImage: "/images/avi1.jpg",
-    video: "/assets/videos/Aviation sector.mp4",
-    pages: [
-      "/images/asector-1.png",
-      "/images/asector-2.png",
-      "/images/asector-3.png",
-      "/images/asector-4.png"
+    introPoints: [
+      "Aaryans Group is entering the aviation sector by establishing affordable Air Cab services connecting major urban centers with underserved rural regions.",
+      "The service addresses growing nationwide demand for time-efficient regional travel while offering bespoke flight experiences for special occasions.",
+      "This vertical also strategically supports healthcare operations by offering air ambulance services across key destinations."
     ],
+    introImage: "/images/avi1.jpg",
+    video: "/assets/videos/Aviation_sector_1.mp4",
+   
      differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -1086,30 +915,23 @@ export const sectorData = {
     subtitle: "PROGRAM BUSINESS",
     description: "Luxury maritime experiences and integrated cruise program management featuring world-class hospitality and global itineraries.",
     image: "/images/cruise.jpg",
-    video: "/assets/videos/Cruise.mp4",
-    pages: [
-      "/images/cruise-1.png",
-      "/images/cruise-2.png",
-      "/images/cruise-3.png",
-      "/images/cruise-4.png"
-    ]
+    video: "/assets/videos/Cruise_1.mp4"
   },
-  "food-and-beverage": {
+ "food-and-beverage": {
     tag: "Services Sector",
     title: "FOOD AND",
     subtitle: "BEVERAGE",
     description: "Integrated culinary services and global F&B supply chain management focused on quality, nutrition, and innovation.",
     image: "/images/food-beverage.jpg",
     introTitle: "Food and Beverage",
-    introText: "The business focuses on providing high-quality meal boxes and ready-to-eat food items, designed for convenience and nutritional value. The meal boxes will cater to a wide variety of customer needs, from office workers and students to travellers, while the ready-to-eat items will offer a quick solution for consumers seeking tasty and nutritious meals without the need for preparation. The business will prioritise fresh ingredients, hygienic packaging, and timely delivery, capitalising on the growing trend of healthy eating, work-from-home culture, and busy lifestyles. This project aims to deliver convenience, health, and great taste to customers while ensuring scalability and profitability.",
-    introImage: "/images/food1.jpg",
-    video: "/assets/videos/Food.mp4",
-    pages: [
-      "/images/food-1.png",
-      "/images/food-2.png",
-      "/images/food-3.png",
-      "/images/food-4.png"
+    introPoints: [
+      "The F&B division specializes in delivering high-quality, nutritionally balanced meal boxes and ready-to-eat products tailored for professionals, students, and travelers.",
+      "Operations prioritize fresh ingredients, hygienic food processing, and efficient delivery models to capitalize on growing healthy-eating and convenience trends.",
+      "The scalable business model focuses on reliable supply chain execution, high culinary standards, and mass-market profitability."
     ],
+    introImage: "/images/food1.jpg",
+    video: "/assets/videos/Food_1.mp4",
+    
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -1142,16 +964,15 @@ export const sectorData = {
     subtitle: "SERVICES",
     description: "World-class hospitality management providing premium guest experiences across international hotel and resort networks.",
     image: "/images/hospitality.jpg",
-     introTitle: "Hospitality Sector",
-    introText: "Hospitality industry fall under the largest retail segment of business. The Hospitality sector is supported by the vast agriculture sector of India, which is the largest producer of pulses, cereals, fruits etc and the second-biggest producer of rice, wheat, sugarcane and vegetables. It is also the largest producer of milk and buffalo meat and ranks 5th in poultry farming. The other helpful factors: India has large extents of arable lands, a favorable climate, a long coastline and low wages. The food and beverage industry in India constitute about 40% of its consumer-packaged goods industry. The beverage industry, excluding alcoholic beverages, is worth about US$16 billion. Tea and coffee are the most popular beverage, followed by soft drinks (carbonated drinks and juices), health drinks, milk-based drinks, flavored drinks, and energy drinks. Half of the tea and coffee consumed in the country is sold unpacked. The alcohol beverages market is estimated to be worth about US$35 billion, with whisky, beer, and wine as the most popular drinks. The Indian Brand Equity Foundation (IBEF) quotes figures from the Department of Industrial Policies and Promotion to say that the food processing sector receives foreign investment of US$6.4 billion from April 2002 till date. The CII believes the food sector has the potential to receive investments worth US$33 billion before year 2025. The group is also endeavoring to establish a chain of state-of-the-art resorts, restaurants and hotels in India and abroad. We believe in delivering the best of services at the minimum pricing which can in turn offer the highest value for money.",
-    introImage: "/images/foodb2.png",
-    video: "/assets/videos/Hospitality.mp4",
-    pages: [
-      "/images/hospital-1.png",
-      "/images/hospital-2.png",
-      "/images/hospital-3.png",
-      "/images/hospital-4.png"
+    introTitle: "Hospitality Sector",
+    introPoints: [
+      "Backed by India's robust agricultural ecosystem and a consumer-packaged goods industry where F&B commands ~40% share, Aaryans is establishing an international network of premium resorts, hotels, and restaurants.",
+      "The strategy aligns with key market tailwinds, including a $16B non-alcoholic beverage market, $35B alcoholic beverage segment, and projected FDI inflows reaching $33B in food processing.",
+      "The group delivers world-class guest hospitality and dining experiences designed to provide maximum value for money."
     ],
+    introImage: "/images/foodb2.png",
+    video: "/assets/videos/Hospitality_1.mp4",
+    
        differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -1178,39 +999,36 @@ export const sectorData = {
       }
     ]
   },
-  "hovercraft-services": {
+ "hovercraft-services": {
     tag: "Services Sector",
     title: "HOVERCRAFT",
     subtitle: "SERVICES",
     description: "Versatile amphibious transport services designed for high-speed transit across coastal waters and challenging terrains.",
     image: "/images/hovercraft.jpg",
-     introTitle: "Hovercraft Services",
-    introText: "The hovercraft services business aims to provide efficient, fast, and versatile transportation solutions that can operate on various surfaces, such as water, land, and ice. Hovercrafts are amphibious vehicles capable of traveling over diverse terrains without being hindered by water or land obstacles, making them ideal for areas with insufficient infrastructure or tough geographic conditions. The business involves establishing hovercraft transport services for passengers, goods, and emergency services.",
+    introTitle: "Hovercraft Services",
+    introPoints: [
+      "The hovercraft division provides high-speed, amphibious transportation across complex terrains including open water, marshlands, and coastline obstacles without traditional infrastructure.",
+      "Operations establish specialized routes for passenger transit, high-value cargo logistics, and rapid emergency response services.",
+      "The fleet addresses severe geographical transport bottlenecks across coastal and inland riverine regions."
+    ],
     introImage: "/images/hover1.jpg",
-    video: "/assets/videos/Hovercraft.mp4",
-    pages: [
-      "/images/hover-1.png",
-      "/images/hover-2.png",
-      "/images/hover-3.png",
-      "/images/hover-4.png"
-    ]
+    video: "/assets/videos/Hovercraft_1.mp4"
   },
-  "import-and-export-services": {
+ "import-and-export-services": {
     tag: "Services Sector",
     title: "IMPORT AND",
     subtitle: "EXPORT SERVICES",
     description: "Global trade facilitation ensuring seamless movement of goods with end-to-end logistics and regulatory expertise.",
     image: "/images/import-export.jpg",
-     introTitle: "Import And Export",
-    introText: "Import Export is a facility which is a new need of an hour with ever increasing demand of Indian goods and services in the overseas market and also with the increasing diplomacy of India with other countries. We have also endeavoured to get into this line of business, which is an important aid to trade. India exports approximately 7500 commodities to about 190 countries and imports around 6000 commodities from 140 countries. India exported US$ 318.2 billion and imported US$ 462.9 billion worth of commodities. As a noted fact, five states- Maharashtra, Gujarat, Karnataka, Tamil Nadu and Telangana accounted for 70% of India's total exports. It was the first time that survey included international export data for States.",
-    introImage: "/images/import1.png",
-    video: "/assets/videos/ImportExport.mp4",
-    pages: [
-      "/images/import-1.png",
-      "/images/import-2.png",
-      "/images/import-3.png",
-      "/images/import-4.png"
+    introTitle: "Import And Export",
+    introPoints: [
+      "Aaryans Group facilitates cross-border commerce aligning with India’s trade footprint of exporting ~7,500 commodities across 190 nations and importing ~6,000 items from 140 countries.",
+      "The unit focuses heavily on high-volume export hubs, capitalizing on key contributing manufacturing states (Maharashtra, Gujarat, Karnataka, Tamil Nadu, and Telangana) that drive 70% of total national exports.",
+      "Services provide end-to-end global trade management, customs navigation, and international distribution networks."
     ],
+    introImage: "/images/import1.png",
+    video: "/assets/videos/ImportExport_1.mp4",
+   
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -1235,16 +1053,15 @@ export const sectorData = {
     subtitle: "ADVERTISING",
     description: "Strategic brand communication and digital advertising ecosystems designed to scale market presence and consumer loyalty.",
     image: "/images/marketing.jpg",
-     introTitle: "Marketing And Advertising Services",
-    introText: "The purpose of the marketing industry is to communicate companies' offerings to consumers, clients in particular and the public, in general. Marketing professionals bridge the gap between companies and their customers. The Indian advertising industry has evolved from being a small-scale business to a full-fledged industry. The advertising industry is projected to be the second-fastest-growing business / market in India after China. The Indian Government has given tremendous support to the advertising industry. Advertising expenditure is likely to increase in the financial sector, driven by Reserve Bank of India (RBI) policies which could result in a more favorable business environment. Also, proposed licenses for new banks and better market sentiments render the advertising and marketing industry in India a fertile space. TV, contributes a significant portion to the total advertising revenue, accounting for almost 40%% whereas digital contributes 36% & print contributes 19% of the total revenue. outdoor, Radio & cinema make up the balance 5%. India's digital advertising market is has grown 29% to the compound growth rate (CAGR) to cross INR 246 billion mark. The M&E sector will grow INR 707 billion to reach INR 2.3 trillion in 2024.",
-    introImage: "/images/marketing1.png",
-    video: "/assets/videos/Marketing.mp4",
-    pages: [
-      "/images/market-1.png",
-      "/images/market-2.png",
-      "/images/market-3.png",
-      "/images/market-4.png"
+    introTitle: "Marketing And Advertising Services",
+    introPoints: [
+      "Aaryans Group delivers full-funnel advertising solutions spanning TV (40% ad market share), Digital (36%), Print (19%), and Outdoor/Radio/Cinema channels.",
+      "The initiative leverages India's rapidly growing Media & Entertainment industry, driven by digital ad spend expanding at a 29% CAGR past INR 246 Billion.",
+      "Services provide strategic brand architecture, public communications, and targeted marketing campaigns for internal verticals and corporate clients."
     ],
+    introImage: "/images/marketing1.png",
+    video: "/assets/videos/Marketing_1.mp4",
+    
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -1272,15 +1089,13 @@ export const sectorData = {
     title: "SHIPPING",
     subtitle: "BUSINESS",
     description: "Reliable maritime freight solutions and containerized cargo operations connecting major global ports and trade routes.",
-    image: "/images/shipping..jpg",
-    video: "/assets/videos/Shipping.mp4",
-    pages: [
-      "/images/shipping-1.png",
-      "/images/shipping-2.png",
-      "/images/shipping-3.png",
-      "/images/shipping-4.png"
-    ]
+    image: "/images/shipping.jpg",
+    video: "/assets/videos/Shipping_1.mp4"
   },
+
+
+
+  
   "sea-and-river-aviation": {
     tag: "Services Sector",
     title: "SEA AND RIVER",
@@ -1288,15 +1103,13 @@ export const sectorData = {
     description: "Pioneering water-based aviation services utilizing seaplanes to connect coastal regions and inland waterways.",
     image: "/images/sea-river-aviation.jpg",
     introTitle: "Sea And River Aviation",
-    introText: "The Sea and River Aviation business involves the development and operation of aviation services in aquatic environments, such as rivers, lakes, and seas. This sector primarily focuses on amphibious aircraft, which are capable of taking off and landing both on water and land. The project aims to revolutionise transport by providing an efficient and sustainable alternative to conventional road, rail, and air travel. The venture encompasses passenger transport, cargo services, tourism, and specialised applications such as emergency and rescue services.",
+    introPoints: [
+      "The division develops and operates amphibious seaplane services capable of seamless takeoff and landing across oceans, rivers, and inland lakes.",
+      "It creates direct transit links that bypass traditional airport constraints, offering sustainable alternatives to standard road, rail, and air travel.",
+      "Operations encompass coastal tourism, regional passenger travel, high-priority cargo transport, and emergency medical/rescue missions."
+    ],
     introImage: "/images/sea0.jpg",
-    video: "/assets/videos/SeaAviation.mp4",
-    pages: [
-      "/images/sea-1.png",
-      "/images/sea-2.png",
-      "/images/sea-3.png",
-      "/images/sea-4.png"
-    ]
+    video: "/assets/videos/SeaAviation_1.mp4"
   },
   // --- MEDIA & ENTERTAINMENT SECTOR ---
   "aatharv-events": {
@@ -1305,13 +1118,7 @@ export const sectorData = {
     subtitle: "EVENTS",
     description: "Premium event management specializing in large-scale corporate summits, cultural festivals, and high-profile brand launches with end-to-end execution.",
     image: "/images/aatharv-events.jpg",
-    video: "/assets/videos/Events.mp4",
-    pages: [
-      "/images/aatharv-1.png",
-      "/images/aatharv-2.png",
-      "/images/aatharv-3.png",
-      "/images/aatharv-4.png"
-    ]
+    video: "/assets/videos/Events_1.mp4"
   },
   "agc-sports": {
     tag: "Media & Entertainment",
@@ -1319,13 +1126,8 @@ export const sectorData = {
     subtitle: "SPORTS",
     description: "Promoting athletic excellence through professional sports leagues, talent management, and international sporting event infrastructure.",
     image: "/images/agc-sports.jpg",
-    video: "/assets/videos/Sports.mp4",
-    pages: [
-      "/images/agc-1.png",
-      "/images/agc-2.png",
-      "/images/agc-3.png",
-      "/images/agc-4.png"
-    ],
+    video: "/assets/videos/Sports_1.mp4",
+    
     socialLinks: [
       { platform: "instagram", url: "https://www.instagram.com/agc_sports/" },
       { platform: "youtube", url: "https://www.youtube.com/@AGCSPORTS-f9p" }
@@ -1337,13 +1139,7 @@ export const sectorData = {
     subtitle: "PRODUCTION",
     description: "A leading Marathi film production house dedicated to storytelling that resonates with regional heritage and modern cinematic standards.",
     image: "/images/sumukh-prod.jpg",
-    video: "/assets/videos/MarathiFilm.mp4",
-    pages: [
-      "/images/sumukh-1.png",
-      "/images/sumukh-2.png",
-      "/images/sumukh-3.png",
-      "/images/sumukh-4.png"
-    ]
+    video: "/assets/videos/MarathiFilm_1.mp4"
   },
   "vishwavinayak-production-film-production-house": {
     tag: "Media & Entertainment",
@@ -1351,13 +1147,7 @@ export const sectorData = {
     subtitle: "PRODUCTION",
     description: "Commercial film production house focusing on high-budget feature films, creative direction, and global distribution networks.",
     image: "/images/vishwavinayak.jpg",
-    video: "/assets/videos/FilmProd.mp4",
-    pages: [
-      "/images/vishwa-1.png",
-      "/images/vishwa-2.png",
-      "/images/vishwa-3.png",
-      "/images/vishwa-4.png"
-    ]
+    video: "/assets/videos/FilmProd_1.mp4"
   },
   "news-uncut-marathi-news-channel": {
     tag: "Media & Entertainment",
@@ -1365,13 +1155,8 @@ export const sectorData = {
     subtitle: "UNCUT",
     description: "A 24/7 Marathi news channel delivering unbiased, real-time reporting and deep-dive investigative journalism for the global Maharashtrian community.",
     image: "/images/news-uncut.jpg",
-    video: "/assets/videos/News.mp4",
-    pages: [
-      "/images/uncut-1.png",
-      "/images/uncut-2.png",
-      "/images/uncut-3.png",
-      "/images/uncut-4.png"
-    ],
+    video: "/assets/videos/News_1.mp4",
+   
     socialLinks: [
       { platform: "instagram", url: "https://www.instagram.com/newsuncut.tv/" },
       { platform: "youtube", url: "https://www.youtube.com/@newsuncutchannel" },
@@ -1385,13 +1170,7 @@ export const sectorData = {
     subtitle: "SALTPIX",
     description: "Next-generation OTT streaming platforms offering a vast library of original web series, regional cinema, and exclusive infotainment content.",
     image: "/images/ott-apps.jpg",
-    video: "/assets/videos/OTT.mp4",
-    pages: [
-      "/images/ott-1.png",
-      "/images/ott-2.png",
-      "/images/ott-3.png",
-      "/images/ott-4.png"
-    ]
+    video: "/assets/videos/OTT_1.mp4"
   },
   "praja-jagruti-marathi-newspaper": {
     tag: "Media & Entertainment",
@@ -1399,13 +1178,7 @@ export const sectorData = {
     subtitle: "JAGRUTI",
     description: "A trusted Marathi daily providing comprehensive local and international news, shaping public opinion through principled journalism.",
     image: "/images/praja-jagruti.jpg",
-    video: "/assets/videos/Newspaper.mp4",
-    pages: [
-      "/images/praja-1.png",
-      "/images/praja-2.png",
-      "/images/praja-3.png",
-      "/images/praja-4.png"
-    ]
+    video: "/assets/videos/NewsPaper_1.mp4"
   },
   "sumukh-chitra-theatre-company": {
     tag: "Media & Entertainment",
@@ -1413,16 +1186,15 @@ export const sectorData = {
     subtitle: "CHITRA",
     description: "Reviving the legacy of live performance through classic and contemporary Marathi theatre productions and performing arts workshops.",
     image: "/images/sumukh-chitra.jpg",
-        introTitle: "Sumukh Chitra",
-    introText: "Aaryans Ventures Into Production with Sumuk Chitra Aaryans expands its horizons by entering the production house industry through Sumuk Chitra, with an investment of Rs. 50 crores. The business creates and funds content for its own channels as well as for other customers. This bold move is part of a larger investment of Rs. 3442 crores across various verticals, aiming to generate 980 jobs. The free-to-air channel will be available on major DTH platforms, with all operations based in Pune. This venture has already produced 2 plays namely, “Pahile Na Mee Tula” and “Urmilayan” and have completed 50 and 25 stage performances, respectively. The Play Urmilayan has won Zee Naatya Gaurav, 8 awards and 1 award from Akhil Bhartiya Naatya Parishad.Employment for 980 people .Free-to-air channel on DTH platforms",
-    introImage: "/images/sumukh.jpg",
-    video: "/assets/videos/Theatre.mp4",
-    pages: [
-      "/images/chitra-1.png",
-      "/images/chitra-2.png",
-      "/images/chitra-3.png",
-      "/images/chitra-4.png"
+    introTitle: "Sumukh Chitra",
+    introPoints: [
+      "Aaryans Group expands into media production with a dedicated Rs. 50 crore investment in Sumukh Chitra, creating and funding content for internal channels and external clients from its operational base in Pune.",
+      "The venture is part of a broader Rs. 3,442 crore multi-vertical initiative generating 980 jobs, which includes launching a free-to-air channel across major DTH platforms.",
+      "The theater wing has successfully produced two Marathi plays—'Pahile Na Mee Tula' (50+ shows) and 'Urmilayan' (25+ shows)—with 'Urmilayan' securing 8 Zee Natya Gaurav awards and 1 Akhil Bharatiya Marathi Natya Parishad honor."
     ],
+    introImage: "/images/sumukh.jpg",
+    video: "/assets/videos/Theatre_1.mp4",
+    
     socialLinks: [
       { platform: "instagram", url: "https://www.instagram.com/sumukhchitra/" }
     ]
@@ -1433,13 +1205,8 @@ export const sectorData = {
     subtitle: "INFOTAINMENT",
     description: "A specialized broadcast channel blending education and entertainment with a focus on art, culture, and lifestyle programming.",
     image: "/images/swarang.jpg",
-    video: "/assets/videos/Infotainment.mp4",
-    pages: [
-      "/images/swarang-1.png",
-      "/images/swarang-2.png",
-      "/images/swarang-3.png",
-      "/images/swarang-4.png"
-    ],
+    video: "/assets/videos/Infotainment_1.mp4",
+    
      socialLinks: [
       { platform: "instagram", url: "https://www.instagram.com/swarang.tv/" },
       { platform: "youtube", url: "https://www.youtube.com/@swarangtvmarathi" }
@@ -1452,13 +1219,7 @@ export const sectorData = {
     subtitle: "MAGAZINE",
     description: "A premier educational publication dedicated to fine arts, traditional drawing techniques, and fostering creative talent across generations.",
     image: "/images/chitran.jpg",
-    video: "/assets/videos/ArtsEdu.mp4",
-    pages: [
-      "/images/art-1.png",
-      "/images/art-2.png",
-      "/images/art-3.png",
-      "/images/art-4.png"
-    ]
+    video: "/assets/videos/ArtsEdu_1.mp4"
   },
   "onecut-entertainment-magazine": {
     tag: "Publications Sector",
@@ -1466,13 +1227,7 @@ export const sectorData = {
     subtitle: "MAGAZINE",
     description: "A high-gloss lifestyle and entertainment monthly covering the latest in cinema, celebrity culture, and the performing arts.",
     image: "/images/onecut-mag.jpg",
-    video: "/assets/videos/Entertainment.mp4",
-    pages: [
-      "/images/onecut-1.png",
-      "/images/onecut-2.png",
-      "/images/onecut-3.png",
-      "/images/onecut-4.png"
-    ]
+    video: "/assets/videos/Entertainment_1.mp4"
   },
   "masters-stroke-business-magazine": {
     tag: "Publications Sector",
@@ -1480,13 +1235,7 @@ export const sectorData = {
     subtitle: "STROKE",
     description: "The definitive business journal for entrepreneurs, featuring executive interviews, market analysis, and global trade insights.",
     image: "/images/masters-stroke.jpg",
-    video: "/assets/videos/BusinessMag.mp4",
-    pages: [
-      "/images/mister-1.png",
-      "/images/mister-2.png",
-      "/images/mister-3.png",
-      "/images/mister-4.png"
-    ]
+    video: "/assets/videos/BusinessMag_1.mp4"
   },
   "swaroop-creation-book-publishing-and-printing-house": {
     tag: "Publications Sector",
@@ -1494,13 +1243,7 @@ export const sectorData = {
     subtitle: "CREATION",
     description: "A full-service publishing and high-volume printing house specializing in academic texts, literature, and premium corporate publications.",
     image: "/images/swaroop-creation.jpg",
-    video: "/assets/videos/Publishing.mp4",
-    pages: [
-      "/images/swaroop-1.png",
-      "/images/swaroop-2.png",
-      "/images/swaroop-3.png",
-      "/images/swaroop-4.png"
-    ]
+    video: "/assets/videos/Publishing_1.mp4"
   },
   // --- TECHNICAL & INNOVATION SECTOR ---
   "artificial-intelligence": {
@@ -1509,13 +1252,7 @@ export const sectorData = {
     subtitle: "INTELLIGENCE",
     description: "Developing proprietary neural networks and LLMs to automate industrial decision-making and enhance predictive analytics across global sectors.",
     image: "/images/ai-tech.jpg",
-    video: "/assets/videos/AI.mp4",
-    pages: [
-      "/images/ai-1.png",
-      "/images/ai-2.png",
-      "/images/ai-3.png",
-      "/images/ai-4.png"
-    ]
+    video: "/assets/videos/AI_1.mp4"
   },
   "aeronautical-and-astronautical-engineering": {
     tag: "Tech & Innovation",
@@ -1523,13 +1260,7 @@ export const sectorData = {
     subtitle: "ENGINEERING",
     description: "Advanced R&D in aerodynamics and spacecraft propulsion systems, pushing the boundaries of sub-orbital and deep-space exploration.",
     image: "/images/aero-engineering.jpg",
-    video: "/assets/videos/Aerospace.mp4",
-    pages: [
-      "/images/aeronautical-1.png",
-      "/images/aeronautical-2.png",
-      "/images/aeronautical-3.png",
-      "/images/aeronautical-4.png"
-    ]
+    video: "/assets/videos/Aerospace_1.mp4"
   },
   "financial-services": {
     tag: "Tech & Innovation",
@@ -1537,16 +1268,15 @@ export const sectorData = {
     subtitle: "SERVICES",
     description: "FinTech innovation focusing on high-frequency trading algorithms, secure digital banking, and AI-driven wealth management.",
     image: "/images/fin-services.jpg",
-    introTitle: "Financial Service",
-    introText: "Aaryans group is in the process of getting the NBFC license or credit society permissions, which will cater to financing small businesses. It will also extend consumer durable finances to various segments of the society. This can elevate the basic standard of living of the individual and the society as a whole. The interest rates on the loans so offered will be at par with the existing players and shall be competitive on the services and procedures that the client may have to go through to avail a loan. Aaryans is also all set to launch a UPI payment app called ‘My Treasure’ and the same is under the testing phase and shall be launched by July 2024. This app is having a host of services which are bundled in it and it will be the most user friendly app with added advantage to the users from time to time.",
-    introImage: "/images/financial1.png",
-    video: "/assets/videos/Fintech.mp4",
-    pages: [
-      "/images/financial-1.png",
-      "/images/financial-2.png",
-      "/images/financial-3.png",
-      "/images/financial-4.png"
+    introTitle: "Financial Services",
+    introPoints: [
+      "Aaryans Group is securing an NBFC license and credit society authorizations to provide accessible micro-business loans and consumer durable financing at competitive rates.",
+      "The group is launching a proprietary UPI payment application named 'My Treasure', designed as a feature-rich, user-friendly digital finance hub.",
+      "The financial services strategy focuses on driving social mobility and elevating living standards through streamlined credit and digital banking access."
     ],
+    introImage: "/images/financial1.png",
+    video: "/assets/videos/Fintech_1.mp4",
+   
      differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -1560,13 +1290,7 @@ export const sectorData = {
     subtitle: "SEMICONDUCTOR",
     description: "Revolutionizing electronics with carbon-based semiconductor materials for flexible displays and sustainable solar cells.",
     image: "/images/organic-semi.jpg",
-    video: "/assets/videos/OrganicSemi.mp4",
-    pages: [
-      "/images/semi-1.png",
-      "/images/semi-2.png",
-      "/images/semi-3.png",
-      "/images/semi-4.png"
-    ]
+    video: "/assets/videos/OrganicSemi_1.mp4"
   },
   "integrated-device-manufacturer": {
     tag: "Tech & Innovation",
@@ -1574,27 +1298,22 @@ export const sectorData = {
     subtitle: "FACILITY",
     description: "Full-cycle semiconductor manufacturing, from circuit design to final wafer fabrication and assembly under one roof.",
     image: "/images/idm.jpg",
-    video: "/assets/videos/IDM.mp4",
-    pages: [
-      "/images/device-1.png",
-      "/images/device-2.png",
-      "/images/device-3.png",
-      "/images/device-4.png"
-    ]
+    video: "/assets/videos/IDM_1.mp4"
   },
-  "indian-search-engine": {
+ "indian-search-engine": {
     tag: "Tech & Innovation",
-    title: "INDIAN",
-    subtitle: "SEARCH ENGINE",
+    title: "LUKAPP",
+    subtitle: "AARYANS SEARCH ENGINE",
     description: "Building a localized, multilingual search infrastructure that prioritizes Indian data privacy and regional context.",
-    image: "/images/search-engine.jpg",
-    video: "/assets/videos/SearchEngine.mp4",
-    pages: [
-      "/images/engine-1.png",
-      "/images/engine-2.png",
-      "/images/engine-3.png",
-      "/images/engine-4.png"
-    ]
+    video: "/videos/lukaap.mp4",
+    introTitle: "LukAap - India's AI Search Engine",
+    introPoints: [
+      "LukAap is an AI-powered search engine built for India that delivers direct answers with source citations in seconds via text or voice across 12 Indian languages without needing a signup[cite: 1].",
+      "Features integrated local shop comparison alongside Amazon and Flipkart prices, smart product detection, and natural conversational follow-ups[cite: 1].",
+      "Designed to democratize AI search for students, professionals, homemakers, smart shoppers, elderly users, and small business owners nationwide[cite: 1]."
+    ],
+    introImage: "/images/lukaap.png",
+    video: "/assets/videos/SearchEngine_1.mp4"
   },
   "information-technology-services-and-business": {
     tag: "Tech & Innovation",
@@ -1603,32 +1322,28 @@ export const sectorData = {
     description: "Enterprise-grade software development, cloud infrastructure management, and end-to-end IT consulting for global markets.",
     image: "/images/it-services.jpg",
     introTitle: "Information Technology Services And Business",
-    introText: "With the current sentiments and ethics which are taking rounds in the minds of the patriotic people of India and we are no different from these patriots. We are developing a SEARCH ENGINE, which will be totally indigenous and made in India that will be the replacement for Other Virtual Meeting app or any other search engines that are existing as on date. This will have high powered algorithm to suit the needs of each and every segment of people of the society. It will be loaded with host of additional features and the announcement of the same will be happening very soon so to say. We are at advanced stage of developing this software and shall launch the software officially by December 2024, after around 6 months of trial run. We have already signed the contracts and the development of the same is at the end of the final product.Under this business vertical, and under Artificial Intelligence, we have already developed a robot named SWA, which is already on trial phase now and we shall be announcing the launch of the same soon as well. This robot will be as good and as friendly as a family member and this is what is going to be the Uniqueness of this ROBOT. We are also taking up production of Mobile phones and other gadgets for the day to day needs of the masses and shall also manufacture accessories of various types which will have universal application to suit or synchronize with each and every gadget available on this earth.We have already collaborated with a company in Taiwan for technological assistance and machinery. The capital outlay for this venture is about Rs. 2500 Crs. This is expected to generate employment for about 1200 persons.We have already started to develop a learning platform under the technical assistance from our overseas partners. We have already developed online classroom software for the educational institutions to conduct the classes digitally. We are also thinking of offering this digital classroom software to the Government and old educational institutions free of charge during the introductory period. For this purpose we are already in the discussion with the education department of the state government and have demonstrated the said software to the concerned authorities.",
+    introPoints: [
+      "Developing a high-powered, indigenous search engine and virtual collaboration ecosystem, along with proprietary online digital classroom software tailored for educational institutions.",
+      "Engineered an interactive personal assistant robot named 'SWA' designed for friendly family engagement alongside launching local manufacturing for mobile phones, universal accessories, and electronics backed by a Rs. 2,500 Crore capital outlay and Taiwan technical collaboration.",
+      "The IT and robotics vertical is projected to generate over 1,200 direct tech employment opportunities across software development and hardware assembly lines."
+    ],
     introImage: "/images/it1.png",
-    video: "/assets/videos/IT.mp4",
-    pages: [
-      "/images/it-1.png",
-      "/images/it-2.png",
-      "/images/it-3.png",
-      "/images/it-4.png"
-    ]
+    video: "/assets/videos/IT_1.mp4"
   },
-  "optical-semiconductor-manufacturing": {
+ "optical-semiconductor-manufacturing": {
     tag: "Tech & Innovation",
     title: "OPTICAL",
     subtitle: "SEMICONDUCTOR",
     description: "Specialized manufacturing of photonic chips and laser-based sensors for high-speed fiber-optic communications.",
     image: "/images/optical-semi.jpg",
     introTitle: "Optical Semi-Conductor Manufacturing",
-    introText: "It’s a known fact that with the growing demands of semiconductors in various industries like electric vehicles, batteries, aviation, electronics, etc due to the awareness of global warming and the rising prices of crude oil which has activated the need of diversifying in to a renewable source of energy, makes this industry much more lucrative then what it used to be few years ago. Aaryans will not be lagging behind in exploiting this business opportunity and is going to set a semiconductor manufacturing plant in Maharashtra which will be starting its R and D by December 2023 and production by 2024.",
-    introImage: "/images/",
-    video: "/assets/videos/Optical.mp4",
-    pages: [
-      "/images/optical-1.png",
-      "/images/optical-2.png",
-      "/images/optical-3.png",
-      "/images/optical-4.png"
+    introPoints: [
+      "Aaryans Group is establishing a semiconductor manufacturing facility in Maharashtra to address surging demand across electric vehicles, energy storage, aviation, and consumer electronics.",
+      "The plant integrates advanced optical semiconductor fabrication to support renewable energy transitions and reduce national dependency on imported microchips.",
+      "Operations target dedicated R&D activities paired with large-scale industrial photonic and semiconductor chip production."
     ],
+    introImage: "/images/",
+    video: "/assets/videos/Optical_1.mp4",
     futureTitle: "FUTURE PROSPECTS FOR AARYANS",
     futureProspects: [
       {
@@ -1655,30 +1370,23 @@ export const sectorData = {
     subtitle: "AUTOMATION",
     description: "Designing industrial cobots and autonomous mobile robots (AMR) for precision manufacturing and warehouse logistics.",
     image: "/images/robotics.jpg",
-    video: "/assets/videos/Robotics.mp4",
-    pages: [
-      "/images/robotics-1.png",
-      "/images/robotics-2.png",
-      "/images/robotics-3.png",
-      "/images/robotics-4.png"
-    ]
+    video: "/assets/videos/Robotics_1.mp4"
   },
-  "shunya-awkasa-space-debris-management": {
+ "shunya-awkasa-space-debris-management": {
     tag: "Tech & Innovation",
     title: "SHUNYA",
     subtitle: "AWKASA",
     description: "A pioneering initiative dedicated to tracking, mitigating, and removing space debris to ensure the sustainability of Earth's orbits.",
     image: "/images/space-debris.jpg",
     introTitle: "Space Debris Management",
-    introText: "All countries big or small are concerned by the space waste that is orbiting in the outer space and this is giving sleepless night to the administrative authorities of the countries The launch of Sputnik on Oct. 4, 1957, marked the beginning of an intense space race that led to decades of rocket and satellite launches, which eventually resulted in a large amount of space debris. Space debris is anything in orbit that is man-made and is no longer in use. It consists of old, inactive satellites; rocket stages; and other discarded hardware. Smaller pieces of space debris include fragments of vehicles that exploded or collided and bits of insulation and paint that have come off space vehicles. Generally, the smaller the debris, the density is more of it. This abundance of debris created the need for a military space surveillance to maintain a catalog of all Earth-orbiting objects — active payloads, satellites and debris — along with detailed information about trajectory and point of origin.",
-    introImage: "/images/space1.jpg",
-    video: "/assets/videos/SpaceDebris.mp4",
-    pages: [
-      "/images/shunya-1.png",
-      "/images/shunya-2.png",
-      "/images/shunya-3.png",
-      "/images/shunya-4.png"
+    introPoints: [
+      "Shunya Awkasa provides orbital tracking and debris mitigation solutions to address space waste generated by decades of global satellite and rocket launches.",
+      "The initiative develops surveillance and monitoring cataloging systems to track defunct payloads, rocket stages, and orbital fragmentation risks.",
+      "Focuses on maintaining sustainable Earth orbital pathways to safeguard active commercial and scientific satellite infrastructure."
     ],
+    introImage: "/images/space1.jpg",
+    video: "/assets/videos/SpaceDebris_1.mp4",
+   
      futureTitle: "FUTURE PROSPECTS FOR AARYANS",
     futureProspects: [
       {
@@ -1705,30 +1413,22 @@ export const sectorData = {
     subtitle: "FAB",
     description: "High-precision cleanroom facilities for large-scale silicon wafer production and microchip lithography.",
     image: "/images/semi-fab.jpg",
-    video: "/assets/videos/Fab.mp4",
-    pages: [
-      "/images/feb-1.png",
-      "/images/feb-2.png",
-      "/images/feb-3.png",
-      "/images/feb-4.png"
-    ]
+    video: "/assets/videos/Fab_1.mp4"
   },
-  "space-services": {
+"space-services": {
     tag: "Tech & Innovation",
     title: "SPACE",
     subtitle: "SERVICES",
     description: "Commercial satellite launch support, ground station communication, and real-time orbital data monitoring.",
     image: "/images/space-services.jpg",
     introTitle: "Space Services",
-    introText: "Aaryans has also planned for forward integration for other businesses vertical; wherein we shall be launching our own Satellite which in turn will be used to track / control the vehicles manufactured by Aaryans through GPS tracking system. The research and development work is already at an advance stage. We propose to launch these plans by the beginning of 2025, On commercial scale.",
+    introPoints: [
+      "Aaryans Space Services focuses on forward integration by deploying proprietary satellites for real-time fleet management and GPS vehicle tracking across internal automotive verticals.",
+      "The division manages commercial satellite launch support, ground station telecommunications, and orbital telemetry data monitoring.",
+      "R&D initiatives center on scalable, high-precision orbital communications designed for commercial and industrial logistics."
+    ],
     introImage: "/images/spaceservice1.png",
-    video: "/assets/videos/SpaceServices.mp4",
-    pages: [
-      "/images/ss-1.png",
-      "/images/ss-2.png",
-      "/images/ss-3.png",
-      "/images/ss-4.png"
-    ]
+    video: "/assets/videos/SpaceServices_1.mp4"
   },
   "wave-energy-generation": {
     tag: "Tech & Innovation",
@@ -1736,13 +1436,551 @@ export const sectorData = {
     subtitle: "GENERATION",
     description: "Harnessing the kinetic power of ocean waves through modular buoy systems to produce clean, consistent hydro-electricity.",
     image: "/images/wave-energy.jpg",
-    video: "/assets/videos/WaveEnergy.mp4",
-    pages: [
-      "/images/wave-1.png",
-      "/images/wave-2.png",
-      "/images/wave-3.png",
-      "/images/wave-4.png"
-    ]
+    video: "/assets/videos/WaveEnergy_1 .mp4"
+  },
+  // --- Semiconductor / Micro Electronics ---
+  "aaryans-fab-briefcase": {
+    tag: "Semiconductor / Micro Electronics",
+    title: "AARYANS FAB",
+    subtitle: "BRIEFCASE",
+    description: "State-of-the-art semiconductor fabrication initiative focusing on advanced wafer processing, microchip prototyping, and cleanroom manufacturing.",
+    image: "/images/fab-briefcase.jpg",
+    video: "/assets/videos/FabBriefcase.mp4"
+  },
+  "moscon-product": {
+    tag: "Semiconductor / Micro Electronics",
+    title: "MOSCON",
+    subtitle: "PRODUCT",
+    description: "High-performance MOSFETs, discrete semiconductors, and power management modules built for industrial automation and automotive applications.",
+    image: "/images/moscon-product.jpg",
+    video: "/assets/videos/Moscon.mp4"
+  },
+
+  // --- Electronics Manufacturing ---
+  "pcb-boards": {
+    tag: "Electronics Manufacturing",
+    title: "PCB",
+    subtitle: "BOARDS",
+    description: "Multi-layer, high-density interconnect (HDI) and flexible printed circuit board fabrication with automated SMT assembly and rigorous testing.",
+    image: "/images/pcb-boards.jpg",
+    video: "/assets/videos/PCB.mp4"
+  },
+  "integrated-circuits": {
+    tag: "Electronics Manufacturing",
+    title: "INTEGRATED",
+    subtitle: "CIRCUITS (IC)",
+    description: "Design, packaging, and testing of high-density application-specific integrated circuits (ASICs) and microcontrollers for consumer and industrial electronics.",
+    image: "/images/integrated-circuits.jpg",
+    video: "/assets/videos/IntegratedCircuits.mp4"
+  },
+  "led-display": {
+    tag: "Electronics Manufacturing",
+    title: "LED",
+    subtitle: "DISPLAY",
+    description: "Next-generation ultra-HD micro-LED, OLED, and commercial digital signage display systems built for energy efficiency and visual clarity.",
+    image: "/images/led-display.jpg",
+    video: "/assets/videos/LEDDisplay.mp4"
+  },
+  // ==========================================
+  // ROBOTICS AND AUTOMATIONS
+  // ==========================================
+  "robotic-dog": {
+    tag: "Robotics and Automations",
+    title: "ROBOTIC",
+    subtitle: "DOG",
+    description: "Agile quadruped robotic system designed for autonomous navigation, rough terrain inspection, industrial surveillance, and automated facility patrolling.",
+    image: "/images/robotic-dog.jpg",
+    video: "/assets/videos/RoboticDog.mp4"
+  },
+  "robotic-arm": {
+    tag: "Robotics and Automations",
+    title: "ROBOTIC",
+    subtitle: "ARM",
+    description: "High-precision multi-axis robotic arm manipulator engineered for automated manufacturing, precision pick-and-place, welding, and high-tolerance assembly.",
+    image: "/images/robotic-arm.jpg",
+    video: "/assets/videos/RoboticArm.mp4"
+  },
+  "humanoid-robot-multifunctional": {
+    tag: "Robotics and Automations",
+    title: "HUMANOID ROBOT",
+    subtitle: "MULTIFUNCTIONAL",
+    description: "Next-generation bipedal humanoid robotics integrating AI vision, conversational interaction, and multi-functional task handling for service and industry.",
+    image: "/images/humanoid-robot.jpg",
+    video: "/assets/videos/HumanoidRobot.mp4"
+  },
+  "information-robots": {
+    tag: "Robotics and Automations",
+    title: "INFORMATION",
+    subtitle: "ROBOTS",
+    description: "Interactive smart service robots built for public assistance, automated front-desk reception, digital concierge services, and enterprise guidance.",
+    image: "/images/information-robot.jpg",
+    video: "/assets/videos/InformationRobot.mp4"
+  },
+  "robotic-kit-education": {
+    tag: "Robotics and Automations",
+    title: "ROBOTIC KIT",
+    subtitle: "EDUCATION",
+    description: "Modular STEM educational robotics kits designed for hands-on learning in electronics, sensor integration, microcontroller programming, and automation.",
+    image: "/images/robotic-kit.jpg",
+    video: "/assets/videos/RoboticKit.mp4"
+  },
+  // ==========================================
+  // SPACE TECHNOLOGY
+  // ==========================================
+  "space-debris": {
+    tag: "Space Technology",
+    title: "SPACE",
+    subtitle: "DEBRIS",
+    description: "Advanced orbital tracking and active debris mitigation systems designed to monitor, catalog, and de-orbit hazardous space junk from critical operational orbits.",
+    image: "/images/space-debris1.jpg",
+    video: "/assets/videos/SpaceDebris.mp4"
+  },
+  "space-debris-lab-demo": {
+    tag: "Space Technology",
+    title: "SPACE DEBRIS",
+    subtitle: "LAB DEMO",
+    description: "Experimental laboratory demonstration showcasing capture mechanisms, laser ablation concepts, and electrodynamic tether technologies for orbital cleanup.",
+    image: "/images/space-debris-demo.jpg",
+    video: "/assets/videos/SpaceDebrisDemo.mp4"
+  },
+
+  // ==========================================
+  // SATELLITES
+  // ==========================================
+  "psudo-satellite": {
+    tag: "Satellites",
+    title: "PSUDO",
+    subtitle: "SATELLITE",
+    description: "High-Altitude Platform Systems (HAPS) operating in the stratosphere for persistent regional broadband coverage, border surveillance, and environmental monitoring.",
+    image: "/images/psudo-satellite.jpg",
+    video: "/assets/videos/PsudoSatellite.mp4"
+  },
+  "leo-satellite": {
+    tag: "Satellites",
+    title: "LEO",
+    subtitle: "SATELLITE",
+    description: "Low Earth Orbit satellite constellations engineered for high-throughput, low-latency telecommunications, Earth observation, and remote telemetry.",
+    image: "/images/leo-satellite.jpg",
+    video: "/assets/videos/LEOSatellite.mp4"
+  },
+  "ueo-geo-satellite": {
+    tag: "Satellites",
+    title: "UEO / GEO",
+    subtitle: "SATELLITE",
+    description: "Geostationary and upper earth orbit satellite payloads delivering reliable continental broadcasting, defense communication relays, and weather analytics.",
+    image: "/images/geo-satellite.jpg",
+    video: "/assets/videos/GEOSatellite.mp4"
+  },
+  "satellite": {
+    tag: "Satellites",
+    title: "SATELLITE",
+    subtitle: "PLATFORMS",
+    description: "Modular satellite bus architectures and customizable orbital platforms built to host specialized scientific, commercial, and reconnaissance payloads.",
+    image: "/images/satellite.jpg",
+    video: "/assets/videos/Satellite.mp4"
+  },
+
+  // ==========================================
+  // LAUNCH VEHICLES
+  // ==========================================
+  "solid-fuel-rockets-6-feet": {
+    tag: "Launch vehicles",
+    title: "SOLID FUEL ROCKET",
+    subtitle: "6 FEET",
+    description: "Compact sub-orbital solid propulsion sounding rocket designed for low-altitude meteorological studies, aerodynamic validation, and educational research.",
+    image: "/images/rocket-6ft.jpg",
+    video: "/assets/videos/Rocket6ft.mp4"
+  },
+  "solid-fuel-rockets-8-feet": {
+    tag: "Launch vehicles",
+    title: "SOLID FUEL ROCKET",
+    subtitle: "8 FEET",
+    description: "High-acceleration solid fuel rocket designed for atmospheric sounding, supersonic trajectory testing, and scientific sensor payload deployment.",
+    image: "/images/rocket-8ft.jpg",
+    video: "/assets/videos/Rocket8ft.mp4"
+  },
+  "solid-fuel-rockets-12-feet": {
+    tag: "Launch vehicles",
+    title: "SOLID FUEL ROCKET",
+    subtitle: "12 FEET",
+    description: "Mid-range launch vehicle platform utilizing solid propellant systems for upper atmospheric sounding and micro-payload flight qualification.",
+    image: "/images/rocket-12ft.jpg",
+    video: "/assets/videos/Rocket12ft.mp4"
+  },
+  "solid-fuel-rockets-18-feet-3-stage": {
+    tag: "Launch vehicles",
+    title: "SOLID FUEL ROCKET",
+    subtitle: "18 FEET - 3 STAGE",
+    description: "Multi-stage solid fuel launch rocket system built for extended altitude reach, stage separation testing, and sub-orbital trajectory experiments.",
+    image: "/images/rocket-18ft.jpg",
+    video: "/assets/videos/Rocket18ft.mp4"
+  },
+  "5-stage-rocket-vehicle-prototype": {
+    tag: "Launch vehicles",
+    title: "5 STAGE ROCKET VEHICLE",
+    subtitle: "PROTOTYPE",
+    description: "Heavy multi-stage launch architecture prototype engineered for sequential thrust efficiency, payload lift capability, and orbital insertion dynamics.",
+    image: "/images/rocket-5stage.jpg",
+    video: "/assets/videos/Rocket5Stage.mp4"
+  },
+  "nuclear-fusion-rocket-engine-prototype": {
+    tag: "Launch vehicles",
+    title: "NUCLEAR FUSION",
+    subtitle: "ROCKET ENGINE PROTOTYPE",
+    description: "Next-generation deep-space propulsion concept leveraging magnetic confinement fusion principles to provide high-thrust, ultra-efficient interplanetary propulsion.",
+    image: "/images/fusion-rocket.jpg",
+    video: "/assets/videos/FusionRocket.mp4"
+  },
+
+  // ==========================================
+  // AEROSPACE
+  // ==========================================
+  "agriculture-drone": {
+    tag: "Aerospace",
+    title: "AGRICULTURE",
+    subtitle: "DRONE",
+    description: "Precision agricultural UAV equipped with multispectral crop health sensors, automated pesticide spraying tanks, and GPS waypoint navigation.",
+    image: "/images/agri-drone.jpg",
+    video: "/assets/videos/AgriDrone.mp4"
+  },
+  "surveillance-drone": {
+    tag: "Aerospace",
+    title: "SURVEILLANCE",
+    subtitle: "DRONE",
+    description: "Extended-endurance reconnaissance drone featuring high-definition optical zoom, infrared thermal imaging, and autonomous perimeter patrolling.",
+    image: "/images/surveillance-drone.jpg",
+    video: "/assets/videos/SurveillanceDrone.mp4"
+  },
+  "artificial-intelligence-drone": {
+    tag: "Aerospace",
+    title: "ARTIFICIAL INTELLIGENCE",
+    subtitle: "DRONE",
+    description: "Autonomous edge-AI drone capable of vision-based obstacle avoidance, intelligent object recognition, and coordinated swarm flight operations.",
+    image: "/images/ai-drone.jpg",
+    video: "/assets/videos/AIDrone.mp4"
+  },
+  "mini-drone": {
+    tag: "Aerospace",
+    title: "MINI",
+    subtitle: "DRONE",
+    description: "Ultra-compact tactical micro UAV built for rapid deployment, indoor inspections, confined-space navigation, and real-time scout telemetry.",
+    image: "/images/mini-drone.jpg",
+    video: "/assets/videos/MiniDrone.mp4"
+  },
+  "vtol-2-meter": {
+    tag: "Aerospace",
+    title: "VTOL",
+    subtitle: "(2 METER)",
+    description: "Hybrid vertical takeoff and landing fixed-wing drone with a 2-meter wingspan, delivering long flight ranges without requiring runway infrastructure.",
+    image: "/images/vtol-2m.jpg",
+    video: "/assets/videos/VTOL2m.mp4"
+  },
+  "vtol-4-meter": {
+    tag: "Aerospace",
+    title: "VTOL",
+    subtitle: "(4 METER)",
+    description: "Heavy-payload 4-meter VTOL UAV engineered for tactical cargo logistics, wide-area infrastructure surveying, and extended mission endurance.",
+    image: "/images/vtol-4m.jpg",
+    video: "/assets/videos/VTOL4m.mp4"
+  },
+
+  // ==========================================
+  // DEFENCE TECHNOLOGY
+  // ==========================================
+  "jet-fuel-fix-wing-plane": {
+    tag: "Defence Technology",
+    title: "JET FUEL",
+    subtitle: "FIX WING PLANE",
+    description: "Turbine-powered tactical fixed-wing aircraft engineered for high-speed reconnaissance, long-distance aerial patrols, and rapid payload deployment.",
+    image: "/images/jet-fixed-wing.jpg",
+    video: "/assets/videos/JetFixedWing.mp4"
+  },
+  "brush-less-motor-planes": {
+    tag: "Defence Technology",
+    title: "BRUSH LESS MOTOR",
+    subtitle: "PLANES",
+    description: "Low-acoustic-signature electric aircraft utilizing high-torque brushless propulsion for stealth aerial scouting and tactical border monitoring.",
+    image: "/images/brushless-plane.jpg",
+    video: "/assets/videos/BrushlessPlane.mp4"
+  },
+  "rc-plane": {
+    tag: "Defence Technology",
+    title: "RC",
+    subtitle: "PLANE",
+    description: "High-agility radio-controlled training and tactical platform designed for aerospace piloting simulation, sensor testing, and target practice.",
+    image: "/images/rc-plane.jpg",
+    video: "/assets/videos/RCPlane.mp4"
+  },
+  "bullet-proof-jackets": {
+    tag: "Defence Technology",
+    title: "BULLET PROOF",
+    subtitle: "JACKETS",
+    description: "Advanced body armor engineered with multi-layered ballistic ceramics, Kevlar weave, and graphene composites for optimal multi-hit personnel protection.",
+    image: "/images/bulletproof-jacket.jpg",
+    video: "/assets/videos/BulletProofJacket.mp4"
+  },
+  "interceptor-drones": {
+    tag: "Defence Technology",
+    title: "INTERCEPTOR",
+    subtitle: "DRONES",
+    description: "High-speed counter-drone interceptor platform designed to track, pursue, and neutralize hostile or unauthorized unmanned aerial systems in protected airspace.",
+    image: "/images/interceptor-drones.jpg",
+    video: "/assets/videos/InterceptorDrone.mp4"
+  },
+
+  // ==========================================
+  // ELECTRIC 2 WHEELER
+  // ==========================================
+  "e2w-chassis": {
+    tag: "Electric 2 wheeler",
+    title: "CHASIS",
+    subtitle: "2-WHEELER FRAME",
+    description: "High-tensile tubular alloy chassis engineered for optimal weight distribution, structural stability, and superior handling dynamics for electric two-wheelers.",
+    image: "/images/e2w-chassis.jpg",
+    video: "/assets/videos/E2WChassis.mp4"
+  },
+  "e2w-battery-management-system": {
+    tag: "Electric 2 wheeler",
+    title: "BATTERY MANAGEMENT",
+    subtitle: "SYSTEM (BMS)",
+    description: "Intelligent BMS featuring cell balancing, active thermal monitoring, overcharge defense, and IoT-enabled predictive health diagnostics.",
+    image: "/images/e2w-bms.jpg",
+    video: "/assets/videos/E2WBMS.mp4"
+  },
+  "e2w-power-trail": {
+    tag: "Electric 2 wheeler",
+    title: "POWER TRAIL",
+    subtitle: "DRIVETRAIN SYSTEM",
+    description: "Integrated electric motor, controller, and regenerative drivetrain system optimized for high torque delivery, efficiency, and extended riding range.",
+    image: "/images/e2w-powertrain.jpg",
+    video: "/assets/videos/E2WPowerTrail.mp4"
+  },
+
+  // ==========================================
+  // ELECTRIC 4 WHEELER
+  // ==========================================
+  "e4w-chassis": {
+    tag: "Electric 4 wheeler",
+    title: "CHASIS",
+    subtitle: "4-WHEELER PLATFORM",
+    description: "Modular EV skateboard chassis integrating structural battery casing, front/rear crumple zones, and versatile suspension geometry for multi-vehicle applications.",
+    image: "/images/e4w-chassis.jpg",
+    video: "/assets/videos/E4WChassis.mp4"
+  },
+  "e4w-battery-management-system": {
+    tag: "Electric 4 wheeler",
+    title: "BATTERY MANAGEMENT",
+    subtitle: "SYSTEM (BMS)",
+    description: "Automotive-grade high-voltage battery management architecture designed for liquid-cooled battery packs with fast-charging safety controls.",
+    image: "/images/e4w-bms.jpg",
+    video: "/assets/videos/E4WBMS.mp4"
+  },
+  "e4w-power-trail": {
+    tag: "Electric 4 wheeler",
+    title: "POWER TRAIL",
+    subtitle: "4W DRIVETRAIN",
+    description: "High-performance integrated electric drive unit combining permanent magnet synchronous motors, silicon carbide inverters, and high-reduction transmission.",
+    image: "/images/e4w-powertrain.jpg",
+    video: "/assets/videos/E4WPowerTrail.mp4"
+  },
+
+  // ==========================================
+  // HYDROGEN ECONOMY
+  // ==========================================
+"mukti-vehicle": {
+  tag: "Hydrogen Economy",
+  title: "MUKTI",
+  subtitle: "VEHICLE",
+  description: "Zero-emission commercial hydrogen vehicle powered by fuel cell technology, engineered for heavy-duty payload transport and rapid green refueling.",
+  image: "/images/mukti-vehicle.jpg",
+  introTitle: "Hydrogen Economy / Mukti Vehicle",
+  introPoints: [
+    "MUKTI is a mobile green-hydrogen technology demonstrator that retrofits a conventional diesel vehicle into an electric vehicle and demonstrates the complete hydrogen value chain, including electrolysis, hydrogen production, handling, storage, dispensing, and fuel-cell electricity generation.",
+    "MUKTI demonstrates clean-energy alternatives to conventional diesel-generator applications, aligned with India’s National Green Hydrogen Mission, while integrating renewable energy, hydrogen safety, dispensing, fuel-cell power generation, and electric-vehicle retrofitting.",
+    "MUKTI functions as a “Lab on Wheels” by taking practical hydrogen education and hands-on demonstrations to schools, colleges, universities, industries, exhibitions, and communities, helping people understand the journey from renewable electricity to hydrogen production, storage, dispensing, fuel-cell power, and useful clean energy."
+  ],
+  introImage: "/images/mukti-vehicle1.jpeg",
+  video: "/assets/videos/MuktiVehicle.mp4"
+},
+  "bhakti-vehicle": {
+    tag: "Hydrogen Economy",
+    title: "BHAKTI",
+    subtitle: "VEHICLE",
+    description: "Zero-emission commercial hydrogen vehicle powered by fuel cell technology, engineered for heavy-duty payload transport and rapid green refueling.",
+    image: "/images/bhakti-vehicle.jpg",
+    introTitle: " Hydrogen Economy / Bhakti Vehicle",
+    introPoints: [
+    "BHAKTI is an indigenous hydrogen-assisted dual-fuel technology that blends hydrogen with petrol in existing ICE vehicles, providing a practical transition to hydrogen mobility without replacing the vehicle platform or fuel infrastructure.",
+    "The retrofit system integrates hydrogen storage, pressure and flow control, air–fuel–hydrogen management, engine controls, sensors, and electronic monitoring, with the exhibition vehicle serving as the engineering demonstration platform and supporting India’s National Green Hydrogen Mission.",
+    "TRINETRA provides layered hydrogen safety through containment and pressure control, flashback protection, leak detection, abnormal-condition monitoring, warning, and automatic shutdown, enabling safer study of hydrogen combustion, emissions reduction, retrofit engineering, vehicle safety, and intelligent hydrogen controls."
+  ],
+  introImage: "/images/bhakti.jpeg",
+  video: "/assets/videos/BhaktiVehicle.mp4"
+    
+  },
+  "rocket-engine-hydrogen": {
+    tag: "Hydrogen Economy",
+    title: "ROCKET",
+    subtitle: "ENGINE",
+    description: "High-thrust cryogenic liquid hydrogen and liquid oxygen propulsion engine engineered to achieve high specific impulse for space launch systems.",
+    image: "/images/hydrolox-engine.jpg",
+    video: "/assets/videos/HydrogenRocket.mp4"
+  },
+  "hydrogen-engine-uav": {
+    tag: "Hydrogen Economy",
+    title: "HYDROGEN ENGINE",
+    subtitle: "(UAV)",
+    description: "Lightweight hydrogen propulsion unit optimized to deliver ultra-long flight endurance and zero-carbon emissions for unmanned aerial systems.",
+    image: "/images/hydrogen-uav.jpg",
+    video: "/assets/videos/HydrogenUAV.mp4"
+  },
+  "soham-plant": {
+    tag: "Hydrogen Economy",
+    title: "SOHAM",
+    subtitle: "PLANT",
+    description: "Integrated green hydrogen production facility using renewable-powered electrolysis, gas compression, purification, and safe bulk storage systems.",
+    image: "/images/soham-plant.jpg",
+    introTitle: "Hydrogen Economy / Soham Plant",
+    introPoints: [
+    "SOHAM is an indigenous automated hydrogen-generation platform addressing the challenges of hydrogen transport and storage through safe, compact, decentralized, on-demand production, aligned with India’s National Green Hydrogen Mission and its targets of 5 MMT/year production, ₹8 lakh crore investment, and 6 lakh+ jobs.",
+    "SOHAM demonstrates Aaryans’ chemical-reaction-based hydrogen generation using automated feedstock management, reactor instrumentation, purification, drying, process monitoring, and hydrogen handling, with development toward a 100 kg/day modular platform and the exhibition unit representing its engineering demonstration stage.",
+    "The platform integrates PLC automation, monitoring, controlled dosing, purification, safety interlocks, emergency shutdown, and IoT data acquisition, creating a foundation for predictive control and Digital Twin integration and enabling distributed hydrogen generation at industrial, research, remote, and demonstration sites.",
+  ],
+  introImage: "/images/soham.jpeg",
+    video: "/assets/videos/SohamPlant.mp4"
+  },
+
+  // ==========================================
+  // QUANTUM TECHNOLOGY
+  // ==========================================
+  "quantum-navigation": {
+    tag: "Quantum Technology",
+    title: "QUANTUM",
+    subtitle: "NAVIGATION",
+    description: "GPS-denied navigation platform utilizing cold-atom quantum interferometers to provide precise, drift-free positioning across deep sea and underground environments.",
+    image: "/images/quantum-navigation.jpg",
+    video: "/assets/videos/QuantumNavigation.mp4"
+  },
+  "quantum-clock": {
+    tag: "Quantum Technology",
+    title: "QUANTUM",
+    subtitle: "CLOCK",
+    description: "Ultra-precise optical lattice atomic clock engineered for femtosecond timekeeping, high-speed financial network syncing, and deep-space telemetry.",
+    image: "/images/quantum-clock.jpg",
+    video: "/assets/videos/QuantumClock.mp4"
+  },
+  "quantum-sensor-imaging": {
+    tag: "Quantum Technology",
+    title: "QUANTUM SENSOR",
+    subtitle: "IMAGING",
+    description: "High-sensitivity quantum imaging apparatus using nitrogen-vacancy diamond centers for magnetic anomaly detection and non-invasive medical scanning.",
+    image: "/images/quantum-sensor.jpg",
+    video: "/assets/videos/QuantumSensor.mp4"
+  },
+  "quantum-communication": {
+    tag: "Quantum Technology",
+    title: "QUANTUM",
+    subtitle: "COMMUNICATION",
+    description: "Quantum Key Distribution (QKD) infrastructure providing mathematically unbreakable encryption channels for critical national and financial data security.",
+    image: "/images/quantum-communication.jpg",
+    video: "/assets/videos/QuantumComm.mp4"
+  },
+
+  // ==========================================
+  // RENEWABLE ENERGY
+  // ==========================================
+  "quantum-solar-panel": {
+    tag: "Renewable Energy",
+    title: "QUANTUM",
+    subtitle: "SOLAR PANEL",
+    description: "Advanced photovoltaic modules incorporating quantum dot nanostructures to capture a broader spectrum of sunlight, maximizing solar conversion efficiency.",
+    image: "/images/quantum-solar.jpg",
+    video: "/assets/videos/QuantumSolar.mp4"
+  },
+  "topcon-solar-panel": {
+    tag: "Renewable Energy",
+    title: "TOPCON",
+    subtitle: "SOLAR PANEL",
+    description: "Tunnel Oxide Passivated Contact (TOPCon) high-efficiency N-type solar panels offering superior performance under high temperatures and low light conditions.",
+    image: "/images/topcon-solar.jpg",
+    video: "/assets/videos/TopconSolar.mp4"
+  },
+  "bifacial-solar-panel": {
+    tag: "Renewable Energy",
+    title: "BIFACIAL",
+    subtitle: "SOLAR PANEL",
+    description: "Double-sided glass solar modules capable of generating energy from both direct overhead sunlight and reflected ground albedo radiation.",
+    image: "/images/bifacial-solar.jpg",
+    video: "/assets/videos/BifacialSolar.mp4"
+  },
+  "wind-turbines-wave-energy": {
+    tag: "Renewable Energy",
+    title: "WIND TURBINES",
+    subtitle: "WAVE ENERGY",
+    description: "Integrated offshore renewable energy systems combining high-output wind turbines and ocean wave kinetic converters for continuous clean energy generation.",
+    image: "/images/wind-wave-energy.jpg",
+    video: "/assets/videos/WindWaveEnergy.mp4"
+  },
+
+  // ==========================================
+  // DIGITAL INFRASTRUCTURE
+  // ==========================================
+  "data-centre-set-up": {
+    tag: "Digital Infrastructure",
+    title: "DATA CENTRE",
+    subtitle: "SET UP",
+    description: "Hyperscale green data center architecture featuring high-density computing racks, advanced liquid immersion cooling, and redundant Tier-IV power infrastructure.",
+    image: "/images/data-center.jpg",
+    video: "/assets/videos/DataCenter.mp4"
+  },
+
+  // ==========================================
+  // INFORMATION TECHNOLOGY
+  // ==========================================
+ 
+  "entertainment-app-idiot-box": {
+    tag: "Information Technology",
+    title: "ENTERTAINMENT APP",
+    subtitle: "IDIOT BOX",
+    description: "Interactive digital streaming application delivering high-definition on-demand video, live broadcasts, and multi-user synchronized watch party experiences.",
+    image: "/images/idiot-box.jpg",
+    video: "/assets/videos/IdiotBox.mp4"
+  },
+  "financial-app-my-treasury": {
+    tag: "Information Technology",
+    title: "FINANCIAL APP",
+    subtitle: "MY TREASURY",
+    description: "Smart personal and enterprise finance management app providing automated portfolio tracking, investment analytics, budgeting, and secure digital payments.",
+    image: "/images/my-treasury.jpg",
+    video: "/assets/videos/MyTreasury.mp4"
+  },
+
+  // ==========================================
+  // GRAPHENE
+  // ==========================================
+  "graphene-oxide-material": {
+    tag: "Graphene",
+    title: "GRAPHENE OXIDE",
+    subtitle: "MATERIAL",
+    description: "High-purity synthesized graphene oxide nanomaterials engineered for advanced polymer composites, water purification membranes, and energy storage.",
+    image: "/images/graphene-oxide.jpg",
+    video: "/assets/videos/GrapheneOxide.mp4"
+  },
+  "graphene-ink": {
+    tag: "Graphene",
+    title: "GRAPHENE",
+    subtitle: "INK",
+    description: "High-conductivity printable graphene formulations tailored for flexible electronics, printed smart circuits, RFID antennae, and sensor fabrication.",
+    image: "/images/graphene-ink.jpg",
+    video: "/assets/videos/GrapheneInk.mp4"
+  },
+  "graphene-thermal-material": {
+    tag: "Graphene",
+    title: "GRAPHENE THERMAL",
+    subtitle: "MATERIAL",
+    description: "Ultra-high conductivity graphene thermal interface films designed for heat dissipation in high-power electronics, mobile devices, and EV battery systems.",
+    image: "/images/graphene-thermal.jpg",
+    video: "/assets/videos/GrapheneThermal.mp4"
   }
 };
 

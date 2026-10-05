@@ -1,205 +1,307 @@
-:root {
+/* ==========================================================================
+   PREMIUM TEAM PAGE - COMPLETE SCOPED STYLES
+   ========================================================================== */
+
+.premium-team-page {
+  /* Design Tokens */
   --brand-maroon: #7b1d1d;
   --luxury-gold: #d4af37;
   --text-dark: #1a1a1a;
   --transition-smooth: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-  --section-gap: 20px; 
-}
+  --section-gap: 50px;
 
-.premium-team-page {
+  /* Layout Base */
+  width: 100%;
   background-color: #ffffff;
   padding-bottom: var(--section-gap);
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
-/* --- Hero Section --- */
-.team-hero-lux {
+.premium-team-page *,
+.premium-team-page *::before,
+.premium-team-page *::after {
+  box-sizing: inherit;
+}
+
+/* ==========================================================================
+   1. HERO SECTION
+   ========================================================================== */
+.premium-team-page .team-hero-lux {
   position: relative;
-  height: 300px;
-  background: #fdfdfd;
+  min-height: 280px;
+  background-color: #fdfdfd;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 90px 20px;
   border-bottom: 1px solid #f0f0f0;
 }
 
-.hero-content { position: relative; z-index: 2; }
+.premium-team-page .hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  margin: 0 auto;
+}
 
-.premium-tag {
+.premium-team-page .premium-tag {
+  display: inline-block;
   text-transform: uppercase;
   letter-spacing: 5px;
   color: var(--brand-maroon);
   font-weight: 700;
   font-size: 0.85rem;
+  margin-bottom: 8px;
 }
 
-.team-hero-lux h1 {
-  font-size: clamp(2.2rem, 6vw, 4rem);
+.premium-team-page .team-hero-lux h1 {
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
   color: var(--text-dark);
-  margin: 15px 0;
+  margin: 10px 0 15px;
   text-transform: uppercase;
   font-weight: 900;
+  line-height: 1.15;
 }
 
-.hero-accent {
+.premium-team-page .hero-accent {
   width: 100px;
   height: 4px;
-  background: linear-gradient(90deg, transparent, var(--brand-maroon), var(--luxury-gold), var(--brand-maroon), transparent);
-  margin: 15px auto;
-  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--brand-maroon),
+    var(--luxury-gold),
+    var(--brand-maroon),
+    transparent
+  );
+  margin: 15px auto 0;
+  border-radius: 0;
 }
 
-/* --- Section Spacing & FIX FOR OVERLAP --- */
-.category-row-wrapper {
+/* ==========================================================================
+   2. CATEGORY ROW & HEADERS
+   ========================================================================== */
+.premium-team-page .category-row-wrapper {
   max-width: 1600px;
   margin: var(--section-gap) auto 0;
   padding: 0 40px;
   display: flex;
-  flex-direction: column; /* Stack header and swiper vertically */
+  flex-direction: column;
 }
 
-.row-header {
-  margin-bottom: 50px; /* This creates the gap between title and cards */
+.premium-team-page .row-header {
+  margin-bottom: 35px;
   width: 100%;
 }
 
-.header-text {
+.premium-team-page .header-text {
   border-left: 5px solid var(--brand-maroon);
-  padding-left: 25px;
-  display: inline-block; /* Ensures border only follows text height */
+  padding-left: 20px;
+  display: inline-block;
 }
 
-.row-header h2 {
-  font-size: 2.2rem;
+.premium-team-page .row-header h2 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
   color: var(--text-dark);
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 1px;
   margin: 0;
+  line-height: 1.2;
 }
 
-.row-header p { 
-  color: #666; 
-  font-size: 1.1rem;
-  margin-top: 10px;
-  margin-bottom: 0;
+.premium-team-page .row-header p {
+  color: #666666;
+  font-size: 1.05rem;
+  margin: 8px 0 0;
+  line-height: 1.6;
 }
 
-/* --- Member Card Styling --- */
-.lux-member-card {
-  background: #fff;
-  border-radius: 20px;
+/* ==========================================================================
+   3. MEMBER CARDS
+   ========================================================================== */
+.premium-team-page .lux-member-card {
+  background-color: #ffffff;
+  border-radius: 0;
   padding: 12px;
   transition: var(--transition-smooth);
   border: 1px solid #f2f2f2;
   box-sizing: border-box;
 }
 
-.card-image-box {
+.premium-team-page .card-image-box {
   position: relative;
-  height: 390px; 
-  border-radius: 15px;
+  height: 320px;
+  border-radius: 0;
   overflow: hidden;
-  background: #f9f9f9;
+  background-color: #f9f9f9;
 }
 
-.card-image-box img {
+.premium-team-page .card-image-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center;
+  display: block;
   transition: transform 0.8s ease;
 }
 
-.role-badge {
+.premium-team-page .role-badge {
   position: absolute;
-  bottom: 15px;
-  left: 15px;
-  background: var(--brand-maroon);
-  color: #fff;
-  padding: 8px 16px;
-  border-radius: 8px;
-  font-size: 0.75rem;
+  bottom: 12px;
+  left: 12px;
+  background-color: var(--brand-maroon);
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 0;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.lux-member-card:hover { 
-  transform: translateY(-12px); 
-  box-shadow: 0 30px 60px rgba(0,0,0,0.12);
+.premium-team-page .lux-member-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   border-color: var(--brand-maroon);
 }
 
-.lux-member-card:hover img { transform: scale(1.06); }
+.premium-team-page .lux-member-card:hover img {
+  transform: scale(1.05);
+}
 
-/* --- Name & LinkedIn Styling --- */
-.card-info-lux { padding: 20px 5px; }
+/* ==========================================================================
+   4. MEMBER INFO & SOCIALS
+   ========================================================================== */
+.premium-team-page .card-info-lux {
+  padding: 16px 4px 6px;
+}
 
-.name-box {
+.premium-team-page .name-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+  gap: 10px;
 }
 
-.card-info-lux h3 { 
-  font-size: 1.4rem; 
-  color: #222; 
+.premium-team-page .card-info-lux h3 {
+  font-size: 1.25rem;
+  color: #222222;
   margin: 0;
   font-weight: 800;
+  line-height: 1.2;
 }
 
-.linkedin-inline-btn {
-  background: #0077b5; 
-  color: white;
-  width: 32px;
-  height: 32px;
-  border-radius: 5px;
+.premium-team-page .linkedin-inline-btn {
+  background-color: #0077b5;
+  color: #ffffff;
+  width: 28px;
+  height: 28px;
+  border-radius: 0;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
-  transition: 0.3s ease;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.linkedin-inline-btn:hover {
-  background: var(--brand-maroon);
+.premium-team-page .linkedin-inline-btn:hover {
+  background-color: var(--brand-maroon);
   transform: rotate(10deg);
 }
 
-.premium-underline { 
-  width: 40px; 
-  height: 3px; 
-  background: linear-gradient(90deg, var(--brand-maroon), var(--luxury-gold)); 
-  border-radius: 10px;
-  transition: width 0.5s ease;
+.premium-team-page .premium-underline {
+  width: 35px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--brand-maroon), var(--luxury-gold));
+  border-radius: 0;
+  transition: width 0.4s ease;
 }
 
-.lux-member-card:hover .premium-underline {
-  width: 100px;
+.premium-team-page .lux-member-card:hover .premium-underline {
+  width: 75px;
 }
 
-/* --- Swiper Layout Fixes --- */
-.team-swiper {
+/* ==========================================================================
+   5. SWIPER / SLIDER ADJUSTMENTS
+   ========================================================================== */
+.premium-team-page .team-swiper {
   width: 100%;
-  padding-bottom: 50px !important;
-  /* Ensures it stays clear of the side border */
-  padding-left: 2px; 
-  padding-right: 2px;
+  padding-top: 15px !important;
+  padding-bottom: 45px !important;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.premium-team-page .swiper-button-next,
+.premium-team-page .swiper-button-prev {
   color: var(--brand-maroon) !important;
-  background: white !important;
-  width: 38px !important;
-  height: 38px !important;
-  border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
-  border: 1px solid #eee !important;
+  background-color: #ffffff !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #eeeeee !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.premium-team-page .swiper-button-next:after,
+.premium-team-page .swiper-button-prev:after {
+  font-size: 15px !important;
+  font-weight: 800;
+}
+
+.premium-team-page .swiper-button-next:hover,
+.premium-team-page .swiper-button-prev:hover {
+  background-color: var(--brand-maroon) !important;
+  color: #ffffff !important;
+}
+
+/* ==========================================================================
+   6. RESPONSIVE MEDIA QUERIES
+   ========================================================================== */
+
+/* Tablet (Max 1024px) */
+@media (max-width: 1024px) {
+  .premium-team-page .category-row-wrapper {
+    padding: 0 30px;
+  }
+
+  .premium-team-page .card-image-box {
+    height: 300px;
+  }
+}
+
+/* Mobile Devices (Max 768px) */
 @media (max-width: 768px) {
-  .card-image-box { height: 380px; }
-  .category-row-wrapper { padding: 0 20px; }
-  .row-header { margin-bottom: 30px; }
+  .premium-team-page {
+    --section-gap: 30px;
+  }
+
+  .premium-team-page .team-hero-lux {
+    padding: 40px 15px;
+    min-height: 220px;
+  }
+
+  .premium-team-page .category-row-wrapper {
+    padding: 0 16px;
+  }
+
+  .premium-team-page .row-header {
+    margin-bottom: 20px;
+  }
+
+  .premium-team-page .card-image-box {
+    height: 270px;
+  }
+
+  .premium-team-page .team-swiper {
+    padding-bottom: 35px !important;
+  }
 }

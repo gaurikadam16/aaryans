@@ -1,293 +1,348 @@
-/* =========================================
-   1. CORE LAYOUT & RESET
-   ========================================= */
+/* ==========================================================================
+   ABOUT PAGE SCOPED STYLES
+   ========================================================================== */
+
+/* 1. Base Wrapper & Section Defaults */
 .about-page-wrapper {
   width: 100%;
   background-color: #ffffff;
-  padding-top: 80px; /* Space for Navbar */
-  display: block; 
+  padding-top: 80px; /* Space for fixed Navbar */
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
-/* CRITICAL: Forces every section to be visible and stack correctly */
-section {
-  display: block !important;
+.about-page-wrapper *,
+.about-page-wrapper *::before,
+.about-page-wrapper *::after {
+  box-sizing: inherit;
+}
+
+.about-page-wrapper section {
   position: relative;
   width: 100%;
-  padding: 100px 0;
-  clear: both; 
-  background-color: #ffffff;
-  visibility: visible !important;
-  opacity: 1 !important;
+  padding: 80px 0;
+  clear: both;
 }
 
 .about-container {
   width: 90%;
-  max-width: 1300px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
-/* =========================================
-   2. SECTION 1: HERO (Clean White)
-   ========================================= */
-.about-hero-block { 
-  background: #ffffff; 
+/* 2. Section 1: Hero */
+.about-hero-block {
+  background-color: #ffffff;
   border-bottom: 1px solid #f0f0f0;
 }
 
-.hero-flex { 
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between; 
-  gap: 50px; 
+.hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
 }
 
-.overline { 
-  color: #632421; 
-  font-weight: 800; 
-  letter-spacing: 4px; 
-  text-transform: uppercase; 
-  display: block; 
-  margin-bottom: 15px; 
-  font-size: 13px; 
+.hero-left {
+  flex: 1 1 55%;
 }
 
-.main-title { 
-  font-size: clamp(2.5rem, 5vw, 4rem); 
-  font-weight: 900; 
-  line-height: 1.1; 
-  color: #000; 
+.hero-right {
+  flex: 1 1 45%;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.maroon-text { color: #632421; }
-
-.description-text { 
-  font-size: 1.1rem; 
-  color: #555; 
-  line-height: 1.8; 
-  border-left: 4px solid #632421; 
-  padding-left: 20px; 
-  margin-top: 25px; 
+.overline {
+  color: #632421;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 0.8125rem;
 }
 
-.hero-img { 
-  width: 100%; 
-  max-width: 480px; 
-  filter: drop-shadow(0 20px 40px rgba(0,0,0,0.08)); 
-}
-@media (max-width: 768px) {
-  .hero-flex {
-    flex-direction: column; /* This puts the image below the text */
-    text-align: center;     /* Centers text like your screenshot */
-    gap: 40px;
-  }
-
-  .hero-left {
-    order: 1; /* Ensures text stays on top */
-  }
-
-  .hero-right {
-    order: 2; /* Ensures image goes to bottom */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .description-text {
-    border-left: none;      /* Removes the side line for a cleaner mobile look */
-    border-top: 2px solid #632421; /* Optional: adds line above text instead */
-    padding-left: 0;
-    padding-top: 20px;
-    text-align: center;
-  }
-
-  .hero-img {
-    max-width: 300px; /* Prevents the image from being too large on mobile */
-  }
+.main-title {
+  font-size: clamp(2.25rem, 4.5vw, 3.75rem);
+  font-weight: 900;
+  line-height: 1.15;
+  color: #000000;
+  margin: 0 0 20px;
 }
 
-/* =========================================
-   3. SECTION 2: IDENTITY
-   ========================================= */
-.about-identity-block { background: #ffffff; }
-
-.section-header-center { 
-  text-align: center; 
-  margin-bottom: 60px; 
+.maroon-text {
+  color: #632421;
 }
 
-.section-heading { 
-  font-size: 3.2rem; 
-  font-weight: 900; 
-  color: #001a33; 
+.description-text {
+  font-size: 1.1rem;
+  color: #555555;
+  line-height: 1.8;
+  border-left: 4px solid #632421;
+  padding-left: 20px;
+  margin: 25px 0 0;
 }
 
-.maroon-line { 
-  width: 60px; 
-  height: 4px; 
-  background: #632421; 
-  margin: 15px auto 0; 
+.hero-img {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.08));
 }
 
-.identity-grid-layout { 
-  display: grid; 
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 40px; 
+/* 3. Section 2: Identity */
+.about-identity-block {
+  background-color: #ffffff;
 }
 
-.id-col-bold h3 { 
-  font-size: 2.2rem; 
-  font-weight: 800; 
-  color: #000; 
+.section-header-center {
+  text-align: center;
+  margin-bottom: 60px;
 }
 
-.id-col-text p { 
-  margin-bottom: 20px; 
-  line-height: 1.7; 
-  color: #444; 
+.section-heading {
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 900;
+  color: #001a33;
+  margin: 0;
 }
 
-.id-col-bold { 
-  border-right: 1px solid #eee; 
-  padding-right: 20px; 
+.maroon-line {
+  width: 60px;
+  height: 4px;
+  background-color: #632421;
+  margin: 15px auto 0;
 }
 
-/* =========================================
-   4. SECTION 3: VISION & MISSION
-   ========================================= */
-.about-vm-block { 
-  background: #fdfcfb; 
-  border-top: 1px solid #f5f5f5; 
+.identity-grid-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
 }
 
-.vm-grid-split { 
-  display: grid; 
-  grid-template-columns: 1fr 1fr; 
-  gap: 60px; 
-  align-items: stretch; 
+.id-col-bold {
+  border-right: 1px solid #eeeeee;
+  padding-right: 30px;
 }
 
-.vm-image-container { position: relative; }
-
-.vm-main-photo { 
-  width: 90%; 
-  height: 70%; 
-  min-height: 450px; 
-  object-fit: cover; 
-  border-radius: 4px; 
-  box-shadow: 0 30px 60px rgba(0,0,0,0.1); 
+.id-col-bold h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #000000;
+  line-height: 1.3;
+  margin: 0;
 }
 
-.since-tag { 
-  position: absolute; 
-  bottom: 20px; 
-  right: 20px; 
-  background: #632421; 
-  color: #fff; 
-  padding: 20px; 
-  border-radius: 2px; 
+.id-col-text p {
+  margin: 0 0 20px;
+  line-height: 1.75;
+  color: #444444;
 }
 
-.since-tag strong { font-size: 22px; font-weight: 900; display: block; }
-
-.vm-content-stack { 
-  display: flex; 
-  flex-direction: column; 
-  gap: 25px; 
-  justify-content: center; 
+.id-col-text p:last-child {
+  margin-bottom: 0;
 }
 
-.vm-box { 
-  display: flex; 
-  gap: 20px; 
-  padding: 40px; 
-  background: #ffffff; 
-  border-left: 5px solid #632421; 
-  box-shadow: 0 5px 15px rgba(0,0,0,0.02);
+/* 4. Section 3: Vision & Mission */
+.about-vm-block {
+  background-color: #fdfcfb;
+  border-top: 1px solid #f5f5f5;
 }
 
-.vm-icon-style { font-size: 40px; }
+.vm-grid-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
 
-.about-values-block { background: #fcfcfc !important; border-top: 1px solid #eee; }
-.values-lead { max-width: 850px; margin: 30px auto 0; color: #666; line-height: 1.8; font-size: 1.1rem; }
-.values-card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 60px; }
-.v-card-item { background: #ffffff; padding: 50px 35px; border-radius: 4px; border: 1px solid #eee; text-align: center; transition: 0.4s; }
-.v-icon-top { font-size: 50px; margin-bottom: 25px; }
-.v-card-item h4 { font-size: 1.5rem; color: #632421; margin-bottom: 20px; text-transform: uppercase; font-weight: 800; }
-.v-card-item p { color: #555; line-height: 1.7; font-size: 0.95rem; }
-.v-card-item:hover { transform: translateY(-10px); border-color: #632421; box-shadow: 0 20px 40px rgba(99, 36, 33, 0.1); }
+.vm-image-container {
+  position: relative;
+}
 
-/* =========================================
-   6. SECTION 5: LEADERSHIP (AWESOME LOOK)
-   ========================================= */
+.vm-main-photo {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
+}
+
+.since-tag {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #632421;
+  color: #ffffff;
+  padding: 18px 24px;
+  border-radius: 2px;
+  box-shadow: 0 10px 25px rgba(99, 36, 33, 0.3);
+}
+
+.since-tag strong {
+  font-size: 1.375rem;
+  font-weight: 900;
+  display: block;
+}
+
+.vm-content-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.vm-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 35px;
+  background-color: #ffffff;
+  border-left: 5px solid #632421;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);
+}
+
+.vm-icon-style {
+  font-size: 2.25rem;
+  line-height: 1;
+  color: #632421;
+  flex-shrink: 0;
+}
+
+/* 5. Section 4: Core Values */
+.about-values-block {
+  background-color: #fcfcfc;
+  border-top: 1px solid #eeeeee;
+}
+
+.values-lead {
+  max-width: 800px;
+  margin: 20px auto 0;
+  color: #666666;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.values-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.v-card-item {
+  background-color: #ffffff;
+  padding: 45px 30px;
+  border-radius: 4px;
+  border: 1px solid #eeeeee;
+  text-align: center;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.v-icon-top {
+  font-size: 2.75rem;
+  line-height: 1;
+  margin-bottom: 20px;
+  color: #632421;
+}
+
+.v-card-item h4 {
+  font-size: 1.35rem;
+  color: #632421;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.v-card-item p {
+  color: #555555;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.v-card-item:hover {
+  transform: translateY(-8px);
+  border-color: #632421;
+  box-shadow: 0 20px 40px rgba(99, 36, 33, 0.08);
+}
+
+/* 6. Section 5: Leadership */
 .leadership-section {
   background: linear-gradient(180deg, #f8faff 0%, #ffffff 100%);
-  padding: 120px 0;
+  padding: 100px 0;
 }
 
 .leadership-header {
   text-align: left;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .lead-tag {
   color: #632421;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .lead-main-title {
-  font-size: 3.5rem;
+  font-size: clamp(2.25rem, 4vw, 3.25rem);
   font-weight: 900;
-  margin: 15px 0;
+  margin: 12px 0 0;
   color: #001a33;
 }
 
 .leadership-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  gap: 35px;
 }
 
 .lead-card {
-  background: #ffffff;
+  background-color: #ffffff;
   border-radius: 4px;
   padding: 20px;
   text-align: center;
-  transition: all 0.5s ease;
-  box-shadow: 0 15px 45px rgba(99, 36, 33, 0.05);
+  transition: transform 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.04);
   border: 1px solid #f0f0f0;
 }
 
 .lead-image-box {
   width: 100%;
-  aspect-ratio: 4/3.5;
+  aspect-ratio: 4 / 3.5;
   overflow: hidden;
   border-radius: 4px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .lead-image-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: 0.6s transform ease;
+  display: block;
+  transition: transform 0.5s ease;
 }
 
 .lead-card:hover {
-  transform: translateY(-15px);
-  box-shadow: 0 30px 60px rgba(99, 36, 33, 0.12);
+  transform: translateY(-10px);
+  box-shadow: 0 25px 50px rgba(99, 36, 33, 0.1);
   border-color: #632421;
 }
 
-.lead-card:hover img { transform: scale(1.1); }
+.lead-card:hover img {
+  transform: scale(1.06);
+}
 
 .lead-info h4 {
-  font-size: 1.6rem;
+  font-size: 1.45rem;
   color: #001a33;
-  margin-bottom: 8px;
+  margin: 0 0 6px;
   font-weight: 800;
 }
 
@@ -295,19 +350,95 @@ section {
   color: #632421;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 2px;
 }
 
-/* =========================================
-   7. MOBILE RESPONSIVE
-   ========================================= */
-@media (max-width: 1100px) {
-  .hero-flex, .identity-grid-layout, .vm-grid-split, .values-card-grid, .leadership-grid { 
-    grid-template-columns: 1fr; 
-    text-align: center; 
+/* ==========================================================================
+   7. RESPONSIVE MEDIA QUERIES
+   ========================================================================== */
+
+/* Tablet (Max 1024px) */
+@media (max-width: 1024px) {
+  .identity-grid-layout,
+  .values-card-grid,
+  .leadership-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
-  .id-col-bold { border-right: none; border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 20px; }
-  .description-text { border-left: none; border-top: 4px solid #632421; padding: 20px 0 0; }
-  .vm-main-photo { height: 350px; min-height: auto; }
+
+  .id-col-bold {
+    grid-column: span 2;
+    border-right: none;
+    border-bottom: 1px solid #eeeeee;
+    padding-right: 0;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .vm-grid-split {
+    gap: 40px;
+  }
+}
+
+/* Mobile Devices (Max 768px) */
+@media (max-width: 768px) {
+  .about-page-wrapper section {
+    padding: 60px 0;
+  }
+
+  .hero-flex {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .hero-left {
+    order: 1;
+  }
+
+  .hero-right {
+    order: 2;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .description-text {
+    border-left: none;
+    border-top: 3px solid #632421;
+    padding-left: 0;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
+  .hero-img {
+    max-width: 320px;
+  }
+
+  .identity-grid-layout,
+  .vm-grid-split,
+  .values-card-grid,
+  .leadership-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .id-col-bold {
+    grid-column: span 1;
+    text-align: center;
+  }
+
+  .id-col-text {
+    text-align: center;
+  }
+
+  .leadership-header {
+    text-align: center;
+  }
+
+  .vm-main-photo {
+    height: 320px;
+  }
+
+  .vm-box {
+    padding: 25px;
+  }
 }

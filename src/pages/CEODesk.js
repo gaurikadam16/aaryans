@@ -8,7 +8,7 @@ const CEODesk = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const letterheadImg = "/images/chairmanLetterhead.png";
+  const letterheadImg = "/images/Letterhead.png";
   const heroBgImg = "/images/bg_i2.jpg";
 
   const years = ['2025', '2023', '2022', '2021', '2020', '2019'];

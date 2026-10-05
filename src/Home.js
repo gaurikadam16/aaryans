@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom'; // Removed useNavigate to fix the warning
+import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade } from 'swiper/modules';
 import { motion, useMotionValue, useTransform, animate, AnimatePresence } from 'framer-motion';
@@ -65,16 +65,16 @@ const Home = () => {
 
   const heroSlides = [
     {
-      video: "/assets/videos/hero-video-2.mp4",
+      image: "/images/hero1.jpg",
       overline: "News Uncut",
-      title: "Voice of the <span class='highlight-blue'>People</span>, Rhythm of the Soul.",
-      
+      title: "Voice of the People, Rhythm of the Soul.",
+      subtext: "Delivering raw, unfiltered perspectives and real stories."
     },
     {
-      video: "/assets/videos/hero-video-3.mp4",
+      image: "/images/hero2.jpg",
       overline: "Aaryans Group",
       title: "Forging Strength and adding value to the economy.",
-      
+      subtext: "Pioneering sustainable ventures across multiple industries."
     }
   ];
 
@@ -82,10 +82,10 @@ const Home = () => {
     {
       name: "Core Industries",
       items: [
-        { title: "Agriculture Sector", img: "/images/image-2-6.webp" },
-        { title: "Manufacturing Sector", img: "/images/indian-manufacturing-sector-scaled.jpg" },
-        { title: "Mining And Refineries", img: "/images/images.jpeg" },
-        { title: "Power Generation", img: "/images/power.jpeg" }
+        { title: "Agriculture Sector", img: "/images/agrii.jpg" },
+        { title: "Manufacturing Sector", img: "/images/Manufacturing.jpg" },
+        { title: "Mining And Refineries", img: "/images/mining.jpg" },
+        { title: "Power Generation", img: "/images/powerr.jpg" }
       ]
     },
     {
@@ -93,26 +93,26 @@ const Home = () => {
       items: [
         { title: "Infrastructure & RE", img: "/images/infra.jpg" },
         { title: "Tourism Sector", img: "/images/tour.jpg" },
-        { title: "Education Sector", img: "/images/education.jpeg" },
-        { title: "Healthcare Sector", img: "/images/health.png" }
+        { title: "Education Sector", img: "/images/education.jpg" },
+        { title: "Healthcare Sector", img: "/images/health.jpg" }
       ]
     },
     {
       name: "Service & Tech",
       items: [
-        { title: "Service Sector", img: "/images/service.png" },
-        { title: "Media & Entertainment", img: "/images/media.jpeg" },
+        { title: "Service Sector", img: "/images/service.jpg" },
+        { title: "Media & Entertainment", img: "/images/media.jpg" },
         { title: "Publication's", img: "/images/book.jpg" },
-        { title: "Cutting-Edge Tech", img: "/images/cutting.jpeg" }
+        { title: "Cutting-Edge Tech", img: "/images/cutting.jpg" }
       ]
     }
   ];
 
   const uniquenessSectors = [
-    { title: "Integrated Innovation", desc: "We pride ourselves on being at the forefront of innovation, seamlessly integrating cutting-edge technologies and strategies across industries to drive continuous improvement and growth.", icon: "🌐" },
-    { title: "Strategic Partnerships", desc: "We build lasting partnerships with our clients, functioning not just as service providers but as strategic collaborators invested in the long-term success of their businesses across diverse industries.", icon: "🤝" },
-    { title: "Cross-Industry Expertise", desc: "Our unparalleled advantage lies in our ability to navigate and excel across diverse industries, leveraging cross-industry insights to bring a unique perspective to every project.", icon: "🌐" },
-    { title: "Future-Forward Vision", desc: "Anticipating future trends, we are not just content creators; we are visionaries, shaping the future of media and entertainment through groundbreaking ideas, technologies, and experiences.", icon: "👁️" }
+    { title: "Integrated Innovation", desc: "We pride ourselves on being at the forefront of innovation, seamlessly integrating cutting-edge technologies and strategies across industries to drive continuous improvement and growth."},
+    { title: "Strategic Partnerships", desc: "We build lasting partnerships with our clients, functioning not just as service providers but as strategic collaborators invested in the long-term success of their businesses across diverse industries." },
+    { title: "Cross-Industry Expertise", desc: "Our unparalleled advantage lies in our ability to navigate and excel across diverse industries, leveraging cross-industry insights to bring a unique perspective to every project." },
+    { title: "Future-Forward Vision", desc: "Anticipating future trends, we are not just content creators; we are visionaries, shaping the future of media and entertainment through groundbreaking ideas, technologies, and experiences." }
   ];
 
   const ventureLogos = [
@@ -129,56 +129,67 @@ const Home = () => {
   return (
     <div className="home-container">
       {/* SECTION 1: HERO */}
-     <section className="hero-section">
-      <Swiper
-        modules={[Autoplay, EffectFade]}
-        effect="fade"
-        speed={2000}
-        autoplay={{ delay: 6000, disableOnInteraction: false }}
-        loop={true}
-        className="hero-swiper"
-      >
-        {heroSlides.map((slide, index) => (
-          <SwiperSlide key={index}>
-            <div className="hero-slide-item">
-              <video autoPlay muted loop playsInline className="hero-bg-video">
-                <source src={slide.video} type="video/mp4" />
-              </video>
-              
-              <div className="hero-overlay-dark"></div>
+      {/* SECTION 1: HERO */}
+<section className="hero-section">
+  <Swiper
+    modules={[Autoplay, EffectFade]}
+    effect="fade"
+    fadeEffect={{ crossFade: true }}
+    speed={1000}
+    autoplay={{ delay: 6000, disableOnInteraction: false }}
+    loop={true}
+    className="hero-swiper"
+  >
+    {heroSlides.map((slide, index) => (
+      <SwiperSlide key={index} className="hero-swiper-slide">
+        {({ isActive }) => (
+          <div className="hero-slide-item">
+            <motion.img 
+              src={slide.image} 
+              alt={slide.overline} 
+              className="hero-bg-img"
+              initial={{ scale: 1.08 }}
+              animate={isActive ? { scale: 1 } : { scale: 1.08 }}
+              transition={{ duration: 6, ease: "easeOut" }}
+            />
+            
+            <div className="hero-overlay-dark"></div>
 
-              <div className="hero-content-box">
-                <motion.span 
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8 }}
-                  className="hero-overline"
-                >
-                  {slide.overline}
-                </motion.span>
-                
-                <motion.h1 
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.2 }}
-                  className="hero-main-title" 
-                  dangerouslySetInnerHTML={{ __html: slide.title }} 
-                />
-                
+            <div className="hero-content-box">
+              <motion.span 
+                initial={{ opacity: 0, y: 20 }}
+                animate={isActive ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+                transition={{ duration: 0.8 }}
+                className="hero-overline"
+              >
+                {slide.overline}
+              </motion.span>
+              
+              <motion.h1 
+                initial={{ opacity: 0, y: 30 }}
+                animate={isActive ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                className="hero-main-title" 
+                dangerouslySetInnerHTML={{ __html: slide.title }} 
+              />
+              
+              {slide.subtext && (
                 <motion.p 
                   initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
+                  animate={isActive ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                   transition={{ duration: 0.8, delay: 0.4 }}
                   className="hero-description"
                 >
                   {slide.subtext}
                 </motion.p>
-              </div>
+              )}
             </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </section>
+          </div>
+        )}
+      </SwiperSlide>
+    ))}
+  </Swiper>
+</section>
 
       {/* SECTION 2: STATS */}
       <section className="bespoke-stats-section">
@@ -186,7 +197,7 @@ const Home = () => {
         <div className="bespoke-container">
           <div className="bespoke-header">
             <div className="bespoke-line"></div>
-            <h2 className="bespoke-quote">Industrial excellence and <span className="text-gradient-blue">global strategic operations</span>.</h2>
+            <h2 className="bespoke-quote">Industrial excellence and global strategic operations.</h2>
           </div>
           <div className="bespoke-grid">
             {[{ num: "3.5K", label: "Skilled Talent" }, { num: "150+", label: "Global Projects" }, { num: "12+", label: "Years of Legacy" }].map((stat, i) => (
@@ -278,7 +289,7 @@ const Home = () => {
         <div className="uniqueness-container">
           <header className="unique-header">
             <motion.span className="unique-tag">OUR UNIQUENESS</motion.span>
-            <h2 className="unique-main-title">Why we are <span className="blue-gradient-text">different?</span></h2>
+            <h2 className="unique-main-title">Why we are different?</h2>
           </header>
           <div className="unique-bento-grid">
             {uniquenessSectors.map((item, idx) => (

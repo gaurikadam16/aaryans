@@ -13,7 +13,6 @@ const Gallery = () => {
       title: 'Solapur First IT Park Inauguration',
       source: 'TABHA News Service',
       content: `Solapur's first IT park to be inaugurated tomorrow by Sharad Pawar Mahesh Kothe: In the first phase, employment opportunities will be created for 4,000 people. TABHA News Service, Solapur, August 11 – The groundbreaking ceremony for Solapur’s first IT park—being constructed on 65 acres in Salgarwadi on Donagaon Road through an investment of ₹800 crore by the Aryan Group—will take place on Sunday, August 13. This information was shared by former Mayor Mahesh Kothe in a press conference. The event will be held on Sunday, August 13 at 11 a.m. in the presence of Nationalist Congress Party (NCP) President and Member of Parliament Sharad Pawar, who will perform the ceremony. NCP State President Jayant Patil will also be present at the event. Key attendees will include Atul Chordia from Panchshil Group, Satish Magar, Aryan Group Chairman Mukund Jagtap, and Aryan Group Executive Director Smita Jagtap. In addition, CEOs of various companies associated with this IT park will also attend. This IT park is expected to significantly boost the IT industry in Solapur. It will attract major IT companies, IT startups, entrepreneurs, and associated businesses. Through this, a favorable environment for the information and technology sector will be created in Solapur, Kothe stated. After the groundbreaking ceremony of Solapur’s first IT park, skilled and unskilled youth from Solapur will begin receiving job opportunities within a month. By the end of March, the first phase will be completed over an area of 1.5 lakh square meters. Former Mayor Mahesh Kothe appealed that everyone should contribute to the development of the city. The press conference was attended by NCP city president Bharat Jadhav, former Mayor Manohar Sapate, Pramod Gaikwad, Sanjay Shedge, Mahesh Chilveri, and Shekhar Shahane. Boost to Economic Development The Aryans Group of Companies is setting up an IT park in the city, which is a matter of great joy for us. This has been made possible due to the guidance and inspiration of NCP President Sharad Pawar. This state-of-the-art IT park will not only accelerate economic growth in the region but also create numerous employment opportunities. People from the ITI (Industrial Training Institute) sector, including turners and fitters, will find job opportunities here. Additionally, this will boost trade and contribute to the economic development of Solapur, Kothe stated. Building Inspired by Singapore The IT park building will be constructed based on the Singapore model and will be eco-friendly. Robots to be developed here will be used in various sectors such as jewelry markets, kitchens, mines, and hazardous manufacturing units of large companies. Director Sanjay Shendge informed that these robots will be produced at affordable prices ranging from ₹80,000 to ₹50 lakh.`
-
     },
     {
       id: 8,
@@ -38,13 +37,13 @@ const Gallery = () => {
   });
 
   const heroStyle = {
-    backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/gallery.jpg')`,
+    backgroundImage: `linear-gradient(180deg, rgba(15, 23, 42, 0.75) 0%, rgba(15, 23, 42, 0.65) 100%), url('/images/gallery.jpeg')`,
   };
 
- return (
-    <div className="gallery-page-container"> {/* Changed from gallery-page-wrapper */}
-      {/* HERO SECTION - Namespaced Class */}
-      <header className="gallery-hero-section" style={heroStyle}> 
+  return (
+    <div className="gallery-page-container">
+      {/* HERO SECTION */}
+      <header className="gallery-hero-section" style={heroStyle}>
         <div className="gallery-hero-text-box">
           <h1 className="gallery-hero-title">Visual Gallery</h1>
           <div className="gallery-hero-accent-line"></div>
@@ -52,12 +51,12 @@ const Gallery = () => {
         </div>
       </header>
 
-<main className="main-content-area">
+      <main className="main-content-area">
         {/* FILTER NAVIGATION */}
         <div className="filter-container">
           {/* Group 1: Year */}
           <div className="filter-group">
-            <p className="filter-label">Filter by Year</p>
+            <span className="filter-label">Filter by Year</span>
             <div className="filter-row">
               {['All', '2023', '2022', '2021'].map((year) => (
                 <button
@@ -73,7 +72,7 @@ const Gallery = () => {
 
           {/* Group 2: Category */}
           <div className="filter-group">
-            <p className="filter-label">Filter by Category</p>
+            <span className="filter-label">Filter by Category</span>
             <div className="filter-row">
               {['All', 'Image', 'Information', 'Video'].map((type) => (
                 <button
@@ -87,6 +86,7 @@ const Gallery = () => {
             </div>
           </div>
         </div>
+
         {/* RESULTS GRID */}
         <div className="items-grid">
           {filteredItems.length > 0 ? (
@@ -94,7 +94,11 @@ const Gallery = () => {
               item.type === 'Information' ? (
                 <article key={item.id} className="info-card-full">
                   <div className="info-card-content">
-                    <span className="meta-badge">{item.year} | {item.type}</span>
+                    <div className="meta-badge-group">
+                      <span className="meta-badge year">{item.year}</span>
+                      <span className="meta-badge-divider">•</span>
+                      <span className="meta-badge type">{item.type}</span>
+                    </div>
                     <h3 className="info-card-title">{item.title}</h3>
                     <p className="info-card-text">{item.content}</p>
                     {item.source && <footer className="info-card-footer">— {item.source}</footer>}
@@ -103,7 +107,8 @@ const Gallery = () => {
               ) : (
                 <div key={item.id} className="media-card">
                   <div className="media-header">
-                    <span className="type-tag">{item.type}</span>
+                    <span className="year-tag-overlay">{item.year}</span>
+                    <span className="type-tag-overlay">{item.type}</span>
                     {item.type === 'Image' ? (
                       <img src={`/images/${item.fileName}`} alt={item.title} loading="lazy" />
                     ) : (
@@ -111,14 +116,15 @@ const Gallery = () => {
                     )}
                   </div>
                   <div className="media-body">
-                    <span className="year-tag">{item.year}</span>
                     <h4>{item.title}</h4>
                   </div>
                 </div>
               )
             ))
           ) : (
-            <div className="no-results">No items found matching your filters.</div>
+            <div className="no-results">
+              <p>No gallery records match your selected criteria.</p>
+            </div>
           )}
         </div>
       </main>

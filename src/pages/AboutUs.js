@@ -14,7 +14,7 @@ const AboutUs = () => {
         <div className="about-container">
           <div className="hero-flex">
             <div className="hero-left">
-              <span className="overline">Establishment & Excellence</span>
+              
               <h1 className="main-title">
                 Innovating for a <span className="maroon-text">Sustainable Future</span>
               </h1>
@@ -24,7 +24,7 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="hero-right">
-              <img src="/images/about-us.jpg" alt="Aaryans Group" className="hero-img" />
+              <img src="/images/about.jpg" alt="Aaryans Group" className="hero-img" />
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@ const AboutUs = () => {
         <div className="about-container">
           <div className="vm-grid-split">
             <div className="vm-image-container">
-              <img src="/images/vision.png" alt="Vision" className="vm-main-photo" />
+              <img src="/images/vision.jpg" alt="Vision" className="vm-main-photo" />
               <div className="since-tag">
                 <span>Since</span>
                 <strong>2013</strong>
@@ -66,14 +66,14 @@ const AboutUs = () => {
             </div>
             <div className="vm-content-stack">
               <div className="vm-box">
-                <div className="vm-icon-style">🔭</div>
+                <div className="vm-icon-style"></div>
                 <div className="vm-info-style">
                   <h4>Vision</h4>
                   <p>To achieve excellence in our industry as the​ leader, globally respected, financially sound and positioned to generate future value for Aaryans Group's stakeholders.</p>
                 </div>
               </div>
               <div className="vm-box">
-                <div className="vm-icon-style">🏔️</div>
+                <div className="vm-icon-style"></div>
                 <div className="vm-info-style">
                   <h4>Mission</h4>
                   <p>To develop energy resources safely, profitably and responsibly to maximize value.</p>
@@ -102,7 +102,7 @@ const AboutUs = () => {
             <div className="v-card-item">
               <div className="v-icon-wrapper">
                 <div className="icon-circle"></div>
-                <span className="v-icon-main">🧩</span>
+                <span className="v-icon-main"></span>
               </div>
               <h4>Integrity</h4>
               <p>We demand integrity and personal accountability at every level of the company with an unwavering commitment to safety and environmental stewardship.</p>
@@ -113,7 +113,7 @@ const AboutUs = () => {
             <div className="v-card-item">
               <div className="v-icon-wrapper">
                 <div className="icon-circle"></div>
-                <span className="v-icon-main">⚙️</span>
+                <span className="v-icon-main"></span>
               </div>
               <h4>Innovation</h4>
               <p>We promote innovation that improves processes and results. Setting high standards for everyone who works at Occidental, we reward top performance and ingenuity.</p>
@@ -124,7 +124,7 @@ const AboutUs = () => {
             <div className="v-card-item">
               <div className="v-icon-wrapper">
                 <div className="icon-circle"></div>
-                <span className="v-icon-main">📈</span>
+                <span className="v-icon-main"></span>
               </div>
               <h4>Investment</h4>
               <p>We strategically invest in our assets around the world, and we invest in our employees to ensure they have every opportunity to grow professionally and excel.</p>

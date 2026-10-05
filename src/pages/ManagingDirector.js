@@ -6,7 +6,7 @@ const ManagingDirector = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const letterheadImg = "/images/letterhead.png";
+  const letterheadImg = "/images/Letterhead.png";
   const heroBgImg = "/images/bg_i2.jpg"; 
 
   return (

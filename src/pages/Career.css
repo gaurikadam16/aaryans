@@ -17,7 +17,6 @@
   position: relative;
   width: 100%;
   height: 550px; 
-  
   overflow: hidden;
   background-color: #000;
   display: flex;
@@ -129,7 +128,7 @@
   width: 100%;
   max-width: 850px; 
   padding: 60px 40px;
-  border-radius: 20px;
+  border-radius: 0;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
   text-align: center;
   margin: 0 auto;
@@ -146,7 +145,7 @@
   display: flex;
   background: #fff;
   border: 1px solid #e5dada;
-  border-radius: 100px; 
+  border-radius: 0; 
   padding: 6px;
   transition: all 0.3s;
 }
@@ -167,18 +166,18 @@
 
 /* Updated Search Button */
 .search-input-wrapper button {
-  background: #5c1c1c; /* Same Brand Maroon */
+  background: #5c1c1c;
   color: #ffffff;
   border: none;
   padding: 0 45px;
   font-weight: 700;
-  border-radius: 100px;
+  border-radius: 0;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .search-input-wrapper button:hover {
-  background: #1a0a0a; /* Changed Hover Color */
+  background: #1a0a0a;
 }
 
 /* --- 5. JOBS LIST --- */
@@ -204,7 +203,7 @@
 .job-card {
   background: #ffffff;
   border: 1px solid #f2ecec;
-  border-radius: 16px;
+  border-radius: 0;
   padding: 35px;
   transition: all 0.3s ease;
 }
@@ -225,7 +224,7 @@
   background: #fdf2f2;
   color: #5c1c1c;
   padding: 6px 14px;
-  border-radius: 8px;
+  border-radius: 0;
   font-size: 0.75rem;
   font-weight: 800;
 }
@@ -238,72 +237,70 @@
   margin-bottom: 30px;
   font-weight: 700;
 }
-/* 1. THE OVERLAY 
-   This must cover the entire screen including the header */
+
+/* 1. THE OVERLAY */
 .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.7); /* Darkens the background */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999 !important; /* Forces it above the header */
-    backdrop-filter: blur(5px); /* Optional: nice premium blur effect */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999 !important;
+  backdrop-filter: blur(5px);
 }
 
-/* 2. THE MODAL CARD 
-   Ensure it doesn't get cut off at the top */
+/* 2. THE MODAL CARD */
 .modal-card {
-    background: white;
-    padding: 30px;
-    border-radius: 20px;
-    width: 90%;
-    max-width: 550px;
-    max-height: 85vh; /* Prevents it from going off-screen */
-    overflow-y: auto; /* Adds scrollbar if form is long */
-    position: relative;
-    z-index: 10000 !important;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  background: white;
+  padding: 30px;
+  border-radius: 0;
+  width: 90%;
+  max-width: 550px;
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+  z-index: 10000 !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-/* 3. CLOSE BUTTON 
-   Make sure it's visible and on top */
+/* 3. CLOSE BUTTON */
 .close-modal {
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    font-size: 28px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #333;
-    z-index: 10001;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  z-index: 10001;
 }
 
-/* 4. HUBSPOT CONTAINER 
-   Clean up the spacing for the form inside */
+/* 4. HUBSPOT CONTAINER */
 #hubspot-form-container {
-    width: 100%;
-    margin-top: 10px;
+  width: 100%;
+  margin-top: 10px;
 }
+
 /* Updated Job Apply Button */
 .apply-btn-primary {
   width: 100%;
-  background: #5c1c1c; /* Changed to Brand Maroon */
+  background: #5c1c1c;
   color: #fff;
   border: none;
   padding: 15px;
-  border-radius: 12px;
+  border-radius: 0;
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .apply-btn-primary:hover {
-  background: #1a0a0a; /* Consistent Hover Color */
+  background: #1a0a0a;
 }
 
 /* --- 6. STUDENTS SECTION --- */
@@ -315,7 +312,7 @@
 .students-glass-card {
   background: #ffffff;
   padding: 80px 60px;
-  border-radius: 40px;
+  border-radius: 0;
   border: 1px solid #f2ecec;
   box-shadow: 0 40px 80px rgba(0, 0, 0, 0.03);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -348,11 +345,11 @@
 
 /* Updated Internship Button */
 .internship-btn {
-  background: #5c1c1c; /* Consistent Brand Maroon */
+  background: #5c1c1c;
   color: #ffffff;
   border: none;
   padding: 18px 45px;
-  border-radius: 100px;
+  border-radius: 0;
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
@@ -362,7 +359,7 @@
 }
 
 .internship-btn:hover {
-  background: #1a0a0a; /* Consistent Hover Color */
+  background: #1a0a0a;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   transform: scale(1.02);
 }
@@ -379,7 +376,7 @@
   font-weight: 700;
 }
 
-/* --- ANIMATIONS & RESPONSIVE (Remains exactly as provided) --- */
+/* --- ANIMATIONS & RESPONSIVE --- */
 @media (max-width: 1100px) { .students-content-grid { gap: 40px; } }
 @media (max-width: 992px) {
   .students-content-grid { grid-template-columns: 1fr; text-align: center; gap: 50px; }
@@ -409,8 +406,8 @@
   .career-hero { height: 450px; }
   .hero-title { font-size: 3.5rem; letter-spacing: 5px; }
   .search-input-wrapper { flex-direction: column; background: transparent; border: none; }
-  .search-input-wrapper input { border: 1px solid #e5dada; border-radius: 12px; margin-bottom: 10px; background: #fff; }
-  .search-input-wrapper button { padding: 18px; border-radius: 12px; }
+  .search-input-wrapper input { border: 1px solid #e5dada; border-radius: 0; margin-bottom: 10px; background: #fff; }
+  .search-input-wrapper button { padding: 18px; border-radius: 0; }
 }
 
 /* --- MODAL STYLES --- */
@@ -433,7 +430,7 @@
   width: 90%;
   max-width: 500px;
   padding: 40px;
-  border-radius: 24px;
+  border-radius: 0;
   position: relative;
   box-shadow: 0 20px 60px rgba(0,0,0,0.3);
   animation: modalPop 0.3s ease-out;
@@ -490,7 +487,7 @@
 .form-group input {
   padding: 12px 15px;
   border: 1px solid #e5dada;
-  border-radius: 8px;
+  border-radius: 0;
   font-family: inherit;
 }
 
@@ -505,7 +502,7 @@
   color: #fff;
   border: none;
   padding: 15px;
-  border-radius: 12px;
+  border-radius: 0;
   font-weight: 700;
   cursor: pointer;
   margin-top: 10px;
@@ -515,6 +512,7 @@
 .submit-app-btn:hover {
   background: #1a0a0a;
 }
+
 /* --- INTERNSHIP MODAL SPECIFIC STYLES --- */
 .internship-modal {
   max-width: 600px;
@@ -541,7 +539,7 @@
   padding: 15px 20px;
   background: #fcfaf9;
   border: 1px solid #efe5e5;
-  border-radius: 12px;
+  border-radius: 0;
   transition: 0.3s;
 }
 
@@ -567,7 +565,7 @@
   border: 1.5px solid #5c1c1c;
   color: #5c1c1c;
   padding: 8px 18px;
-  border-radius: 8px;
+  border-radius: 0;
   font-weight: 700;
   cursor: pointer;
   transition: 0.3s;
@@ -584,5 +582,5 @@
 }
 .internship-list::-webkit-scrollbar-thumb {
   background: #e5dada;
-  border-radius: 10px;
+  border-radius: 0;
 }
