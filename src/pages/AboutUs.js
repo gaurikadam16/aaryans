@@ -24,7 +24,7 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="hero-right">
-              <img src="/images/about.jpg" alt="Aaryans Group" className="hero-img" />
+              <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/about.jpg" alt="Aaryans Group" className="hero-img" />
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@ const AboutUs = () => {
         <div className="about-container">
           <div className="vm-grid-split">
             <div className="vm-image-container">
-              <img src="/images/vision.jpg" alt="Vision" className="vm-main-photo" />
+              <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/vision.jpg" alt="Vision" className="vm-main-photo" />
               <div className="since-tag">
                 <span>Since</span>
                 <strong>2013</strong>

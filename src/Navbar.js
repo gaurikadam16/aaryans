@@ -234,7 +234,7 @@ const Navbar = () => {
       <nav className={`nav-container ${scrolled ? 'nav-scrolled' : 'nav-initial'}`}>
         <div className="nav-wrapper">
           <Link to="/" className="nav-logo" onClick={closeMenu}>
-            <img src="/images/Aaryans_logo_new_01.png" alt="Aaryans Group" />
+            <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/Aaryans_logo_new_01.jpg" alt="Aaryans Group" />
           </Link>
 
           <div 

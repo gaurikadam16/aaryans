@@ -65,13 +65,13 @@ const Home = () => {
 
   const heroSlides = [
     {
-      image: "/images/hero1.jpg",
+      image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hero1.jpg",
       overline: "News Uncut",
       title: "Voice of the People, Rhythm of the Soul.",
       subtext: "Delivering raw, unfiltered perspectives and real stories."
     },
     {
-      image: "/images/hero2.jpg",
+      image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hero2.jpg",
       overline: "Aaryans Group",
       title: "Forging Strength and adding value to the economy.",
       subtext: "Pioneering sustainable ventures across multiple industries."
@@ -82,28 +82,28 @@ const Home = () => {
     {
       name: "Core Industries",
       items: [
-        { title: "Agriculture Sector", img: "/images/agrii.jpg" },
-        { title: "Manufacturing Sector", img: "/images/Manufacturing.jpg" },
-        { title: "Mining And Refineries", img: "/images/mining.jpg" },
-        { title: "Power Generation", img: "/images/powerr.jpg" }
+        { title: "Agriculture Sector", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/agrii.jpg" },
+        { title: "Manufacturing Sector", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/Manufacturing.jpg" },
+        { title: "Mining And Refineries", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/mining.jpg" },
+        { title: "Power Generation", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/powerr.jpg" }
       ]
     },
     {
       name: "Development",
       items: [
-        { title: "Infrastructure & RE", img: "/images/infra.jpg" },
-        { title: "Tourism Sector", img: "/images/tour.jpg" },
-        { title: "Education Sector", img: "/images/education.jpg" },
-        { title: "Healthcare Sector", img: "/images/health.jpg" }
+        { title: "Infrastructure & RE", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/infra.jpg" },
+        { title: "Tourism Sector", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/tour.jpg" },
+        { title: "Education Sector", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/education.jpg" },
+        { title: "Healthcare Sector", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/health.jpg" }
       ]
     },
     {
       name: "Service & Tech",
       items: [
-        { title: "Service Sector", img: "/images/service.jpg" },
-        { title: "Media & Entertainment", img: "/images/media.jpg" },
-        { title: "Publication's", img: "/images/book.jpg" },
-        { title: "Cutting-Edge Tech", img: "/images/cutting.jpg" }
+        { title: "Service Sector", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/service.jpg" },
+        { title: "Media & Entertainment", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/media.jpg" },
+        { title: "Publication's", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/book.jpg" },
+        { title: "Cutting-Edge Tech", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/cutting.jpg" }
       ]
     }
   ];

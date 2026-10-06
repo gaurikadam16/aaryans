@@ -5,8 +5,8 @@ export const sectorData = {
     title: "HYDROPONIC",
     subtitle: "FARMING",
     description: "Modern soil-less cultivation techniques using nutrient-rich water solutions to produce high-yield, pesticide-free crops.",
-    image: "/images/hydroponic.jpg", 
-    video: "/assets/videos/hydroponic_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hydroponic.jpg", 
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/hydroponic_1.mp4"
     
   },
   "organic-farming": {
@@ -14,7 +14,7 @@ export const sectorData = {
     title: "ORGANIC",
     subtitle: "FARMING",
     description: "Sustainable farming practices that rely on natural fertilizers and biological pest control for chemical-free produce.",
-    image: "/images/organic.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/organic.jpg",
     introTitle: "Agriculture / Organic Farming",
     introPoints: [
       "Aaryans Group has secured a deal to implement organic farming using advanced Israel-based technology, commencing operations in August 2023.",
@@ -22,7 +22,7 @@ export const sectorData = {
       "The initiative aims to meet consumer demand for chemical-pesticide-free food—a market where roughly 5% of consumers buy 50% of organic produce—while empowering the local community through employment and adequate training."
     ],
     introImage: "/images/organic1.png",
-    video: "/assets/videos/Organic_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Organic_1.mp4",
   
     
     differentTitle: "Why we are different?",
@@ -52,8 +52,8 @@ export const sectorData = {
     title: "SEEDS &",
     subtitle: "FERTILISERS",
     description: "High-yield hybrid seeds and scientifically balanced fertilizers engineered to maximize crop resistance.",
-    image: "/images/seed.jpg",
-    video: "/assets/videos/Seeds_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/seed.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Seeds_1.mp4"
    
   },
   "sugar-production": {
@@ -61,7 +61,7 @@ export const sectorData = {
     title: "SUGAR",
     subtitle: "PRODUCTION",
     description: "Advanced milling and refining technology producing premium grade sugar for global industries.",
-    image: "/images/sugar.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sugar.jpg",
     introTitle: "Sugar Production",
     introPoints: [
       "Aaryans Group is taking over an existing sugar factory with a production capacity of 3,500 TCD integrated with an 8 MW COGEN power plant.",
@@ -69,7 +69,7 @@ export const sectorData = {
       "With a total investment of Rs. 550 crore generating 550 youth job opportunities, the sector operates on a forward and backward integration model where sugar and ethanol production complement each other."
     ],
     introImage: "/images/sugar1.png",
-    video: "/assets/videos/Sugar_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Sugar_1.mp4",
    
     differentTitle: "Why we are different?",
     differentText: [
@@ -81,19 +81,19 @@ export const sectorData = {
     futureProspects: [
       {
         text: "Aaryans group is very bullish on this segment as per the recent amendments announced by the government on the permissible limits of usage on Ethanol by the Fuel manufacturing companies up to 20% as compared to 5%, which is being used currently.",
-        image: "/images/sugar2.jpg" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sugar2.jpg" // Image with hikers
       },
       {
         text: "Moreover, we are going to set up pumps and charging stations which shall also give us an upper hand in the whole business plan.",
-        image: "/images/sugar3.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sugar3.jpg" // Image with beach wedding
       },
       {
         text: "Lastly, we have a upper hand by way of own source of funds in the business which will reduce our financial cost considerably. Moreover, our other business verticals will be acting as a catalyst in the whole business set up through the vertical of Business Ancillary Services and solar power segment of Aaryans.",
-        image: "/images/sugar4.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sugar4.jpg" // Image with beach wedding
       },
       {
         text: "This venture will also generate business avenues for other business ancillary services for the people of the locality.",
-        image: "/images/sugar5.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sugar5.jpg" // Image with beach wedding
       }
     ]
   },
@@ -102,8 +102,8 @@ export const sectorData = {
     title: "JAGGERY",
     subtitle: "PRODUCTION",
     description: "Traditional chemical-free clarification with modern hygiene standards for nutrient-rich jaggery.",
-    image: "/images/jaggery.jpg",
-    video: "/assets/videos/Jaggery_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/jaggery.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Jaggery_1.mp4"
     
   },
 
@@ -113,7 +113,7 @@ export const sectorData = {
     title: "AUTOMOBILES",
     subtitle: "& EV",
     description: "Pioneering the future of mobility with high-performance electric vehicles and AI-driven assembly lines.",
-    image: "/images/ev.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/ev.jpg",
     introTitle: "Automobiles And Electric Vehicles",
     introPoints: [
       "Aaryans Group has partnered with M/s Exerval Pvt Ltd, Pune to manufacture high-speed two-wheelers and B2B EV two-wheelers, with raw material indigeneity currently at ~80% and active plans to reach 100%.",
@@ -133,11 +133,11 @@ export const sectorData = {
     futureProspects: [
       {
         text: "Our electric four-wheelers stand out with extra mileage, extended battery life, advanced motors, faster charging, and superior safety. Designed and manufactured in-house, our batteries will also be available to other EV players at affordable prices. Post-launch, we plan to establish nationwide multi-compatible EV charging stations under our petroleum business for enhanced safety and convenience.",
-        image: "/images/auto2.jpg" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/auto2.jpg" // Image with hikers
       },
       {
         text: "Aaryans will be investing a total of Rs. 625 crores and shall generate employment for 700 youths.",
-        image: "/images/auto3.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/auto3.jpg" // Image with beach wedding
       }
       
     ]
@@ -147,7 +147,7 @@ export const sectorData = {
     title: "CELL",
     subtitle: "PHONE",
     description: "Precision electronics manufacturing utilizing robotic SMT lines for next-generation hardware.",
-    image: "/images/cell.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/cell.jpg",
     video: "/assets/videos/cell_1.mp4"
   },
   "drone-mfg": {
@@ -155,7 +155,7 @@ export const sectorData = {
     title: "DRONE",
     subtitle: "MFG",
     description: "Aerospace engineering specializing in UAV systems for industrial and agricultural applications.",
-    image: "/images/drone.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/drone.jpg",
     video: "/assets/videos/Drone_1.mp4"
   },
 "solar-panels": {
@@ -163,7 +163,7 @@ export const sectorData = {
     title: "SOLAR",
     subtitle: "PANELS",
     description: "High-efficiency photovoltaic modules designed for maximum power output and durability in extreme conditions.",
-    image: "/images/solarpanel.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/solarpanel.jpg",
     introTitle: "Solar Panel Manufacturing",
     introPoints: [
       "The solar panel manufacturing project focuses on producing high-quality photovoltaic modules that convert sunlight into clean electricity to support the global renewable energy transition.",
@@ -171,7 +171,7 @@ export const sectorData = {
       "Operations leverage cutting-edge technology, eco-friendly manufacturing practices, and local resources to effectively satisfy the rapidly increasing demand for sustainable green energy solutions."
     ],
     introImage: "/images/solar1.jpg",
-    video: "/assets/videos/Solar_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Solar_1.mp4"
   },
   "space-vehicles": {
     tag: "Manufacturing Sector",
@@ -179,14 +179,14 @@ export const sectorData = {
     subtitle: "VEHICLES",
     description: "Advanced aerospace manufacturing of satellite components and launch vehicle structures for global space exploration.",
     image: "/images/space.webp",
-    video: "/assets/videos/Space_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Space_1.mp4"
   },
   "steel-metal": {
     tag: "Manufacturing Sector",
     title: "STEEL &",
     subtitle: "METAL",
     description: "High-capacity smelting and automated rolling mills producing specialized alloys for global infrastructure.",
-    image: "/images/steel.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/steel.jpg",
     introTitle: "Steel (Metal) Manufacturing",
     introPoints: [
       "Aaryans Group is establishing state-of-the-art metal manufacturing plants in Maharashtra and near Kolkata, backed by a combined total investment of Rs. 9,000 Crores.",
@@ -211,22 +211,22 @@ export const sectorData = {
         text: "We are having a vision of establishing plants in various parts of India, starting from Maharashtra."
       }
     ],
-    video: "/assets/videos/Steel_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Steel_1.mp4"
   },
   "solar-cell": {
     tag: "Manufacturing Sector",
     title: "SOLAR",
     subtitle: "CELL",
     description: "Specialized manufacturing of high-efficiency silicon wafers and crystalline solar cells for next-generation renewable energy.",
-    image: "/images/solarcell.jpg",
-    video: "/assets/videos/Solarcell_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/solarcell.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Solarcell_1.mp4"
   },
   "electrolyzers-for-hydrogen-fuel": {
     tag: "Manufacturing Sector",
     title: "ELECTROLYZERS",
     subtitle: "FOR HYDROGEN",
     description: "Advanced manufacturing of PEM and Alkaline electrolyzers to drive the global green hydrogen revolution.",
-    image: "/images/electrolyzer.jpg", 
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/electrolyzer.jpg", 
     video: "/assets/videos/Electrolyzer_1.mp4"
   },
 "ready-made-garments": {
@@ -234,7 +234,7 @@ export const sectorData = {
     title: "READY-MADE",
     subtitle: "GARMENTS",
     description: "Fully automated textile production and precision stitching for high-volume global apparel export.",
-    image: "/images/garments.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/garments.jpg",
     introTitle: "Ready-Made Garments",
     introPoints: [
       "The ready-made garments division specializes in mass-producing off-the-rack, immediate-sale apparel without requiring individual post-purchase customization.",
@@ -242,7 +242,7 @@ export const sectorData = {
       "The business leverages automated production workflows designed for high-volume wholesale distribution and retail supply channels worldwide."
     ],
     introImage: "/images/ready0.jpg",
-    video: "/assets/videos/Garments_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Garments_1.mp4"
   },
   // --- INDUSTRY SECTOR ---
   "battery-mfg": {
@@ -250,15 +250,15 @@ export const sectorData = {
     title: "BATTERY",
     subtitle: "MFG",
     description: "Specializing in the production of high-capacity Lithium-ion and solid-state batteries for EVs and industrial power storage solutions.",
-    image: "/images/battery.jpg",
-    video: "/assets/videos/Battery_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/battery.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Battery_1.mp4"
   },
   "chemical-industries": {
     tag: "Industry Sector",
     title: "CHEMICAL",
     subtitle: "INDUSTRIES",
     description: "Advanced molecular engineering and production of industrial catalysts, reagents, and specialty polymers.",
-    image: "/images/chemical.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/chemical.jpg",
     introTitle: "Chemical Industry",
     introPoints: [
       "Aaryans Group has collaborated with key technology partners from Taiwan and Germany to establish a high-tech ethanol manufacturing facility in Maharashtra focused on chemical purity and quality.",
@@ -281,15 +281,15 @@ export const sectorData = {
     title: "PETROLEUM",
     subtitle: "INDUSTRY",
     description: "Integrated energy operations spanning upstream exploration and downstream refining with high-efficiency distillation.",
-    image: "/images/petrolum.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/petrolum.jpg",
     introTitle: "Petroleum Industry",
     introPoints: [
       "Aaryans Group is expanding into the petroleum retail sector by building a nationwide chain of modern petrol pumps and gas stations.",
       "Initial operations involve acquiring 3 prime locations with land rights to modernize them into multi-service energy hubs.",
       "Each transformed location will feature fuel dispensers (petrol/diesel/CNG), EV charging stations, food courts, and dedicated kids' recreational amenities."
     ],
-    introImage: "/images/petrol1.jpg",
-    video: "/assets/videos/Petrolium_1.mp4",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/petrol1.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Petrolium_1.mp4",
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -300,15 +300,15 @@ export const sectorData = {
     futureProspects: [
       {
         text: "Aaryans group intends to enter into this vertical as there exist an estimated large demand and supply gap. More over the policies and vision of the state and central government is leaning towards the alternate fuel and the entire new infrastructure is being developed keeping in mind the green energy adoption process of the Indian government.",
-        image: "/images/petrol2.jpg" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/petrol2.jpg" // Image with hikers
       },
       {
         text: "The capital investment for this venture will be done through its internal source of funds to the tune of Rs. 600 crores and shall have staff strength of 500 odd people.",
-        image: "/images/petrol3.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/petrol3.jpg" // Image with beach wedding
       },
       {
         text: "Our gas station/ petrol pump design will incorporate dispensing of petrol / CNG / Hydrogen as well as will have electric charging stations for or electric vehicles and other facilities for voyagers. This is one of the most organized and monitored sector of both Central and state government. The guidelines as well as pricing for this sector are controlled by the government body. This makes it more promising and also makes competition healthy.",
-        image: "/images/petrol4.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/petrol4.jpg" // Image with beach wedding
       }
     ]
   },
@@ -317,8 +317,8 @@ export const sectorData = {
     title: "POWER",
     subtitle: "STORAGE",
     description: "Utility-scale energy storage systems (BESS) and grid stabilization technologies to support renewable distribution.",
-    image: "/images/power.jpg",
-    video: "/assets/videos/Power_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/power.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Power_1.mp4"
   },
 
   // --- MINING SECTOR ---
@@ -327,7 +327,7 @@ export const sectorData = {
     title: "CRYPTO",
     subtitle: "MINING",
     description: "Operating high-density data centers powered by renewable energy for blockchain and decentralized computing.",
-    image: "/images/crypto.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/crypto.jpg",
     video: "/assets/videos/Cryptocurrency_1.mp4"
   },
   "heavy-metal": {
@@ -335,7 +335,7 @@ export const sectorData = {
     title: "HEAVY",
     subtitle: "METAL",
     description: "Industrial-scale extraction of essential ores including iron, copper, and aluminum using sustainable technologies.",
-    image: "/images/heavy-metal.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/heavy-metal.jpg",
     introTitle: "Heavy Metal Mining",
     introPoints: [
       "Aaryans Group is entering the mining sector to provide essential raw materials—such as silica, titanium, and silicon—directly feeding into internal verticals including gold refining, semiconductors, and battery manufacturing.",
@@ -343,7 +343,7 @@ export const sectorData = {
       "All formal paperwork and legal agreements for these mining partnerships were scheduled for full completion by late 2023."
     ],
     introImage: "/images/",
-    video: "/assets/videos/Heavy_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Heavy_1.mp4",
   
     
         differentTitle: "Why we are different?",
@@ -370,16 +370,16 @@ export const sectorData = {
     title: "PRECIOUS",
     subtitle: "ELEMENTS",
     description: "Specialized mining of Gold, Platinum, and Rare Earth Elements critical for advanced electronics and aerospace.",
-    image: "/images/precious.jpg",
-    video: "/assets/videos/Precious_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/precious.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Precious_1.mp4"
   },
   "refinery": {
     tag: "Mining Sector",
     title: "REFINERY",
     subtitle: "PLANTS",
     description: "State-of-the-art smelting and purification facilities processing raw ores into industrial-grade metals.",
-    image: "/images/refinery.jpg",
-    video: "/assets/videos/PreciousMetal_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/refinery.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/PreciousMetal_1.mp4"
   },
 
   // --- POWER GENERATION SECTOR ---
@@ -388,15 +388,15 @@ export const sectorData = {
     title: "BIOFUEL",
     subtitle: "GENERATION",
     description: "Processing organic matter into high-energy liquid fuels for a carbon-neutral transport alternative.",
-    image: "/images/biofuel.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/biofuel.jpg",
     introTitle: "Bio Fuel Generation",
     introPoints: [
       "Aaryans Group actively harnesses biofuel energy as an accessible, eco-friendly solution for everyday power and fuel needs derived from plant and food waste.",
       "The conversion process utilizes simplified, user-friendly techniques powered by indigenous machinery and technology.",
       "Initial operations focus on establishing processing plants in Maharashtra and Rajasthan, supported by completed technical partnerships with established biofuel manufacturers."
     ],
-    introImage: "/images/biofuel1.jpg",
-    video: "/assets/videos/Biofuel_1.mp4",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/biofuel1.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Biofuel_1.mp4",
   
   
         differentTitle: "Why we are different?",
@@ -409,7 +409,7 @@ export const sectorData = {
     futureProspects: [
       {
         text: "We will invest a whooping 110 crores in this vertical and shall operate in Maharashtra and Rajasthan in the initial phase. We already have a technical collboration on this in place and shall generate employment to the tune of 300 numbers for the youth. We will impart training and necessary education to make the youth of the viciny capable and able to perform the duties from time to time. Most of the resources like power, etc will be inhouse through the other business verticals of Aaryan group, as a whole.",
-        image: "/images/biofuel2.jpg" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/biofuel2.jpg" // Image with hikers
       }
      
     ]
@@ -419,7 +419,7 @@ export const sectorData = {
     title: "CNG",
     subtitle: "GENERATION",
     description: "Advanced compression and purification of natural gas for urban transit and logistics fuel solutions.",
-    image: "/images/cng.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/cng.jpg",
     video: "/assets/videos/CNG_1.mp4"
   },
   "biogas-generation": {
@@ -427,52 +427,52 @@ export const sectorData = {
     title: "BIOGAS",
     subtitle: "GENERATION",
     description: "Utilizing anaerobic digestion to convert organic waste into methane-rich biogas for electricity.",
-    image: "/images/biogas.jpg",
-    video: "/assets/videos/Biogas_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/biogas.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Biogas_1.mp4"
   },
   "biomass-generation": {
     tag: "Power Generation",
     title: "BIOMASS",
     subtitle: "GENERATION",
     description: "Converting agricultural and forest residues into renewable energy through combustion or gasification.",
-    image: "/images/biomass.jpg",
-    video: "/assets/videos/Biomass_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/biomass.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Biomass_1.mp4"
   },
  "hydrogen-fuel-green-hydrogen": {
     tag: "Power Generation",
     title: "GREEN",
     subtitle: "HYDROGEN",
     description: "Leading the transition to zero-emission through water electrolysis powered entirely by renewables.",
-    image: "/images/hydrogen.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hydrogen.jpg",
     introTitle: "Hydrogen Fuel",
     introPoints: [
       "Aaryans Group has joined global research efforts in green energy by developing in-house technical capabilities and strategic partnerships to manufacture Green Hydrogen.",
       "Recognizing the spectrum of hydrogen forms (including Blue and Gray), the group specifically targets Green Hydrogen as the premier non-polluting fuel for long-term sustainability."
     ],
     introImage: "/images/hydrogenfuel1.png",
-    video: "/assets/videos/Hydrogen_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Hydrogen_1.mp4",
     
      futureTitle: "FUTURE PROSPECTS FOR AARYANS",
     futureProspects: [
       {
         text: "Aaryans is endeavouring in setting up tourist destination spots by constructing resorts and hotels through its hospitality arm and also provide lodging and boarding facilities through the hospitality segment of Aaryans. Even the aviation sector of Aaryans will play a vital role on the whole where in all these 3 verticals will be moving hand-in-hand for growth and expantion. We shall also provide tours for national and international destinations and a tailor made tour plan can also be pened down as per client needs and requirement.",
-        image: "/images/hydrogenfuel2.jpg" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hydrogenfuel2.jpg" // Image with hikers
       },
       {
         text: "This will also include hosting functions like destination weddings and ceremonies for the clients as per their needs.",
-        image: "/images/hydrogenfuel3.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hydrogenfuel3.jpg" // Image with beach wedding
       },
       {
         text: "Aaryans group is also developing sectors which are under exploited in Maharashtra, specially the Konkan region where there is ample scenic beauty and nature has been very kind to mankind. Aaryans is investing 350 crores and shall generate jobs for around 200 plus people.",
-        image: "/images/hydrogenfuel4.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hydrogenfuel4.jpg" // Image with beach wedding
       },
       {
         text: "This will also include hosting functions like destination weddings and ceremonies for the clients as per their needs.",
-        image: "/images/hydrogenfuel5.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hydrogenfuel5.jpg" // Image with beach wedding
       },
       {
         text: "Aaryans group is also developing sectors which are under exploited in Maharashtra, specially the Konkan region where there is ample scenic beauty and nature has been very kind to mankind. Aaryans is investing 350 crores and shall generate jobs for around 200 plus people.",
-        image: "/images/hydrogenfuel6.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hydrogenfuel6.jpg" // Image with beach wedding
       }
     ]
   },
@@ -481,7 +481,7 @@ export const sectorData = {
     title: "SOLAR",
     subtitle: "ENERGY",
     description: "Utility-scale photovoltaic installations harvesting sunlight to provide clean power to the grid.",
-    image: "/images/solar-energy.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/solar-energy.jpg",
     introTitle: "Solar Energy",
     introPoints: [
       "Aaryans Group has established an Israeli technical collaboration for renewable power projects spanning Maharashtra, Goa, Rajasthan, Assam, and Telangana, while signing an MOU for a waste recycling power plant in Pune and negotiating the acquisition of a 100 MW solar plant in Tamil Nadu.",
@@ -489,7 +489,7 @@ export const sectorData = {
       "The group is launching a dedicated Green Power R&D wing to discover alternative energy sources and advance environmental sustainability."
     ],
     introImage: "/images/greenenergy.png",
-    video: "/assets/videos/Solar_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Solar_1.mp4",
      differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -502,15 +502,15 @@ export const sectorData = {
     title: "THERMAL",
     subtitle: "SOLAR",
     description: "Concentrated Solar Power (CSP) systems using mirrors to generate heat for large-scale electricity.",
-    image: "/images/thermal.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/thermal.jpg",
     introTitle: "Thermal Solar Power",
     introPoints: [
       "Aaryans is investing Rs. 3,500 crores in the solar power sector to establish a flagship 1 GW solar power plant in Maharashtra with state and central government support, creating 1,000 employment opportunities.",
       "The facility will manufacture solar panels and solar cells using advanced TOPCON technology for both domestic and global distribution.",
       "The operation leverages internal raw materials like silicon for cost efficiency, bolstered by strategic technical collaborations with Israeli and Korean partners."
     ],
-    introImage: "/images/solarpower0.jpg",
-    video: "/assets/videos/SolarPower_1.mp4",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/solarpower0.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/SolarPower_1.mp4",
      differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -523,14 +523,14 @@ export const sectorData = {
     title: "WASTE TO",
     subtitle: "ENERGY",
     description: "Transforming municipal waste into steam and electricity through controlled incineration and filtration.",
-    image: "/images/waste-power.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/waste-power.jpg",
     introTitle: "Waste To Energy",
     introPoints: [
       "The waste-to-energy sector represents a high-potential market addressing urban waste management while producing sustainable power.",
       "This initiative aligns with growing societal shifts toward environmental sustainability and regular recreational energy balance.",
       "The division focuses on turning municipal and industrial waste streams into renewable grid power."
     ],
-    introImage: "/images/waste1.jpg",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/waste1.jpg",
     video: "/assets/videos/Waste_1.mp4",
     
     differentTitle: "Why we are different?",
@@ -543,12 +543,12 @@ export const sectorData = {
     futureProspects: [
       {
         text: "Aaryans has acquired the technology and man power to perform this task and will be using techniques like, Waste compaction, Landfil, Vermi compose, Composting, Biogas generation, etc.",
-        image: "/images/waste2.jpg" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/waste2.jpg" // Image with hikers
       },
     
       {
         text: "The power so produced can be a reliable source of energy not only for the other ventures of Aaryans but this venture shall act as a backward integration model for our BIO FUEL segment. It will be possible to generate low cost energy for the masses and it will take an investment of Rs. 480 crores and shall employ 250 people of the country.",
-        image: "/images/waste3.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/waste3.jpg" // Image with beach wedding
       }
     ]
   },
@@ -559,8 +559,8 @@ export const sectorData = {
     title: "Hydrogen Fuel ",
     subtitle: "STORAGE SYSTEMS",
     description: "Developing specialized storage, pipeline networks, and refueling infrastructure for the global hydrogen economy.",
-    image: "/images/hydrogen-infras.jpg",
-    video: "/assets/videos/HydrogenFuel_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hydrogen-infras.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/HydrogenFuel_1.mp4"
   },
   "infrastructure-dept": {
     tag: "Infrastructure Sector",
@@ -568,22 +568,22 @@ export const sectorData = {
     subtitle: "DEPT",
     description: "Managing large-scale civil engineering projects, from smart highways to sustainable urban planning.",
     image: "/images/infra-dept.jpeg",
-    video: "/assets/videos/Infrastructure_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Infrastructure_1.mp4"
   },
  "real-estate": {
     tag: "Infrastructure Sector",
     title: "REAL",
     subtitle: "ESTATE",
     description: "Pioneering sustainable commercial and residential developments with green-building technologies.",
-    image: "/images/real-estate.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/real-estate.jpg",
     introTitle: "Real Estate",
     introPoints: [
       "Aaryans Group is expanding into real estate redevelopment projects across Mumbai and Pune, anchored by a flagship 150-acre affordable township project in New Delhi.",
       "The group focuses on affordable housing initiatives aligned with national programs like Pradhan Mantri Awas Yojana, supported by industry drivers such as SEBI-approved REITs and the Government's Rs. 25,000 Crore Alternative Investment Fund.",
       "Backed by an expert team, machinery, and administrative infrastructure, Aaryans is entering national infrastructure development with plans to model a signature Smart City and Smart Village."
     ],
-    introImage: "/images/real1.jpg",
-    video: "/assets/videos/Transforming_1.mp4",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/real1.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Transforming_1.mp4",
     
     differentTitle: "Why we are different?",
     differentText: [
@@ -595,19 +595,19 @@ export const sectorData = {
     futureProspects: [
       {
         text: "SMART CITY:- Aaryans is developing a land area of 150 acres approximately which will be a site that will be HARD TO BELIEVE.",
-        image: "/images/real2.jpg"
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/real2.jpg"
       },
       {
         text: "It will be a ultramodern city which shall house not only all the facilities of a city but shall also cater to the growing concerns of pollution and health of the habitants of the city. The whole city will be powered through GREEN energy which will be planted by subsidiary of Aaryans group and shall have all the facilities like, Medical facilities, Education facilities, and recreation facilities, storing and recycling of water, household waste recycling, parks and sports center, gymnasium, etc. It will be totally secured area and shall have illuminated streets and signals through green energy sources of Aaryans Group.",
-        image: "/images/real3.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/real3.jpg" // Image with beach wedding
       },
       {
         text: "SMART VILLAGE:- This will be a so called MODERN VILLAGE which will have all the add ons of a village but on a polished way by means of green energy source, organic farming through the vertical of Aaryans group on the whole. We will be teaching modern ways and methods of farming with mechanized applications to the local farmers and generate more production of crops and fruits. We shall also explore other ways and means to control climatic temperature apart from the green house concept and our team is already on the job for the same.",
-        image: "/images/real4.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/real4.jpg" // Image with beach wedding
       },
        {
         text: "We shall also make it a point to educate the children of the village to create a new future India, as we believe there are hidden talents in the villages which are yet to be explored and nurtured.",
-        image: "/images/real5.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/real5.jpg" // Image with beach wedding
       }
     ]
   },
@@ -618,16 +618,16 @@ export const sectorData = {
     title: "AMUSEMENT &",
     subtitle: "WATER PARK",
     description: "World-class entertainment hubs featuring high-thrill rides and advanced water filtration theme parks.",
-    image: "/images/amusement.jpg",
-    video: "/assets/videos/Amusement_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/amusement.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Amusement_1.mp4"
   },
   "local-tourism": {
     tag: "Tourism Sector",
     title: "LOCAL",
     subtitle: "TOURISM",
     description: "Promoting regional heritage and eco-tourism destinations to support local economies and culture.",
-    image: "/images/local-tour.jpg",
-    video: "/assets/videos/LocalTour_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/local-tour.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/LocalTour_1.mp4"
   },
   "museums": {
     tag: "Tourism Sector",
@@ -642,31 +642,31 @@ export const sectorData = {
     title: "SCIENCE",
     subtitle: "PARK",
     description: "Educational tourism centers focusing on robotics, space science, and interactive physics exhibits.",
-    image: "/images/science-park.jpg",
-    video: "/assets/videos/SciencePark_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/science-park.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/SciencePark_1.mp4"
   },
   "space-tourism": {
     tag: "Tourism Sector",
     title: "SPACE",
     subtitle: "TOURISM",
     description: "Developing orbital travel experiences and high-altitude terrestrial simulation centers.",
-    image: "/images/space-tour.jpg",
-    video: "/assets/videos/SpaceTour_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/space-tour.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/SpaceTour_1.mp4"
   },
   "underwater-tourism": {
     tag: "Tourism Sector",
     title: "UNDERWATER",
     subtitle: "TOURISM",
     description: "Exclusive sub-surface hospitality and marine life observation modules with zero ecological impact.",
-    image: "/images/underwater.jpg",
-    video: "/assets/videos/Underwater_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/underwater.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Underwater_1.mp4"
   },
   "tourism-industry-and-services": {
     tag: "Tourism Sector",
     title: "TOURISM",
     subtitle: "SERVICES",
     description: "Comprehensive hospitality management and travel logistics for international luxury tourism.",
-    image: "/images/tour-services.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/tour-services.jpg",
     introTitle: "Tourism Industry",
     introPoints: [
       "The tourism and hospitality sector presents high growth potential as demand increases for leisure, wellness, and recreational getaways.",
@@ -674,7 +674,7 @@ export const sectorData = {
       "Operations aim to cater to both domestic and international travelers seeking premium recreation and leisure escapes."
     ],
     introImage: "/images/tourismindustry1.png",
-    video: "/assets/videos/TourServices_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/TourServices_1.mp4",
     
     differentTitle: "Why we are different?",
     differentText: [
@@ -686,15 +686,15 @@ export const sectorData = {
     futureProspects: [
       {
         text: "Aaryans is endeavouring in setting up tourist destination spots by constructing resorts and hotels through its hospitality arm and also provide lodging and boarding facilities through the hospitality segment of Aaryans. Even the aviation sector of Aaryans will play a vital role on the whole where in all these 3 verticals will be moving hand-in-hand for growth and expantion. We shall also provide tours for national and international destinations and a tailor made tour plan can also be pened down as per client needs and requirement.",
-        image: "/images/tourismindustry2.jpg" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/tourismindustry2.jpg" // Image with hikers
       },
       {
         text: "This will also include hosting functions like destination weddings and ceremonies for the clients as per their needs.",
-        image: "/images/tourismindustry3.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/tourismindustry3.jpg" // Image with beach wedding
       },
       {
         text: "Aaryans group is also developing sectors which are under exploited in Maharashtra, specially the Konkan region where there is ample scenic beauty and nature has been very kind to mankind. Aaryans is investing 350 crores and shall generate jobs for around 200 plus people.",
-        image: "/images/tourismindustry4.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/tourismindustry4.jpg" // Image with beach wedding
       }
     ]
   },
@@ -704,15 +704,15 @@ export const sectorData = {
     title: "AVIATION",
     subtitle: "UNIVERSITY",
     description: "A premier institution for pilot training, ground staff management, and aerospace administration with state-of-the-art flight simulators.",
-    image: "/images/aviation-edu.jpg",
-    video: "/assets/videos/AviationEdu_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/aviation-edu.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/AviationEdu_1.mp4"
   },
   "broadcasting-engineering-education": {
     tag: "Education Sector",
     title: "BROADCASTING",
     subtitle: "ENGINEERING",
     description: "Specialized technical training in signal processing, live production hardware, and digital media transmission technologies.",
-    image: "/images/broadcast-edu.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/broadcast-edu.jpg",
     video: "/assets/videos/BroadcastEdu.mp4"
   },
   "education-sector-practical-knowledge-based": {
@@ -720,7 +720,7 @@ export const sectorData = {
     title: "PRACTICAL",
     subtitle: "EDUCATION",
     description: "Bridging the gap between theory and industry with hands-on vocational training and real-world project execution.",
-    image: "/images/practical-edu.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/practical-edu.jpg",
     introTitle: "Education Sector (Practical Knowledge-Based)",
     introPoints: [
       "The education services sector encompasses public and private institutions—including schools, colleges, universities, and specialized training centers—focused on delivering both theoretical knowledge and vocational expertise.",
@@ -749,16 +749,16 @@ export const sectorData = {
     title: "ROBOTICS",
     subtitle: "EDUCATION",
     description: "Empowering the next generation with AI, machine learning, and robotic engineering labs for industrial automation.",
-    image: "/images/robotics-edu.jpg",
-    video: "/assets/videos/RoboticsEdu_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/robotics-edu.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/RoboticsEdu_1.mp4"
   },
   "sport-university": {
     tag: "Education Sector",
     title: "SPORT",
     subtitle: "UNIVERSITY",
     description: "Comprehensive athletic development combining sports science, nutrition, and professional coaching for elite global performance.",
-    image: "/images/sport-uni.jpg",
-    video: "/assets/videos/SportUni_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sport-uni.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/SportUni_1.mp4"
   },
   // --- HEALTHCARE SECTOR ---
 "health-services-multi-speciality-hospital": {
@@ -766,7 +766,7 @@ export const sectorData = {
     title: "HEALTH SERVICES",
     subtitle: "MULTI-SPECIALITY HOSPITAL",
     description: "Advanced tertiary care facilities equipped with cutting-edge diagnostic imaging, modular operation theaters, and 24/7 emergency response units.",
-    image: "/images/multi-speciality.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/multi-speciality.jpg",
     introTitle: "Health Services And Multi-Speciality Hospital",
     introPoints: [
       "Aaryans Group has executed the takeover of an operational Active Pharmaceutical Ingredient (API) manufacturing plant, with plans to expand capacity for critical pharmaceutical raw materials under the flagship brand.",
@@ -785,19 +785,19 @@ export const sectorData = {
     futureProspects: [
       {
         text: "This is a big opportunity as the Healthcare industry is growing rapidly in recent years. We will be emerging in the market with new technological innovations and initiating new Health Care research. Aaryans group is planning an investment of total Rs. 2000 Cr in the Healthcare & Pharmaceuticals sector to begin with and shall keep exploring more opportunities of expansion.",
-        image: "/images/healthcare2.jpg"
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/healthcare2.jpg"
       },
       {
         text: "To cope up with the growing Healthcare market because of the growing population, we intend to set up more health care service centers across India.",
-        image: "/images/healthcare3.jpg"
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/healthcare3.jpg"
       },
       {
         text: "Our vision would be to set up hospitals with state of art equipment’s and advance laboratory testing Research Centers which will be manned by the expert medical personnel.",
-        image: "/images/healthcare4.jpg"
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/healthcare4.jpg"
       },
       {
         text: "As a social obligation, we would be offering our services at discounted prices compared to the prevalent practices for the patients below the poverty line. Our ventures in pharmaceutical and Healthcare industry are expected to generate employment for about 1800 persons.",
-        image: "/images/healthcare5.jpg"
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/healthcare5.jpg"
       }
     ]
   },
@@ -806,23 +806,23 @@ export const sectorData = {
     title: "MEDICINE",
     subtitle: "INDUSTRY",
     description: "Pharmaceutical manufacturing specializing in life-saving drugs, vaccine development, and automated packaging systems following global FDA standards.",
-    image: "/images/medicine-industry.jpg",
-    video: "/assets/videos/Medicine_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/medicine-industry.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Medicine_1.mp4"
   },
   "specialist-cancer-hospital": {
     tag: "Healthcare Sector",
     title: "CANCER",
     subtitle: "HOSPITAL",
     description: "Specialized oncology center focusing on precision radiotherapy, chemotherapy, and advanced robotic surgeries for comprehensive cancer care.",
-    image: "/images/cancer-hospital.jpg",
-    video: "/assets/videos/CancerCare_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/cancer-hospital.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/CancerCare_1.mp4"
   },
   "injectables": {
     tag: "Healthcare Sector",
     title: "INJECTABLES",
     subtitle: "MANUFACTURING & SUPPLY",
     description: "High-precision sterile injectable formulations, pre-filled syringes, and lyophilized products adhering to stringent international quality controls.",
-    image: "/images/injectables.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/injectables.jpg",
     video: "/assets/videos/Injectables_1.mp4"
   },
   "active-pharmaceutical-ingredients": {
@@ -830,7 +830,7 @@ export const sectorData = {
     title: "PHARMACEUTICAL",
     subtitle: "INGREDIENTS (API)",
     description: "High-potency bulk drug synthesis and chemical processing units engineered to produce essential active ingredients for global therapeutic formulation.",
-    image: "/images/api-manufacturing.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/api-manufacturing.jpg",
     video: "/assets/videos/API_1.mp4"
   },
   "intravenous-fluids": {
@@ -838,7 +838,7 @@ export const sectorData = {
     title: "INTRAVENOUS",
     subtitle: "FLUIDS (IV)",
     description: "Advanced Blow-Fill-Seal (BFS) technology manufacturing facilities producing sterile large and small volume parenterals for critical patient care.",
-    image: "/images/iv-fluids.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/iv-fluids.jpg",
     video: "/assets/videos/IVFluids_1.mp4"
   },
 
@@ -848,7 +848,7 @@ export const sectorData = {
     title: "AADYA SANRACHNA",
     subtitle: "(BUSINESS ANALYSIS)",
     description: "Expert business architecture and strategic analysis providing data-driven insights to optimize corporate structures and operational growth.",
-    image: "/images/aadya-sanrachna.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/aadya-sanrachna.jpg",
     introTitle: "Aadya Sanrachna (Business Analysis)",
     introPoints: [
       "Aadya Sanrachna delivers expert strategic consulting and data-driven business analysis to optimize corporate architectures across group verticals.",
@@ -856,7 +856,7 @@ export const sectorData = {
       "Through systematic market research and process optimization, it provides foundational analytical support for expanding business ventures."
     ],
     introImage: "/images/aadya1.png",
-    video: "/assets/videos/BusinessAnalysis_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/BusinessAnalysis_1.mp4",
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -869,22 +869,22 @@ export const sectorData = {
     title: "AIR CAB",
     subtitle: "SERVICES",
     description: "Revolutionizing urban transit with premium point-to-point aerial mobility solutions for time-efficient executive travel.",
-    image: "/images/air-cab.jpg",
-    video: "/assets/videos/AirCab_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/air-cab.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/AirCab_1.mp4"
   },
   "aviation-sector": {
     tag: "Services Sector",
     title: "AVIATION",
     subtitle: "SECTOR",
     description: "Comprehensive aviation management encompassing fleet operations, ground handling, and global aerospace logistics.",
-    image: "/images/aviation-sector.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/aviation-sector.jpg",
     introTitle: "Aviation Sector",
     introPoints: [
       "Aaryans Group is entering the aviation sector by establishing affordable Air Cab services connecting major urban centers with underserved rural regions.",
       "The service addresses growing nationwide demand for time-efficient regional travel while offering bespoke flight experiences for special occasions.",
       "This vertical also strategically supports healthcare operations by offering air ambulance services across key destinations."
     ],
-    introImage: "/images/avi1.jpg",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/avi1.jpg",
     video: "/assets/videos/Aviation_sector_1.mp4",
    
      differentTitle: "Why we are different?",
@@ -897,15 +897,15 @@ export const sectorData = {
     futureProspects: [
       {
         text: "Aaryans has already leased 2 choppers and 1 private jet which has a seating capacity of 4 to 8 people at a time and can travel up to 350 to 500 Km on refueling. We will have our base at Pune, Maharashtra to begin with and shall later expand to open branch offices in required cities and towns.",
-        image: "/images/avi2.jpg" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/avi2.jpg" // Image with hikers
       },
       {
         text: "On the next stage we are looking to operate airports with the permissions of the concerned authorities and we are already in advanced talks with the authorities to grant us the permission to operate the airports, which we have already identified and are underutilized as compared to their potential. We shall also look forward to start MRO services for aircrafts and choppers and have already got the technical team on board for the same. We expect to commence the first phase by the August of 2023 and the second phase will be implemented by early 2024.",
-        image: "/images/avi3.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/avi3.jpg" // Image with beach wedding
       },
       {
         text: "This vertical shall also be clubbed with our tourism sector business where in we can offer bundling services to the prospective clients and also promote air tourism for the country on the whole. The total investment that is proposed is Rs. 1700 crores and shall employ 500 odd people in the sector.",
-        image: "/images/avi4.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/avi4.jpg" // Image with beach wedding
       }
     ]
   },
@@ -914,7 +914,7 @@ export const sectorData = {
     title: "CRUISE SHIPPING &",
     subtitle: "PROGRAM BUSINESS",
     description: "Luxury maritime experiences and integrated cruise program management featuring world-class hospitality and global itineraries.",
-    image: "/images/cruise.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/cruise.jpg",
     video: "/assets/videos/Cruise_1.mp4"
   },
  "food-and-beverage": {
@@ -922,15 +922,15 @@ export const sectorData = {
     title: "FOOD AND",
     subtitle: "BEVERAGE",
     description: "Integrated culinary services and global F&B supply chain management focused on quality, nutrition, and innovation.",
-    image: "/images/food-beverage.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/food-beverage.jpg",
     introTitle: "Food and Beverage",
     introPoints: [
       "The F&B division specializes in delivering high-quality, nutritionally balanced meal boxes and ready-to-eat products tailored for professionals, students, and travelers.",
       "Operations prioritize fresh ingredients, hygienic food processing, and efficient delivery models to capitalize on growing healthy-eating and convenience trends.",
       "The scalable business model focuses on reliable supply chain execution, high culinary standards, and mass-market profitability."
     ],
-    introImage: "/images/food1.jpg",
-    video: "/assets/videos/Food_1.mp4",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/food1.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Food_1.mp4",
     
     differentTitle: "Why we are different?",
     differentText: [
@@ -942,7 +942,7 @@ export const sectorData = {
     futureProspects: [
       {
         text: "We hope to provide the best and hygienic and healthy food to the children and youth of India and are investing an amount of Rs. 500 crores in various Hospitality and F and B business ventures across India and shall begin the venture from Pune, Maharashtra. We propose to have employment strength of 150 plus in this segment.",
-        image: "/images/food2.jpg" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/food2.jpg" // Image with hikers
       },
       {
         text: "We shall have a added advantage as the organic farming business of Aaryans shall be the biggest source of raw material for this segment and other segments, namely, Marketing, Power generation, etc of Aaryans shall also compliment this venture. As such in Agriculture and organic farming sections we have plans to set up retain chain of outlets for health and vegan food.",
@@ -963,7 +963,7 @@ export const sectorData = {
     title: "HOSPITALITY",
     subtitle: "SERVICES",
     description: "World-class hospitality management providing premium guest experiences across international hotel and resort networks.",
-    image: "/images/hospitality.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hospitality.jpg",
     introTitle: "Hospitality Sector",
     introPoints: [
       "Backed by India's robust agricultural ecosystem and a consumer-packaged goods industry where F&B commands ~40% share, Aaryans is establishing an international network of premium resorts, hotels, and restaurants.",
@@ -971,7 +971,7 @@ export const sectorData = {
       "The group delivers world-class guest hospitality and dining experiences designed to provide maximum value for money."
     ],
     introImage: "/images/foodb2.png",
-    video: "/assets/videos/Hospitality_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Hospitality_1.mp4",
     
        differentTitle: "Why we are different?",
     differentText: [
@@ -983,7 +983,7 @@ export const sectorData = {
     futureProspects: [
       {
         text: "We hope to provide the best and hygienic and healthy food to the children and youth of India and are investing an amount of Rs. 500 crores in various Hospitality and F and B business ventures across India and shall begin the venture from Pune, Maharashtra. We propose to have employment strength of 150 plus in this segment.",
-        image: "/images/food2.jpg" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/food2.jpg" // Image with hikers
       },
       {
         text: "We shall have a added advantage as the organic farming business of Aaryans shall be the biggest source of raw material for this segment and other segments, namely, Marketing, Power generation, etc of Aaryans shall also compliment this venture. As such in Agriculture and organic farming sections we have plans to set up retain chain of outlets for health and vegan food.",
@@ -1004,7 +1004,7 @@ export const sectorData = {
     title: "HOVERCRAFT",
     subtitle: "SERVICES",
     description: "Versatile amphibious transport services designed for high-speed transit across coastal waters and challenging terrains.",
-    image: "/images/hovercraft.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hovercraft.jpg",
     introTitle: "Hovercraft Services",
     introPoints: [
       "The hovercraft division provides high-speed, amphibious transportation across complex terrains including open water, marshlands, and coastline obstacles without traditional infrastructure.",
@@ -1012,14 +1012,14 @@ export const sectorData = {
       "The fleet addresses severe geographical transport bottlenecks across coastal and inland riverine regions."
     ],
     introImage: "/images/hover1.jpg",
-    video: "/assets/videos/Hovercraft_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Hovercraft_1.mp4"
   },
  "import-and-export-services": {
     tag: "Services Sector",
     title: "IMPORT AND",
     subtitle: "EXPORT SERVICES",
     description: "Global trade facilitation ensuring seamless movement of goods with end-to-end logistics and regulatory expertise.",
-    image: "/images/import-export.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/import-export.jpg",
     introTitle: "Import And Export",
     introPoints: [
       "Aaryans Group facilitates cross-border commerce aligning with India’s trade footprint of exporting ~7,500 commodities across 190 nations and importing ~6,000 items from 140 countries.",
@@ -1027,7 +1027,7 @@ export const sectorData = {
       "Services provide end-to-end global trade management, customs navigation, and international distribution networks."
     ],
     introImage: "/images/import1.png",
-    video: "/assets/videos/ImportExport_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/ImportExport_1.mp4",
    
     differentTitle: "Why we are different?",
     differentText: [
@@ -1052,7 +1052,7 @@ export const sectorData = {
     title: "MARKETING &",
     subtitle: "ADVERTISING",
     description: "Strategic brand communication and digital advertising ecosystems designed to scale market presence and consumer loyalty.",
-    image: "/images/marketing.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/marketing.jpg",
     introTitle: "Marketing And Advertising Services",
     introPoints: [
       "Aaryans Group delivers full-funnel advertising solutions spanning TV (40% ad market share), Digital (36%), Print (19%), and Outdoor/Radio/Cinema channels.",
@@ -1060,7 +1060,7 @@ export const sectorData = {
       "Services provide strategic brand architecture, public communications, and targeted marketing campaigns for internal verticals and corporate clients."
     ],
     introImage: "/images/marketing1.png",
-    video: "/assets/videos/Marketing_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Marketing_1.mp4",
     
     differentTitle: "Why we are different?",
     differentText: [
@@ -1072,15 +1072,15 @@ export const sectorData = {
     futureProspects: [
       {
         text: "The digital marketing services are used over an extended period to complete the business's marketing goals and objectives and spread client awareness about the company’s product and services, so offered by it.",
-        image: "/images/marketing2.jpg" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/marketing2.jpg" // Image with hikers
       },
       {
         text: "The investment would be around Rs. 150 Crs. which will generate employment for about 100 persons. The agency has numerous client goals, but the ultimate goal is to help the clients to increase their product and service sales through their efforts.",
-        image: "/images/marketing3.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/marketing3.jpg" // Image with beach wedding
       },
       {
         text: "All medium of advertising will be covered and it will be a helpful arm for the other business verticals of Aaryans group. Aaryans Group will be administrating major verticals from the same administrative buildings/Group corporate offices. Consequently, this would result in more effective and better economical administration and operations.",
-        image: "/images/marketing4.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/marketing4.jpg" // Image with beach wedding
       }
     ]
   },
@@ -1089,8 +1089,8 @@ export const sectorData = {
     title: "SHIPPING",
     subtitle: "BUSINESS",
     description: "Reliable maritime freight solutions and containerized cargo operations connecting major global ports and trade routes.",
-    image: "/images/shipping.jpg",
-    video: "/assets/videos/Shipping_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/shipping.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Shipping_1.mp4"
   },
 
 
@@ -1117,16 +1117,16 @@ export const sectorData = {
     title: "AATHARV",
     subtitle: "EVENTS",
     description: "Premium event management specializing in large-scale corporate summits, cultural festivals, and high-profile brand launches with end-to-end execution.",
-    image: "/images/aatharv-events.jpg",
-    video: "/assets/videos/Events_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/aatharv-events.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Events_1.mp4"
   },
   "agc-sports": {
     tag: "Media & Entertainment",
     title: "AGC",
     subtitle: "SPORTS",
     description: "Promoting athletic excellence through professional sports leagues, talent management, and international sporting event infrastructure.",
-    image: "/images/agc-sports.jpg",
-    video: "/assets/videos/Sports_1.mp4",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/agc-sports.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Sports_1.mp4",
     
     socialLinks: [
       { platform: "instagram", url: "https://www.instagram.com/agc_sports/" },
@@ -1138,24 +1138,24 @@ export const sectorData = {
     title: "SUMUKH",
     subtitle: "PRODUCTION",
     description: "A leading Marathi film production house dedicated to storytelling that resonates with regional heritage and modern cinematic standards.",
-    image: "/images/sumukh-prod.jpg",
-    video: "/assets/videos/MarathiFilm_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sumukh-prod.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/MarathiFilm_1.mp4"
   },
   "vishwavinayak-production-film-production-house": {
     tag: "Media & Entertainment",
     title: "VISHWAVINAYAK",
     subtitle: "PRODUCTION",
     description: "Commercial film production house focusing on high-budget feature films, creative direction, and global distribution networks.",
-    image: "/images/vishwavinayak.jpg",
-    video: "/assets/videos/FilmProd_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/vishwavinayak.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/FilmProd_1.mp4"
   },
   "news-uncut-marathi-news-channel": {
     tag: "Media & Entertainment",
     title: "NEWS",
     subtitle: "UNCUT",
     description: "A 24/7 Marathi news channel delivering unbiased, real-time reporting and deep-dive investigative journalism for the global Maharashtrian community.",
-    image: "/images/news-uncut.jpg",
-    video: "/assets/videos/News_1.mp4",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/news-uncut.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/News_1.mp4",
    
     socialLinks: [
       { platform: "instagram", url: "https://www.instagram.com/newsuncut.tv/" },
@@ -1169,15 +1169,15 @@ export const sectorData = {
     title: "IDIOT BOX &",
     subtitle: "SALTPIX",
     description: "Next-generation OTT streaming platforms offering a vast library of original web series, regional cinema, and exclusive infotainment content.",
-    image: "/images/ott-apps.jpg",
-    video: "/assets/videos/OTT_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/ott-apps.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/OTT_1.mp4"
   },
   "praja-jagruti-marathi-newspaper": {
     tag: "Media & Entertainment",
     title: "PRAJA",
     subtitle: "JAGRUTI",
     description: "A trusted Marathi daily providing comprehensive local and international news, shaping public opinion through principled journalism.",
-    image: "/images/praja-jagruti.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/praja-jagruti.jpg",
     video: "/assets/videos/NewsPaper_1.mp4"
   },
   "sumukh-chitra-theatre-company": {
@@ -1185,7 +1185,7 @@ export const sectorData = {
     title: "SUMUKH",
     subtitle: "CHITRA",
     description: "Reviving the legacy of live performance through classic and contemporary Marathi theatre productions and performing arts workshops.",
-    image: "/images/sumukh-chitra.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sumukh-chitra.jpg",
     introTitle: "Sumukh Chitra",
     introPoints: [
       "Aaryans Group expands into media production with a dedicated Rs. 50 crore investment in Sumukh Chitra, creating and funding content for internal channels and external clients from its operational base in Pune.",
@@ -1193,7 +1193,7 @@ export const sectorData = {
       "The theater wing has successfully produced two Marathi plays—'Pahile Na Mee Tula' (50+ shows) and 'Urmilayan' (25+ shows)—with 'Urmilayan' securing 8 Zee Natya Gaurav awards and 1 Akhil Bharatiya Marathi Natya Parishad honor."
     ],
     introImage: "/images/sumukh.jpg",
-    video: "/assets/videos/Theatre_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Theatre_1.mp4",
     
     socialLinks: [
       { platform: "instagram", url: "https://www.instagram.com/sumukhchitra/" }
@@ -1204,8 +1204,8 @@ export const sectorData = {
     title: "SWARANG",
     subtitle: "INFOTAINMENT",
     description: "A specialized broadcast channel blending education and entertainment with a focus on art, culture, and lifestyle programming.",
-    image: "/images/swarang.jpg",
-    video: "/assets/videos/Infotainment_1.mp4",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/swarang.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Infotainment_1.mp4",
     
      socialLinks: [
       { platform: "instagram", url: "https://www.instagram.com/swarang.tv/" },
@@ -1218,32 +1218,32 @@ export const sectorData = {
     title: "CHITRAN",
     subtitle: "MAGAZINE",
     description: "A premier educational publication dedicated to fine arts, traditional drawing techniques, and fostering creative talent across generations.",
-    image: "/images/chitran.jpg",
-    video: "/assets/videos/ArtsEdu_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/chitran.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/ArtsEdu_1.mp4"
   },
   "onecut-entertainment-magazine": {
     tag: "Publications Sector",
     title: "ONECUT",
     subtitle: "MAGAZINE",
     description: "A high-gloss lifestyle and entertainment monthly covering the latest in cinema, celebrity culture, and the performing arts.",
-    image: "/images/onecut-mag.jpg",
-    video: "/assets/videos/Entertainment_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/onecut-mag.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Entertainment_1.mp4"
   },
   "masters-stroke-business-magazine": {
     tag: "Publications Sector",
     title: "MASTERS",
     subtitle: "STROKE",
     description: "The definitive business journal for entrepreneurs, featuring executive interviews, market analysis, and global trade insights.",
-    image: "/images/masters-stroke.jpg",
-    video: "/assets/videos/BusinessMag_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/masters-stroke.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/BusinessMag_1.mp4"
   },
   "swaroop-creation-book-publishing-and-printing-house": {
     tag: "Publications Sector",
     title: "SWAROOP",
     subtitle: "CREATION",
     description: "A full-service publishing and high-volume printing house specializing in academic texts, literature, and premium corporate publications.",
-    image: "/images/swaroop-creation.jpg",
-    video: "/assets/videos/Publishing_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/swaroop-creation.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Publishing_1.mp4"
   },
   // --- TECHNICAL & INNOVATION SECTOR ---
   "artificial-intelligence": {
@@ -1251,23 +1251,23 @@ export const sectorData = {
     title: "ARTIFICIAL",
     subtitle: "INTELLIGENCE",
     description: "Developing proprietary neural networks and LLMs to automate industrial decision-making and enhance predictive analytics across global sectors.",
-    image: "/images/ai-tech.jpg",
-    video: "/assets/videos/AI_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/ai-tech.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/AI_1.mp4"
   },
   "aeronautical-and-astronautical-engineering": {
     tag: "Tech & Innovation",
     title: "AEROSPACE",
     subtitle: "ENGINEERING",
     description: "Advanced R&D in aerodynamics and spacecraft propulsion systems, pushing the boundaries of sub-orbital and deep-space exploration.",
-    image: "/images/aero-engineering.jpg",
-    video: "/assets/videos/Aerospace_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/aero-engineering.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Aerospace_1.mp4"
   },
   "financial-services": {
     tag: "Tech & Innovation",
     title: "FINANCIAL",
     subtitle: "SERVICES",
     description: "FinTech innovation focusing on high-frequency trading algorithms, secure digital banking, and AI-driven wealth management.",
-    image: "/images/fin-services.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/fin-services.jpg",
     introTitle: "Financial Services",
     introPoints: [
       "Aaryans Group is securing an NBFC license and credit society authorizations to provide accessible micro-business loans and consumer durable financing at competitive rates.",
@@ -1275,7 +1275,7 @@ export const sectorData = {
       "The financial services strategy focuses on driving social mobility and elevating living standards through streamlined credit and digital banking access."
     ],
     introImage: "/images/financial1.png",
-    video: "/assets/videos/Fintech_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Fintech_1.mp4",
    
      differentTitle: "Why we are different?",
     differentText: [
@@ -1289,16 +1289,16 @@ export const sectorData = {
     title: "ORGANIC",
     subtitle: "SEMICONDUCTOR",
     description: "Revolutionizing electronics with carbon-based semiconductor materials for flexible displays and sustainable solar cells.",
-    image: "/images/organic-semi.jpg",
-    video: "/assets/videos/OrganicSemi_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/organic-semi.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/OrganicSemi_1.mp4"
   },
   "integrated-device-manufacturer": {
     tag: "Tech & Innovation",
     title: "IDM",
     subtitle: "FACILITY",
     description: "Full-cycle semiconductor manufacturing, from circuit design to final wafer fabrication and assembly under one roof.",
-    image: "/images/idm.jpg",
-    video: "/assets/videos/IDM_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/idm.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/IDM_1.mp4"
   },
  "indian-search-engine": {
     tag: "Tech & Innovation",
@@ -1313,14 +1313,14 @@ export const sectorData = {
       "Designed to democratize AI search for students, professionals, homemakers, smart shoppers, elderly users, and small business owners nationwide[cite: 1]."
     ],
     introImage: "/images/lukaap.png",
-    video: "/assets/videos/SearchEngine_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/SearchEngine_1.mp4"
   },
   "information-technology-services-and-business": {
     tag: "Tech & Innovation",
     title: "IT SERVICES &",
     subtitle: "BUSINESS",
     description: "Enterprise-grade software development, cloud infrastructure management, and end-to-end IT consulting for global markets.",
-    image: "/images/it-services.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/it-services.jpg",
     introTitle: "Information Technology Services And Business",
     introPoints: [
       "Developing a high-powered, indigenous search engine and virtual collaboration ecosystem, along with proprietary online digital classroom software tailored for educational institutions.",
@@ -1328,14 +1328,14 @@ export const sectorData = {
       "The IT and robotics vertical is projected to generate over 1,200 direct tech employment opportunities across software development and hardware assembly lines."
     ],
     introImage: "/images/it1.png",
-    video: "/assets/videos/IT_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/IT_1.mp4"
   },
  "optical-semiconductor-manufacturing": {
     tag: "Tech & Innovation",
     title: "OPTICAL",
     subtitle: "SEMICONDUCTOR",
     description: "Specialized manufacturing of photonic chips and laser-based sensors for high-speed fiber-optic communications.",
-    image: "/images/optical-semi.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/optical-semi.jpg",
     introTitle: "Optical Semi-Conductor Manufacturing",
     introPoints: [
       "Aaryans Group is establishing a semiconductor manufacturing facility in Maharashtra to address surging demand across electric vehicles, energy storage, aviation, and consumer electronics.",
@@ -1343,24 +1343,24 @@ export const sectorData = {
       "Operations target dedicated R&D activities paired with large-scale industrial photonic and semiconductor chip production."
     ],
     introImage: "/images/",
-    video: "/assets/videos/Optical_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Optical_1.mp4",
     futureTitle: "FUTURE PROSPECTS FOR AARYANS",
     futureProspects: [
       {
         text: " Aaryans is going to invest heavily in the R and D facility and production set up of semiconductor vertical in Maharashtra and is already on the verge of finalizing the land site for the same Aaryans is going to have the state-of-the-art fab center and production facility which will use the most modern technology in manufacturing the semiconductors which will be able to cater to the needs of not only India but will also be exported to other countries.",
-        image: "/images/semi2.jpg" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/semi2.jpg" // Image with hikers
       },
       {
         text: "Aaryans has already signed a agreement with a compnay in South Korea, named CLAP, for joint venture set up of production facility in India and technology transfer..",
-        image: "/images/semi3.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/semi3.jpg" // Image with beach wedding
       },
       {
         text: "These semi-conductors will be used for our own verticals like EV, Aviation, Solar panel and battery production and this segment shall give us the upper hand in all our ventures associated with this industry.",
-        image: "/images/semi4.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/semi4.jpg" // Image with beach wedding
       },
       {
         text: "We are also going to train and educate the local youth to enable them to get employment and this will be a number more than 2800 plus. The size of investment will be close to Rs. 63000 crores..",
-        image: "/images/semi5.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/semi5.jpg" // Image with beach wedding
       }
     ]
   },
@@ -1369,41 +1369,41 @@ export const sectorData = {
     title: "ROBOTICS &",
     subtitle: "AUTOMATION",
     description: "Designing industrial cobots and autonomous mobile robots (AMR) for precision manufacturing and warehouse logistics.",
-    image: "/images/robotics.jpg",
-    video: "/assets/videos/Robotics_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/robotics.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Robotics_1.mp4"
   },
  "shunya-awkasa-space-debris-management": {
     tag: "Tech & Innovation",
     title: "SHUNYA",
     subtitle: "AWKASA",
     description: "A pioneering initiative dedicated to tracking, mitigating, and removing space debris to ensure the sustainability of Earth's orbits.",
-    image: "/images/space-debris.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/space-debris.jpg",
     introTitle: "Space Debris Management",
     introPoints: [
       "Shunya Awkasa provides orbital tracking and debris mitigation solutions to address space waste generated by decades of global satellite and rocket launches.",
       "The initiative develops surveillance and monitoring cataloging systems to track defunct payloads, rocket stages, and orbital fragmentation risks.",
       "Focuses on maintaining sustainable Earth orbital pathways to safeguard active commercial and scientific satellite infrastructure."
     ],
-    introImage: "/images/space1.jpg",
-    video: "/assets/videos/SpaceDebris_1.mp4",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/space1.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/SpaceDebris_1.mp4",
    
      futureTitle: "FUTURE PROSPECTS FOR AARYANS",
     futureProspects: [
       {
         text: "Aaryans group is in talks with the overseas partner with whom the paper work is already executed and the technology is being developed. Aaryans has been working on this sector since 2 years and is expected to taste success by the end of 2024.",
-        image: "/images/space2.jpg" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/space2.jpg" // Image with hikers
       },
       {
         text: "We shall make our trial executed and then propose the same for confirmation with ISRO and other space research agencies for approval and government certification.",
-        image: "/images/space3.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/space3.jpg" // Image with beach wedding
       },
       {
         text: "The quantum of investment needed in this is huge and runs to the tune of Rs. 39000 crores with man power of 2000 people including skilled and unskilled people.",
-        image: "/images/space4.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/space4.jpg" // Image with beach wedding
       },
       {
         text: "We will be announcing the success on this segment very soon and one may consider that the countdown has begun.",
-        image: "/images/space5.jpg" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/space5.jpg" // Image with beach wedding
       }
     ]
   },
@@ -1412,7 +1412,7 @@ export const sectorData = {
     title: "SEMICONDUCTOR",
     subtitle: "FAB",
     description: "High-precision cleanroom facilities for large-scale silicon wafer production and microchip lithography.",
-    image: "/images/semi-fab.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/semi-fab.jpg",
     video: "/assets/videos/Fab_1.mp4"
   },
 "space-services": {
@@ -1420,7 +1420,7 @@ export const sectorData = {
     title: "SPACE",
     subtitle: "SERVICES",
     description: "Commercial satellite launch support, ground station communication, and real-time orbital data monitoring.",
-    image: "/images/space-services.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/space-services.jpg",
     introTitle: "Space Services",
     introPoints: [
       "Aaryans Space Services focuses on forward integration by deploying proprietary satellites for real-time fleet management and GPS vehicle tracking across internal automotive verticals.",
@@ -1435,7 +1435,7 @@ export const sectorData = {
     title: "WAVE ENERGY",
     subtitle: "GENERATION",
     description: "Harnessing the kinetic power of ocean waves through modular buoy systems to produce clean, consistent hydro-electricity.",
-    image: "/images/wave-energy.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/wave-energy.jpg",
     video: "/assets/videos/WaveEnergy_1 .mp4"
   },
   // --- Semiconductor / Micro Electronics ---
@@ -1532,7 +1532,7 @@ export const sectorData = {
     title: "SPACE",
     subtitle: "DEBRIS",
     description: "Advanced orbital tracking and active debris mitigation systems designed to monitor, catalog, and de-orbit hazardous space junk from critical operational orbits.",
-    image: "/images/space-debris1.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/space-debris1.jpg",
     video: "/assets/videos/SpaceDebris.mp4"
   },
   "space-debris-lab-demo": {
@@ -1540,7 +1540,7 @@ export const sectorData = {
     title: "SPACE DEBRIS",
     subtitle: "LAB DEMO",
     description: "Experimental laboratory demonstration showcasing capture mechanisms, laser ablation concepts, and electrodynamic tether technologies for orbital cleanup.",
-    image: "/images/space-debris-demo.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/space-debris-demo.jpg",
     video: "/assets/videos/SpaceDebrisDemo.mp4"
   },
 
@@ -1552,7 +1552,7 @@ export const sectorData = {
     title: "PSUDO",
     subtitle: "SATELLITE",
     description: "High-Altitude Platform Systems (HAPS) operating in the stratosphere for persistent regional broadband coverage, border surveillance, and environmental monitoring.",
-    image: "/images/psudo-satellite.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/psudo-satellite.jpg",
     video: "/assets/videos/PsudoSatellite.mp4"
   },
   "leo-satellite": {
@@ -1560,7 +1560,7 @@ export const sectorData = {
     title: "LEO",
     subtitle: "SATELLITE",
     description: "Low Earth Orbit satellite constellations engineered for high-throughput, low-latency telecommunications, Earth observation, and remote telemetry.",
-    image: "/images/leo-satellite.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/leo-satellite.jpg",
     video: "/assets/videos/LEOSatellite.mp4"
   },
   "ueo-geo-satellite": {
@@ -1568,7 +1568,7 @@ export const sectorData = {
     title: "UEO / GEO",
     subtitle: "SATELLITE",
     description: "Geostationary and upper earth orbit satellite payloads delivering reliable continental broadcasting, defense communication relays, and weather analytics.",
-    image: "/images/geo-satellite.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/geo-satellite.jpg",
     video: "/assets/videos/GEOSatellite.mp4"
   },
   "satellite": {
@@ -1576,7 +1576,7 @@ export const sectorData = {
     title: "SATELLITE",
     subtitle: "PLATFORMS",
     description: "Modular satellite bus architectures and customizable orbital platforms built to host specialized scientific, commercial, and reconnaissance payloads.",
-    image: "/images/satellite.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/satellite.jpg",
     video: "/assets/videos/Satellite.mp4"
   },
 
@@ -1588,7 +1588,7 @@ export const sectorData = {
     title: "SOLID FUEL ROCKET",
     subtitle: "6 FEET",
     description: "Compact sub-orbital solid propulsion sounding rocket designed for low-altitude meteorological studies, aerodynamic validation, and educational research.",
-    image: "/images/rocket-6ft.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/rocket-6ft.jpg",
     video: "/assets/videos/Rocket6ft.mp4"
   },
   "solid-fuel-rockets-8-feet": {
@@ -1596,7 +1596,7 @@ export const sectorData = {
     title: "SOLID FUEL ROCKET",
     subtitle: "8 FEET",
     description: "High-acceleration solid fuel rocket designed for atmospheric sounding, supersonic trajectory testing, and scientific sensor payload deployment.",
-    image: "/images/rocket-8ft.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/rocket-8ft.jpg",
     video: "/assets/videos/Rocket8ft.mp4"
   },
   "solid-fuel-rockets-12-feet": {
@@ -1604,7 +1604,7 @@ export const sectorData = {
     title: "SOLID FUEL ROCKET",
     subtitle: "12 FEET",
     description: "Mid-range launch vehicle platform utilizing solid propellant systems for upper atmospheric sounding and micro-payload flight qualification.",
-    image: "/images/rocket-12ft.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/rocket-12ft.jpg",
     video: "/assets/videos/Rocket12ft.mp4"
   },
   "solid-fuel-rockets-18-feet-3-stage": {
@@ -1612,7 +1612,7 @@ export const sectorData = {
     title: "SOLID FUEL ROCKET",
     subtitle: "18 FEET - 3 STAGE",
     description: "Multi-stage solid fuel launch rocket system built for extended altitude reach, stage separation testing, and sub-orbital trajectory experiments.",
-    image: "/images/rocket-18ft.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/rocket-18ft.jpg",
     video: "/assets/videos/Rocket18ft.mp4"
   },
   "5-stage-rocket-vehicle-prototype": {
@@ -1620,7 +1620,7 @@ export const sectorData = {
     title: "5 STAGE ROCKET VEHICLE",
     subtitle: "PROTOTYPE",
     description: "Heavy multi-stage launch architecture prototype engineered for sequential thrust efficiency, payload lift capability, and orbital insertion dynamics.",
-    image: "/images/rocket-5stage.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/rocket-5stage.jpg",
     video: "/assets/videos/Rocket5Stage.mp4"
   },
   "nuclear-fusion-rocket-engine-prototype": {
@@ -1628,7 +1628,7 @@ export const sectorData = {
     title: "NUCLEAR FUSION",
     subtitle: "ROCKET ENGINE PROTOTYPE",
     description: "Next-generation deep-space propulsion concept leveraging magnetic confinement fusion principles to provide high-thrust, ultra-efficient interplanetary propulsion.",
-    image: "/images/fusion-rocket.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/fusion-rocket.jpg",
     video: "/assets/videos/FusionRocket.mp4"
   },
 
@@ -1692,7 +1692,7 @@ export const sectorData = {
     title: "JET FUEL",
     subtitle: "FIX WING PLANE",
     description: "Turbine-powered tactical fixed-wing aircraft engineered for high-speed reconnaissance, long-distance aerial patrols, and rapid payload deployment.",
-    image: "/images/jet-fixed-wing.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/jet-fixed-wing.jpg",
     video: "/assets/videos/JetFixedWing.mp4"
   },
   "brush-less-motor-planes": {
@@ -1700,7 +1700,7 @@ export const sectorData = {
     title: "BRUSH LESS MOTOR",
     subtitle: "PLANES",
     description: "Low-acoustic-signature electric aircraft utilizing high-torque brushless propulsion for stealth aerial scouting and tactical border monitoring.",
-    image: "/images/brushless-plane.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/brushless-plane.jpg",
     video: "/assets/videos/BrushlessPlane.mp4"
   },
   "rc-plane": {
@@ -1708,7 +1708,7 @@ export const sectorData = {
     title: "RC",
     subtitle: "PLANE",
     description: "High-agility radio-controlled training and tactical platform designed for aerospace piloting simulation, sensor testing, and target practice.",
-    image: "/images/rc-plane.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/rc-plane.jpg",
     video: "/assets/videos/RCPlane.mp4"
   },
   "bullet-proof-jackets": {
@@ -1716,7 +1716,7 @@ export const sectorData = {
     title: "BULLET PROOF",
     subtitle: "JACKETS",
     description: "Advanced body armor engineered with multi-layered ballistic ceramics, Kevlar weave, and graphene composites for optimal multi-hit personnel protection.",
-    image: "/images/bulletproof-jacket.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/bulletproof-jacket.jpg",
     video: "/assets/videos/BulletProofJacket.mp4"
   },
   "interceptor-drones": {
@@ -1724,7 +1724,7 @@ export const sectorData = {
     title: "INTERCEPTOR",
     subtitle: "DRONES",
     description: "High-speed counter-drone interceptor platform designed to track, pursue, and neutralize hostile or unauthorized unmanned aerial systems in protected airspace.",
-    image: "/images/interceptor-drones.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/interceptor-drones.jpg",
     video: "/assets/videos/InterceptorDrone.mp4"
   },
 
@@ -1736,7 +1736,7 @@ export const sectorData = {
     title: "CHASIS",
     subtitle: "2-WHEELER FRAME",
     description: "High-tensile tubular alloy chassis engineered for optimal weight distribution, structural stability, and superior handling dynamics for electric two-wheelers.",
-    image: "/images/e2w-chassis.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/e2w-chassis.jpg",
     video: "/assets/videos/E2WChassis.mp4"
   },
   "e2w-battery-management-system": {
@@ -1744,7 +1744,7 @@ export const sectorData = {
     title: "BATTERY MANAGEMENT",
     subtitle: "SYSTEM (BMS)",
     description: "Intelligent BMS featuring cell balancing, active thermal monitoring, overcharge defense, and IoT-enabled predictive health diagnostics.",
-    image: "/images/e2w-bms.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/e2w-bms.jpg",
     video: "/assets/videos/E2WBMS.mp4"
   },
   "e2w-power-trail": {
@@ -1752,7 +1752,7 @@ export const sectorData = {
     title: "POWER TRAIL",
     subtitle: "DRIVETRAIN SYSTEM",
     description: "Integrated electric motor, controller, and regenerative drivetrain system optimized for high torque delivery, efficiency, and extended riding range.",
-    image: "/images/e2w-powertrain.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/e2w-powertrain.jpg",
     video: "/assets/videos/E2WPowerTrail.mp4"
   },
 
@@ -1764,7 +1764,7 @@ export const sectorData = {
     title: "CHASIS",
     subtitle: "4-WHEELER PLATFORM",
     description: "Modular EV skateboard chassis integrating structural battery casing, front/rear crumple zones, and versatile suspension geometry for multi-vehicle applications.",
-    image: "/images/e4w-chassis.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/e4w-chassis.jpg",
     video: "/assets/videos/E4WChassis.mp4"
   },
   "e4w-battery-management-system": {
@@ -1772,7 +1772,7 @@ export const sectorData = {
     title: "BATTERY MANAGEMENT",
     subtitle: "SYSTEM (BMS)",
     description: "Automotive-grade high-voltage battery management architecture designed for liquid-cooled battery packs with fast-charging safety controls.",
-    image: "/images/e4w-bms.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/e4w-bms.jpg",
     video: "/assets/videos/E4WBMS.mp4"
   },
   "e4w-power-trail": {
@@ -1780,7 +1780,7 @@ export const sectorData = {
     title: "POWER TRAIL",
     subtitle: "4W DRIVETRAIN",
     description: "High-performance integrated electric drive unit combining permanent magnet synchronous motors, silicon carbide inverters, and high-reduction transmission.",
-    image: "/images/e4w-powertrain.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/e4w-powertrain.jpg",
     video: "/assets/videos/E4WPowerTrail.mp4"
   },
 
@@ -1792,7 +1792,7 @@ export const sectorData = {
   title: "MUKTI",
   subtitle: "VEHICLE",
   description: "Zero-emission commercial hydrogen vehicle powered by fuel cell technology, engineered for heavy-duty payload transport and rapid green refueling.",
-  image: "/images/mukti-vehicle.jpg",
+  image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/mukti-vehicle.jpg",
   introTitle: "Hydrogen Economy / Mukti Vehicle",
   introPoints: [
     "MUKTI is a mobile green-hydrogen technology demonstrator that retrofits a conventional diesel vehicle into an electric vehicle and demonstrates the complete hydrogen value chain, including electrolysis, hydrogen production, handling, storage, dispensing, and fuel-cell electricity generation.",
@@ -1807,7 +1807,7 @@ export const sectorData = {
     title: "BHAKTI",
     subtitle: "VEHICLE",
     description: "Zero-emission commercial hydrogen vehicle powered by fuel cell technology, engineered for heavy-duty payload transport and rapid green refueling.",
-    image: "/images/bhakti-vehicle.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/bhakti-vehicle.jpg",
     introTitle: " Hydrogen Economy / Bhakti Vehicle",
     introPoints: [
     "BHAKTI is an indigenous hydrogen-assisted dual-fuel technology that blends hydrogen with petrol in existing ICE vehicles, providing a practical transition to hydrogen mobility without replacing the vehicle platform or fuel infrastructure.",
@@ -1839,7 +1839,7 @@ export const sectorData = {
     title: "SOHAM",
     subtitle: "PLANT",
     description: "Integrated green hydrogen production facility using renewable-powered electrolysis, gas compression, purification, and safe bulk storage systems.",
-    image: "/images/soham-plant.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/soham-plant.jpg",
     introTitle: "Hydrogen Economy / Soham Plant",
     introPoints: [
     "SOHAM is an indigenous automated hydrogen-generation platform addressing the challenges of hydrogen transport and storage through safe, compact, decentralized, on-demand production, aligned with India’s National Green Hydrogen Mission and its targets of 5 MMT/year production, ₹8 lakh crore investment, and 6 lakh+ jobs.",
@@ -1858,7 +1858,7 @@ export const sectorData = {
     title: "QUANTUM",
     subtitle: "NAVIGATION",
     description: "GPS-denied navigation platform utilizing cold-atom quantum interferometers to provide precise, drift-free positioning across deep sea and underground environments.",
-    image: "/images/quantum-navigation.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/quantum-navigation.jpg",
     video: "/assets/videos/QuantumNavigation.mp4"
   },
   "quantum-clock": {
@@ -1866,7 +1866,7 @@ export const sectorData = {
     title: "QUANTUM",
     subtitle: "CLOCK",
     description: "Ultra-precise optical lattice atomic clock engineered for femtosecond timekeeping, high-speed financial network syncing, and deep-space telemetry.",
-    image: "/images/quantum-clock.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/quantum-clock.jpg",
     video: "/assets/videos/QuantumClock.mp4"
   },
   "quantum-sensor-imaging": {
@@ -1874,7 +1874,7 @@ export const sectorData = {
     title: "QUANTUM SENSOR",
     subtitle: "IMAGING",
     description: "High-sensitivity quantum imaging apparatus using nitrogen-vacancy diamond centers for magnetic anomaly detection and non-invasive medical scanning.",
-    image: "/images/quantum-sensor.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/quantum-sensor.jpg",
     video: "/assets/videos/QuantumSensor.mp4"
   },
   "quantum-communication": {
@@ -1882,7 +1882,7 @@ export const sectorData = {
     title: "QUANTUM",
     subtitle: "COMMUNICATION",
     description: "Quantum Key Distribution (QKD) infrastructure providing mathematically unbreakable encryption channels for critical national and financial data security.",
-    image: "/images/quantum-communication.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/quantum-communication.jpg",
     video: "/assets/videos/QuantumComm.mp4"
   },
 
@@ -1894,7 +1894,7 @@ export const sectorData = {
     title: "QUANTUM",
     subtitle: "SOLAR PANEL",
     description: "Advanced photovoltaic modules incorporating quantum dot nanostructures to capture a broader spectrum of sunlight, maximizing solar conversion efficiency.",
-    image: "/images/quantum-solar.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/quantum-solar.jpg",
     video: "/assets/videos/QuantumSolar.mp4"
   },
   "topcon-solar-panel": {
@@ -1902,7 +1902,7 @@ export const sectorData = {
     title: "TOPCON",
     subtitle: "SOLAR PANEL",
     description: "Tunnel Oxide Passivated Contact (TOPCon) high-efficiency N-type solar panels offering superior performance under high temperatures and low light conditions.",
-    image: "/images/topcon-solar.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/topcon-solar.jpg",
     video: "/assets/videos/TopconSolar.mp4"
   },
   "bifacial-solar-panel": {
@@ -1910,7 +1910,7 @@ export const sectorData = {
     title: "BIFACIAL",
     subtitle: "SOLAR PANEL",
     description: "Double-sided glass solar modules capable of generating energy from both direct overhead sunlight and reflected ground albedo radiation.",
-    image: "/images/bifacial-solar.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/bifacial-solar.jpg",
     video: "/assets/videos/BifacialSolar.mp4"
   },
   "wind-turbines-wave-energy": {
@@ -1918,7 +1918,7 @@ export const sectorData = {
     title: "WIND TURBINES",
     subtitle: "WAVE ENERGY",
     description: "Integrated offshore renewable energy systems combining high-output wind turbines and ocean wave kinetic converters for continuous clean energy generation.",
-    image: "/images/wind-wave-energy.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/wind-wave-energy.jpg",
     video: "/assets/videos/WindWaveEnergy.mp4"
   },
 
@@ -1930,7 +1930,7 @@ export const sectorData = {
     title: "DATA CENTRE",
     subtitle: "SET UP",
     description: "Hyperscale green data center architecture featuring high-density computing racks, advanced liquid immersion cooling, and redundant Tier-IV power infrastructure.",
-    image: "/images/data-center.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/data-center.jpg",
     video: "/assets/videos/DataCenter.mp4"
   },
 
@@ -1963,7 +1963,7 @@ export const sectorData = {
     title: "GRAPHENE OXIDE",
     subtitle: "MATERIAL",
     description: "High-purity synthesized graphene oxide nanomaterials engineered for advanced polymer composites, water purification membranes, and energy storage.",
-    image: "/images/graphene-oxide.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/graphene-oxide.jpg",
     video: "/assets/videos/GrapheneOxide.mp4"
   },
   "graphene-ink": {
@@ -1971,7 +1971,7 @@ export const sectorData = {
     title: "GRAPHENE",
     subtitle: "INK",
     description: "High-conductivity printable graphene formulations tailored for flexible electronics, printed smart circuits, RFID antennae, and sensor fabrication.",
-    image: "/images/graphene-ink.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/graphene-ink.jpg",
     video: "/assets/videos/GrapheneInk.mp4"
   },
   "graphene-thermal-material": {
@@ -1979,7 +1979,7 @@ export const sectorData = {
     title: "GRAPHENE THERMAL",
     subtitle: "MATERIAL",
     description: "Ultra-high conductivity graphene thermal interface films designed for heat dissipation in high-power electronics, mobile devices, and EV battery systems.",
-    image: "/images/graphene-thermal.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/graphene-thermal.jpg",
     video: "/assets/videos/GrapheneThermal.mp4"
   }
 };

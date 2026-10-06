@@ -7,7 +7,7 @@ const ManagingDirector = () => {
   }, []);
 
   const letterheadImg = "/images/Letterhead.png";
-  const heroBgImg = "/images/bg_i2.jpg"; 
+  const heroBgImg = "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/bg_i2.jpg"; 
 
   return (
     <div className="chairman-page-wrapper">

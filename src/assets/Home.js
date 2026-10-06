@@ -91,8 +91,8 @@ const Home = () => {
     {
       name: "Development",
       items: [
-        { title: "Infrastructure & RE", img: "/images/infra.jpg" },
-        { title: "Tourism Sector", img: "/images/tour.jpg" },
+        { title: "Infrastructure & RE", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/infra.jpg" },
+        { title: "Tourism Sector", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/tour.jpg" },
         { title: "Education Sector", img: "/images/education.jpeg" },
         { title: "Healthcare Sector", img: "/images/health.png" }
       ]
@@ -102,7 +102,7 @@ const Home = () => {
       items: [
         { title: "Service Sector", img: "/images/service.png" },
         { title: "Media & Entertainment", img: "/images/media.jpeg" },
-        { title: "Publication's", img: "/images/book.jpg" },
+        { title: "Publication's", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/book.jpg" },
         { title: "Cutting-Edge Tech", img: "/images/cutting.jpeg" }
       ]
     }

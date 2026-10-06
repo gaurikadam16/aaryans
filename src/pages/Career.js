@@ -89,7 +89,7 @@ const Career = () => {
     <div className="career-page-wrapper">
       {/* SECTION 1: THE HERO */}
       <section className="career-hero">
-        <img src="/images/career.jpg" alt="Career" className="hero-full-image" />
+        <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/career.jpg" alt="Career" className="hero-full-image" />
         <div className="hero-overlay-dark">
           <div className="hero-content">
             <h1 className="hero-title" data-text="CAREER">CAREER</h1>

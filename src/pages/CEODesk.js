@@ -9,7 +9,7 @@ const CEODesk = () => {
   }, []);
 
   const letterheadImg = "/images/Letterhead.png";
-  const heroBgImg = "/images/bg_i2.jpg";
+  const heroBgImg = "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/bg_i2.jpg";
 
   const years = ['2025', '2023', '2022', '2021', '2020', '2019'];
 
