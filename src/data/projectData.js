@@ -121,7 +121,7 @@ export const sectorData = {
       "The group is executing backward integration by establishing production facilities for Batteries and Semiconductors for both captive consumption and external commercial sales/exports."
     ],
     introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/auto1.jpg",
-    video: "/assets/videos/EV_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Jaggery_1.mp4",
     
         differentTitle: "Why we are different?",
     differentText: [
@@ -1413,7 +1413,7 @@ export const sectorData = {
     subtitle: "FAB",
     description: "High-precision cleanroom facilities for large-scale silicon wafer production and microchip lithography.",
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/semi-fab.jpg",
-    video: "/assets/videos/Fab_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Feb_1.mp4"
   },
 "space-services": {
     tag: "Tech & Innovation",

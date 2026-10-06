@@ -117,13 +117,13 @@ const Home = () => {
 
   const ventureLogos = [
     "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/Prajajagruk.jpg",
-    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sumukh-chitra.jpg",
-    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/agc-sports.jpg",
+    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sumukhchitra.jpg",
+    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/AGC-sports.jpg",
     "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/saltpix.jpg",
     "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/uncutlogo.jpg",
     "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/SWARANGTvLogo.jpg",
     "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/AADYAAVIATIONS.jpg",
-    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sumukh-chitra.jpg"
+    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sumuklogo.jpg"
   ];
 
   return (
