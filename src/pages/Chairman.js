@@ -6,7 +6,7 @@ const Chairman = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const letterheadImg = "/images/Letterhead.png";
+  const letterheadImg = "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/Letterhead.jpg";
   const heroBgImg = "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/bg_i2.jpg";
 
   return (
@@ -19,7 +19,7 @@ const Chairman = () => {
         <div className="chairman-container">
           <div className="hero-main-content">
             <h1 className="hero-quote">"Building a Stronger Future, Together."</h1>
-            <img src="/images/mukundj.png" alt="Chairman" className="portrait-main" />
+            <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/mukundj.jpg" alt="Chairman" className="portrait-main" />
           </div>
         </div>
       </section>

@@ -15,9 +15,9 @@ const OurTeam = () => {
       category: "Visionary Leadership",
       description: "Driving the strategic core and global expansion of Aaryans Group.",
       members: [
-        { name: "Executive Name", role: "Chairman & MD", img: "/images/mukundj.png", linkedin: "https://www.linkedin.com/in/gauri-kadam-521686292/" },
-        { name: "Executive Name", role: "Chief Executive Officer", img: "/images/manoharj.png", linkedin: "#" },
-        { name: "Executive Name", role: "Director of Operations", img: "/images/smitaj.png", linkedin: "#" },
+        { name: "Executive Name", role: "Chairman & MD", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/mukundj.jpg", linkedin: "https://www.linkedin.com/in/gauri-kadam-521686292/" },
+        { name: "Executive Name", role: "Chief Executive Officer", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/manoharj.jpg", linkedin: "#" },
+        { name: "Executive Name", role: "Director of Operations", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/smitaj.jpg", linkedin: "#" },
        
       ]
     },

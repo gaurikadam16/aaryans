@@ -85,7 +85,7 @@ const Home = () => {
         { title: "Agriculture Sector", img: "/images/image-2-6.webp" },
         { title: "Manufacturing Sector", img: "/images/indian-manufacturing-sector-scaled.jpg" },
         { title: "Mining And Refineries", img: "/images/images.jpeg" },
-        { title: "Power Generation", img: "/images/power.jpeg" }
+        { title: "Power Generation", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/power.jpg" }
       ]
     },
     {
@@ -93,17 +93,17 @@ const Home = () => {
       items: [
         { title: "Infrastructure & RE", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/infra.jpg" },
         { title: "Tourism Sector", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/tour.jpg" },
-        { title: "Education Sector", img: "/images/education.jpeg" },
-        { title: "Healthcare Sector", img: "/images/health.png" }
+        { title: "Education Sector", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/education.jpg" },
+        { title: "Healthcare Sector", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/health.jpg" }
       ]
     },
     {
       name: "Service & Tech",
       items: [
-        { title: "Service Sector", img: "/images/service.png" },
-        { title: "Media & Entertainment", img: "/images/media.jpeg" },
+        { title: "Service Sector", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/service.jpg" },
+        { title: "Media & Entertainment", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/media.jpg" },
         { title: "Publication's", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/book.jpg" },
-        { title: "Cutting-Edge Tech", img: "/images/cutting.jpeg" }
+        { title: "Cutting-Edge Tech", img: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/cutting.jpg" }
       ]
     }
   ];
@@ -116,14 +116,14 @@ const Home = () => {
   ];
 
   const ventureLogos = [
-    "/images/Prajajagruk.png",
-    "/images/sumukhchitra.png",
-    "/images/AGC_sports.png",
-    "/images/saltpix.png",
-    "/images/uncutlogo.png",
-    "/images/SWARANGTvLogo.png",
-    "/images/AADYAAVIATIONS.png",
-    "/images/sumukhchitra.png"
+    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/Prajajagruk.jpg",
+    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sumukh-chitra.jpg",
+    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/agc-sports.jpg",
+    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/saltpix.jpg",
+    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/uncutlogo.jpg",
+    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/SWARANGTvLogo.jpg",
+    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/AADYAAVIATIONS.jpg",
+    "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sumukh-chitra.jpg"
   ];
 
   return (

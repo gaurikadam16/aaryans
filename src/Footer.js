@@ -14,7 +14,7 @@ const Footer = () => {
         {/* COLUMN 1: BRANDING */}
         <div className="footer-branding">
           <img 
-            src="/images/Aaryans_logo_new_01.png" 
+            src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/Aaryans_logo_new_01.jpg" 
             alt="Aaryans Group" 
             className="footer-logo" 
           />

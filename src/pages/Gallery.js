@@ -37,7 +37,7 @@ const Gallery = () => {
   });
 
   const heroStyle = {
-    backgroundImage: `linear-gradient(180deg, rgba(15, 23, 42, 0.75) 0%, rgba(15, 23, 42, 0.65) 100%), url('/images/gallery.jpeg')`,
+    backgroundImage: `linear-gradient(180deg, rgba(15, 23, 42, 0.75) 0%, rgba(15, 23, 42, 0.65) 100%), url('https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/gallery.jpg')`,
   };
 
   return (

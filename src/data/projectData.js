@@ -21,7 +21,7 @@ export const sectorData = {
       "Land has been acquired in the Satara district of Maharashtra for cultivation, focusing on growing chemical-free fruits and vegetables to supply consumers at highly reasonable rates.",
       "The initiative aims to meet consumer demand for chemical-pesticide-free food—a market where roughly 5% of consumers buy 50% of organic produce—while empowering the local community through employment and adequate training."
     ],
-    introImage: "/images/organic1.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/organic1.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Organic_1.mp4",
   
     
@@ -35,15 +35,15 @@ export const sectorData = {
     futureProspects: [
       {
         text: " With a aim to protect the environment, minimize soil degradation and erosion, decrease pollution, optimize biological productivity and promote sound state of health by the use of produce grown using organic farming methods, Aaryans has decided to engage itself in this industry by investing an amount of Rs. 210 crores as capital expenditure and working capital which can generate employment for around 250 farmers / youth of the area. This activity or venture shall also help Mother Nature to maintain long-term soil fertility by optimizing conditions for biological activity within soil and also maintain biological diversity within the system.",
-        image: "/images/organic2.png" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/organic2.jpg" // Image with hikers
       },
       {
         text: "The other factor of benefit for Aaryans is that all the agricultural waste shall be used and utilized for power generation through our own waste to energy vertical and this will be an added advantage for the group on the whole. We aim to prepare organic products emphasizing careful processing and handling methods to maintain organic integrity and vital qualities of the products at all stages of production. Moreover the power will be sourced from the solar power vertical of Aaryans group which will be an added savings on the whole for the group.",
-        image: "/images/organic3.png" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/organic3.jpg" // Image with beach wedding
       },
       {
         text: "Subsequently, we shall also look forward to enter the vegan food segment and health food segments wherein we shall not only produce them but shall also launch retail outlets for the same and reach the masses at affordable prices. We shall also educate the local farmers with the help of renowned experts in organic farming. We observe that organic farming is now adopted considering social changes in the market. In future more consumers would be shifting to purchase organic food.",
-        image: "/images/organic4.png" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/organic4.jpg" // Image with beach wedding
       }
     ]
   },
@@ -68,7 +68,7 @@ export const sectorData = {
       "The group is partnering with a Karnataka-based ethanol company holding a 120 KLPD capacity license, targeting onboard completion by July 2023 and commercial operations by November 2023.",
       "With a total investment of Rs. 550 crore generating 550 youth job opportunities, the sector operates on a forward and backward integration model where sugar and ethanol production complement each other."
     ],
-    introImage: "/images/sugar1.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sugar1.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Sugar_1.mp4",
    
     differentTitle: "Why we are different?",
@@ -120,7 +120,7 @@ export const sectorData = {
       "Having rolled out EV bikes in February 2022, agreements are signed for technical collaboration to manufacture electric 4-wheelers, commercial vehicles, and buses scheduled for rollout by Q4 2024.",
       "The group is executing backward integration by establishing production facilities for Batteries and Semiconductors for both captive consumption and external commercial sales/exports."
     ],
-    introImage: "/images/auto1.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/auto1.jpg",
     video: "/assets/videos/EV_1.mp4",
     
         differentTitle: "Why we are different?",
@@ -170,7 +170,7 @@ export const sectorData = {
       "The business specializes in the end-to-end design, manufacture, and distribution of solar panels for residential, commercial, and industrial markets across India and globally.",
       "Operations leverage cutting-edge technology, eco-friendly manufacturing practices, and local resources to effectively satisfy the rapidly increasing demand for sustainable green energy solutions."
     ],
-    introImage: "/images/solar1.jpg",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/solarpanel1.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Solar_1.mp4"
   },
   "space-vehicles": {
@@ -178,7 +178,7 @@ export const sectorData = {
     title: "SPACE",
     subtitle: "VEHICLES",
     description: "Advanced aerospace manufacturing of satellite components and launch vehicle structures for global space exploration.",
-    image: "/images/space.webp",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/space.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Space_1.mp4"
   },
   "steel-metal": {
@@ -193,7 +193,7 @@ export const sectorData = {
       "The core project allocates Rs. 5,000 Crores toward world-class steel processing facilities, while an additional Rs. 4,000 Crores is dedicated specifically to Titanium metal production for international markets.",
       "This massive industrial expansion will generate over 3,000 direct employment opportunities for local talent across both regions."
     ],
-    introImage: "/images/steelmetal1.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/steelmetal1.jpg",
     introCards: [
       {
         text: "Aaryan's Group is determined to invest in the power sector, with a vested interest in solar power and recyclable waste power, Tidal power, and Bioenergy with a total investment of approx. Rs. 3000 crores to Rs. 3500 crores..."
@@ -241,7 +241,7 @@ export const sectorData = {
       "Product lines encompass a wide range of attire—including shirts, trousers, dresses, coats, and activewear—crafted to meet standardized international sizing requirements.",
       "The business leverages automated production workflows designed for high-volume wholesale distribution and retail supply channels worldwide."
     ],
-    introImage: "/images/ready0.jpg",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/readymadegarments0.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Garments_1.mp4"
   },
   // --- INDUSTRY SECTOR ---
@@ -265,7 +265,7 @@ export const sectorData = {
       "The venture leverages central ministry mandates requiring a 20% ethanol blend in petroleum to meet rising domestic industrial and fuel demand.",
       "The group has also reached an agreement with an existing Bengaluru-based sugar and ethanol plant to expand its manufacturing capacity to 120 KLPD."
     ],
-    introImage: "/images/chemical1.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/chemicalindustry1.jpg",
     video: "/assets/videos/Chemical_1.mp4",
   
     
@@ -449,7 +449,7 @@ export const sectorData = {
       "Aaryans Group has joined global research efforts in green energy by developing in-house technical capabilities and strategic partnerships to manufacture Green Hydrogen.",
       "Recognizing the spectrum of hydrogen forms (including Blue and Gray), the group specifically targets Green Hydrogen as the premier non-polluting fuel for long-term sustainability."
     ],
-    introImage: "/images/hydrogenfuel1.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hydrogenfuel1.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Hydrogen_1.mp4",
     
      futureTitle: "FUTURE PROSPECTS FOR AARYANS",
@@ -488,7 +488,7 @@ export const sectorData = {
       "Manufacturing facilities for solar cells are targeted for operational deployment in Hyderabad and Jaipur, positioning solar and biopower as core organizational competencies.",
       "The group is launching a dedicated Green Power R&D wing to discover alternative energy sources and advance environmental sustainability."
     ],
-    introImage: "/images/greenenergy.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/greenenergy.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Solar_1.mp4",
      differentTitle: "Why we are different?",
     differentText: [
@@ -567,7 +567,7 @@ export const sectorData = {
     title: "INFRASTRUCTURE",
     subtitle: "DEPT",
     description: "Managing large-scale civil engineering projects, from smart highways to sustainable urban planning.",
-    image: "/images/infra-dept.jpeg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/infra-dept.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Infrastructure_1.mp4"
   },
  "real-estate": {
@@ -634,8 +634,8 @@ export const sectorData = {
     title: "CULTURAL",
     subtitle: "MUSEUMS",
     description: "Preserving history through interactive digital archives and curated physical exhibitions.",
-    image: "/images/museum.jpg",
-    video: "/assets/videos/Museums_1.mp4"
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/museums.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Museum_1.mp4"
   },
   "science-park": {
     tag: "Tourism Sector",
@@ -673,7 +673,7 @@ export const sectorData = {
       "Aaryans Group focuses on delivering comprehensive travel logistics, luxury hospitality experiences, and curated leisure services.",
       "Operations aim to cater to both domestic and international travelers seeking premium recreation and leisure escapes."
     ],
-    introImage: "/images/tourismindustry1.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/tourismindustry1.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/TourServices_1.mp4",
     
     differentTitle: "Why we are different?",
@@ -713,7 +713,7 @@ export const sectorData = {
     subtitle: "ENGINEERING",
     description: "Specialized technical training in signal processing, live production hardware, and digital media transmission technologies.",
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/broadcast-edu.jpg",
-    video: "/assets/videos/BroadcastEdu.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/BroadcastEdu_1.mp4"
   },
   "education-sector-practical-knowledge-based": {
     tag: "Education Sector",
@@ -727,8 +727,8 @@ export const sectorData = {
       "The Indian education market was estimated at USD 91.7 billion in FY19 and projected to reach USD 101.1 billion by FY2024.",
       "With over 39,931 colleges, 993 universities, and 37.4 million higher education enrollments recorded in FY2019, the sector provides a massive foundation for practical and industry-aligned skill acquisition."
     ],
-    introImage: "/images/education1.png",
-    video: "/assets/videos/PracticalEdu.mp4",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/education1.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/PracticalEdu_1.mp4",
   
     differentTitle: "Why we are different?",
     differentText: [
@@ -773,8 +773,8 @@ export const sectorData = {
       "Investing Rs. 1,140 crores across healthcare verticals, the group is establishing multi-specialty hospitals, diagnostic centers, pathology labs, ENT care facilities, wellness centers (gymnasiums, spas with herbal and natural therapy), and a dedicated free cancer hospital for underprivileged communities.",
       "The segment leverages internal group synergies—utilizing oxygen from hydrogen production plants and air ambulance support from the aviation vertical—creating 1,200 direct job opportunities."
     ],
-    introImage: "/images/healthcare1.png",
-    video: "/assets/videos/Hospital_1.mp4",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/healthcare1.jpg",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Healthcare_1.mp4",
     differentTitle: "Why we are different?",
     differentText: [
       "Aaryans Group has recently finalized a strategic partnership to leverage advanced Israeli technology for an upcoming venture into organic farming. The initiative is scheduled to commence operations in August 2023, with a primary objective of producing organic fruits and vegetables.",
@@ -855,7 +855,7 @@ export const sectorData = {
       "The division focuses on organizational restructuring, feasibility studies, and growth modeling to streamline operational efficiencies.",
       "Through systematic market research and process optimization, it provides foundational analytical support for expanding business ventures."
     ],
-    introImage: "/images/aadya1.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/businessanalysis1.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/BusinessAnalysis_1.mp4",
     differentTitle: "Why we are different?",
     differentText: [
@@ -885,7 +885,7 @@ export const sectorData = {
       "This vertical also strategically supports healthcare operations by offering air ambulance services across key destinations."
     ],
     introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/avi1.jpg",
-    video: "/assets/videos/Aviation_sector_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Aviation%20Sector_1.mp4",
    
      differentTitle: "Why we are different?",
     differentText: [
@@ -946,15 +946,15 @@ export const sectorData = {
       },
       {
         text: "We shall have a added advantage as the organic farming business of Aaryans shall be the biggest source of raw material for this segment and other segments, namely, Marketing, Power generation, etc of Aaryans shall also compliment this venture. As such in Agriculture and organic farming sections we have plans to set up retain chain of outlets for health and vegan food.",
-        image: "/images/food3.png" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/food3.jpg" // Image with beach wedding
       },
       {
         text: "We shall make and strive to make people eat healthier food and like a strong and worry free life. We have already started work on fusing up the dishes of various continents with Indian traditions and recipes to make it like MAA KA KHANA. Whether it is in terms of convenience, health, or pleasure, we are able and committed to creating trustworthy products, systems, and services that would contribute to improving the quality of consumers' lives. It will be our constant practice and goal to apply our nutrition expertise to enhance the health and wellness of people. It will be like meeting the need of modern consumers with healthy, delicious, convenient products for conscious, time-constrained lifestyles.",
-        image: "/images/food4.png" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/food4.jpg" // Image with beach wedding
       },
       {
         text: "This segment will also complement our tourism sector and aviation sector where we have to manage airports which will have food joints for customer / passenger needs. We wish to bring premium food innovations to market fuelled by consumer insights and pioneering nutrition science, and culinary excellence.",
-        image: "/images/food5.png" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/food5.jpg" // Image with beach wedding
       }
     ]
   },
@@ -987,15 +987,15 @@ export const sectorData = {
       },
       {
         text: "We shall have a added advantage as the organic farming business of Aaryans shall be the biggest source of raw material for this segment and other segments, namely, Marketing, Power generation, etc of Aaryans shall also compliment this venture. As such in Agriculture and organic farming sections we have plans to set up retain chain of outlets for health and vegan food.",
-        image: "/images/food3.png" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/food3.jpg" // Image with beach wedding
       },
       {
         text: "We shall make and strive to make people eat healthier food and like a strong and worry free life. We have already started work on fusing up the dishes of various continents with Indian traditions and recipes to make it like MAA KA KHANA. Whether it is in terms of convenience, health, or pleasure, we are able and committed to creating trustworthy products, systems, and services that would contribute to improving the quality of consumers' lives. It will be our constant practice and goal to apply our nutrition expertise to enhance the health and wellness of people. It will be like meeting the need of modern consumers with healthy, delicious, convenient products for conscious, time-constrained lifestyles.",
-        image: "/images/food4.png" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/food4.jpg" // Image with beach wedding
       },
       {
         text: "This segment will also complement our tourism sector and aviation sector where we have to manage airports which will have food joints for customer / passenger needs. We wish to bring premium food innovations to market fuelled by consumer insights and pioneering nutrition science, and culinary excellence.",
-        image: "/images/food5.png" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/food5.jpg" // Image with beach wedding
       }
     ]
   },
@@ -1011,7 +1011,7 @@ export const sectorData = {
       "Operations establish specialized routes for passenger transit, high-value cargo logistics, and rapid emergency response services.",
       "The fleet addresses severe geographical transport bottlenecks across coastal and inland riverine regions."
     ],
-    introImage: "/images/hover1.jpg",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hovercraftservices1.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Hovercraft_1.mp4"
   },
  "import-and-export-services": {
@@ -1026,7 +1026,7 @@ export const sectorData = {
       "The unit focuses heavily on high-volume export hubs, capitalizing on key contributing manufacturing states (Maharashtra, Gujarat, Karnataka, Tamil Nadu, and Telangana) that drive 70% of total national exports.",
       "Services provide end-to-end global trade management, customs navigation, and international distribution networks."
     ],
-    introImage: "/images/import1.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/import1.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/ImportExport_1.mp4",
    
     differentTitle: "Why we are different?",
@@ -1039,11 +1039,11 @@ export const sectorData = {
     futureProspects: [
       {
         text: "Aaryans group is optimistic on this sector because it has a business interest in manufacturing of chemicals/Steel/gold refining/ semiconductors/ batteries/ EV/ etc. Entering into this business will be a kind of forward integration for us. The presence of Aaryans Group overseas at the financial hubs like Singapore and London shall give an added advantage to Aaryans group in the business.",
-        image: "/images/import2.png" // Image with hikers
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/import2.jpg" // Image with hikers
       },
       {
         text: "Generally, the funding is a major mitigating factor for the business. However, the group will be employing its own fund in this business, so cost of funds will not be a limitation. Aaryans group is keen on investing an amount of Rs. 500 Cr. in the places - villages of Maharashtra and also in other states where there is low-cost labor available. This would generate employment of around 1800 persons in the next 2 to 3 years to come. We shall have branch offices in various cities of India and abroad for smooth operations.",
-        image: "/images/import3.png" // Image with beach wedding
+        image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/import3.jpg" // Image with beach wedding
       }
     ]
   },
@@ -1059,7 +1059,7 @@ export const sectorData = {
       "The initiative leverages India's rapidly growing Media & Entertainment industry, driven by digital ad spend expanding at a 29% CAGR past INR 246 Billion.",
       "Services provide strategic brand architecture, public communications, and targeted marketing campaigns for internal verticals and corporate clients."
     ],
-    introImage: "/images/marketing1.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/marketing1.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Marketing_1.mp4",
     
     differentTitle: "Why we are different?",
@@ -1101,14 +1101,14 @@ export const sectorData = {
     title: "SEA AND RIVER",
     subtitle: "AVIATION",
     description: "Pioneering water-based aviation services utilizing seaplanes to connect coastal regions and inland waterways.",
-    image: "/images/sea-river-aviation.jpg",
+    image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sea-and-river-aviation.jpg",
     introTitle: "Sea And River Aviation",
     introPoints: [
       "The division develops and operates amphibious seaplane services capable of seamless takeoff and landing across oceans, rivers, and inland lakes.",
       "It creates direct transit links that bypass traditional airport constraints, offering sustainable alternatives to standard road, rail, and air travel.",
       "Operations encompass coastal tourism, regional passenger travel, high-priority cargo transport, and emergency medical/rescue missions."
     ],
-    introImage: "/images/sea0.jpg",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/seaandriver0.jpg",
     video: "/assets/videos/SeaAviation_1.mp4"
   },
   // --- MEDIA & ENTERTAINMENT SECTOR ---
@@ -1178,7 +1178,7 @@ export const sectorData = {
     subtitle: "JAGRUTI",
     description: "A trusted Marathi daily providing comprehensive local and international news, shaping public opinion through principled journalism.",
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/praja-jagruti.jpg",
-    video: "/assets/videos/NewsPaper_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/NewsPepar_1.mp4"
   },
   "sumukh-chitra-theatre-company": {
     tag: "Media & Entertainment",
@@ -1192,7 +1192,7 @@ export const sectorData = {
       "The venture is part of a broader Rs. 3,442 crore multi-vertical initiative generating 980 jobs, which includes launching a free-to-air channel across major DTH platforms.",
       "The theater wing has successfully produced two Marathi plays—'Pahile Na Mee Tula' (50+ shows) and 'Urmilayan' (25+ shows)—with 'Urmilayan' securing 8 Zee Natya Gaurav awards and 1 Akhil Bharatiya Marathi Natya Parishad honor."
     ],
-    introImage: "/images/sumukh.jpg",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sumukh-chitra.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Theatre_1.mp4",
     
     socialLinks: [
@@ -1274,7 +1274,7 @@ export const sectorData = {
       "The group is launching a proprietary UPI payment application named 'My Treasure', designed as a feature-rich, user-friendly digital finance hub.",
       "The financial services strategy focuses on driving social mobility and elevating living standards through streamlined credit and digital banking access."
     ],
-    introImage: "/images/financial1.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/financialservice1.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Fintech_1.mp4",
    
      differentTitle: "Why we are different?",
@@ -1305,14 +1305,14 @@ export const sectorData = {
     title: "LUKAPP",
     subtitle: "AARYANS SEARCH ENGINE",
     description: "Building a localized, multilingual search infrastructure that prioritizes Indian data privacy and regional context.",
-    video: "/videos/lukaap.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/lukaap.mp4",
     introTitle: "LukAap - India's AI Search Engine",
     introPoints: [
       "LukAap is an AI-powered search engine built for India that delivers direct answers with source citations in seconds via text or voice across 12 Indian languages without needing a signup[cite: 1].",
       "Features integrated local shop comparison alongside Amazon and Flipkart prices, smart product detection, and natural conversational follow-ups[cite: 1].",
       "Designed to democratize AI search for students, professionals, homemakers, smart shoppers, elderly users, and small business owners nationwide[cite: 1]."
     ],
-    introImage: "/images/lukaap.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/lukaap.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/SearchEngine_1.mp4"
   },
   "information-technology-services-and-business": {
@@ -1327,7 +1327,7 @@ export const sectorData = {
       "Engineered an interactive personal assistant robot named 'SWA' designed for friendly family engagement alongside launching local manufacturing for mobile phones, universal accessories, and electronics backed by a Rs. 2,500 Crore capital outlay and Taiwan technical collaboration.",
       "The IT and robotics vertical is projected to generate over 1,200 direct tech employment opportunities across software development and hardware assembly lines."
     ],
-    introImage: "/images/it1.png",
+    introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/informationtechnologyaielectronics1.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/IT_1.mp4"
   },
  "optical-semiconductor-manufacturing": {
@@ -1533,7 +1533,7 @@ export const sectorData = {
     subtitle: "DEBRIS",
     description: "Advanced orbital tracking and active debris mitigation systems designed to monitor, catalog, and de-orbit hazardous space junk from critical operational orbits.",
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/space-debris1.jpg",
-    video: "/assets/videos/SpaceDebris.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/SpaceDebris_1.mp4"
   },
   "space-debris-lab-demo": {
     tag: "Space Technology",
@@ -1799,7 +1799,7 @@ export const sectorData = {
     "MUKTI demonstrates clean-energy alternatives to conventional diesel-generator applications, aligned with India’s National Green Hydrogen Mission, while integrating renewable energy, hydrogen safety, dispensing, fuel-cell power generation, and electric-vehicle retrofitting.",
     "MUKTI functions as a “Lab on Wheels” by taking practical hydrogen education and hands-on demonstrations to schools, colleges, universities, industries, exhibitions, and communities, helping people understand the journey from renewable electricity to hydrogen production, storage, dispensing, fuel-cell power, and useful clean energy."
   ],
-  introImage: "/images/mukti-vehicle1.jpeg",
+  introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/mukti-vehicle1.jpg",
   video: "/assets/videos/MuktiVehicle.mp4"
 },
   "bhakti-vehicle": {
@@ -1814,7 +1814,7 @@ export const sectorData = {
     "The retrofit system integrates hydrogen storage, pressure and flow control, air–fuel–hydrogen management, engine controls, sensors, and electronic monitoring, with the exhibition vehicle serving as the engineering demonstration platform and supporting India’s National Green Hydrogen Mission.",
     "TRINETRA provides layered hydrogen safety through containment and pressure control, flashback protection, leak detection, abnormal-condition monitoring, warning, and automatic shutdown, enabling safer study of hydrogen combustion, emissions reduction, retrofit engineering, vehicle safety, and intelligent hydrogen controls."
   ],
-  introImage: "/images/bhakti.jpeg",
+  introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/bhakti.jpg",
   video: "/assets/videos/BhaktiVehicle.mp4"
     
   },
@@ -1846,7 +1846,7 @@ export const sectorData = {
     "SOHAM demonstrates Aaryans’ chemical-reaction-based hydrogen generation using automated feedstock management, reactor instrumentation, purification, drying, process monitoring, and hydrogen handling, with development toward a 100 kg/day modular platform and the exhibition unit representing its engineering demonstration stage.",
     "The platform integrates PLC automation, monitoring, controlled dosing, purification, safety interlocks, emergency shutdown, and IoT data acquisition, creating a foundation for predictive control and Digital Twin integration and enabling distributed hydrogen generation at industrial, research, remote, and demonstration sites.",
   ],
-  introImage: "/images/soham.jpeg",
+  introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/soham.jpg",
     video: "/assets/videos/SohamPlant.mp4"
   },
 

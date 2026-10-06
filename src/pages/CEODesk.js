@@ -8,7 +8,7 @@ const CEODesk = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const letterheadImg = "/images/Letterhead.png";
+  const letterheadImg = "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/Letterhead.jpg";
   const heroBgImg = "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/bg_i2.jpg";
 
   const years = ['2025', '2023', '2022', '2021', '2020', '2019'];
@@ -288,7 +288,7 @@ const CEODesk = () => {
         <div className="chairman-container">
           <div className="hero-main-content">
             <h1 className="hero-quote">"Driving Innovation, Building Success"</h1>
-            <img src="/images/manoharj.png" alt="CEO" className="portrait-main" />
+            <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/manoharj.jpg" alt="CEO" className="portrait-main" />
           </div>
         </div>
       </section>
