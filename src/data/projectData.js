@@ -148,7 +148,7 @@ export const sectorData = {
     subtitle: "PHONE",
     description: "Precision electronics manufacturing utilizing robotic SMT lines for next-generation hardware.",
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/cell.jpg",
-    video: "/assets/videos/cell_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/cell_1.mp4"
   },
   "drone-mfg": {
     tag: "Manufacturing Sector",
@@ -156,7 +156,7 @@ export const sectorData = {
     subtitle: "MFG",
     description: "Aerospace engineering specializing in UAV systems for industrial and agricultural applications.",
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/drone.jpg",
-    video: "/assets/videos/Drone_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Drone_1.mp4"
   },
 "solar-panels": {
     tag: "Manufacturing Sector",
@@ -227,7 +227,7 @@ export const sectorData = {
     subtitle: "FOR HYDROGEN",
     description: "Advanced manufacturing of PEM and Alkaline electrolyzers to drive the global green hydrogen revolution.",
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/electrolyzer.jpg", 
-    video: "/assets/videos/Electrolyzer_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Electrolyzer_1.mp4"
   },
 "ready-made-garments": {
     tag: "Manufacturing Sector",
@@ -266,7 +266,7 @@ export const sectorData = {
       "The group has also reached an agreement with an existing Bengaluru-based sugar and ethanol plant to expand its manufacturing capacity to 120 KLPD."
     ],
     introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/chemicalindustry1.jpg",
-    video: "/assets/videos/Chemical_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Chemical_1.mp4",
   
     
      differentTitle: "Why we are different?",
@@ -328,7 +328,7 @@ export const sectorData = {
     subtitle: "MINING",
     description: "Operating high-density data centers powered by renewable energy for blockchain and decentralized computing.",
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/crypto.jpg",
-    video: "/assets/videos/Cryptocurrency_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Cryptocurrency_1.mp4"
   },
   "heavy-metal": {
     tag: "Mining Sector",
@@ -420,7 +420,7 @@ export const sectorData = {
     subtitle: "GENERATION",
     description: "Advanced compression and purification of natural gas for urban transit and logistics fuel solutions.",
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/cng.jpg",
-    video: "/assets/videos/CNG_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/CNG_1.mp4"
   },
   "biogas-generation": {
     tag: "Power Generation",
@@ -531,7 +531,7 @@ export const sectorData = {
       "The division focuses on turning municipal and industrial waste streams into renewable grid power."
     ],
     introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/waste1.jpg",
-    video: "/assets/videos/Waste_1.mp4",
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Waste_1.mp4",
     
     differentTitle: "Why we are different?",
     differentText: [
@@ -915,7 +915,7 @@ export const sectorData = {
     subtitle: "PROGRAM BUSINESS",
     description: "Luxury maritime experiences and integrated cruise program management featuring world-class hospitality and global itineraries.",
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/cruise.jpg",
-    video: "/assets/videos/Cruise_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Cruise_1.mp4"
   },
  "food-and-beverage": {
     tag: "Services Sector",
