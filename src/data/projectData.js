@@ -1,4 +1,4 @@
-export const sectorData = {
+﻿export const sectorData = {
   // --- AGRICULTURE ---
 "hydroponic-farming": {
     tag: "Agriculture Sector",
@@ -19,7 +19,7 @@ export const sectorData = {
     introPoints: [
       "Aaryans Group has secured a deal to implement organic farming using advanced Israel-based technology, commencing operations in August 2023.",
       "Land has been acquired in the Satara district of Maharashtra for cultivation, focusing on growing chemical-free fruits and vegetables to supply consumers at highly reasonable rates.",
-      "The initiative aims to meet consumer demand for chemical-pesticide-free food—a market where roughly 5% of consumers buy 50% of organic produce—while empowering the local community through employment and adequate training."
+      "The initiative aims to meet consumer demand for chemical-pesticide-free foodâ€”a market where roughly 5% of consumers buy 50% of organic produceâ€”while empowering the local community through employment and adequate training."
     ],
     introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/organic1.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Organic_1.mp4",
@@ -238,7 +238,7 @@ export const sectorData = {
     introTitle: "Ready-Made Garments",
     introPoints: [
       "The ready-made garments division specializes in mass-producing off-the-rack, immediate-sale apparel without requiring individual post-purchase customization.",
-      "Product lines encompass a wide range of attire—including shirts, trousers, dresses, coats, and activewear—crafted to meet standardized international sizing requirements.",
+      "Product lines encompass a wide range of attireâ€”including shirts, trousers, dresses, coats, and activewearâ€”crafted to meet standardized international sizing requirements.",
       "The business leverages automated production workflows designed for high-volume wholesale distribution and retail supply channels worldwide."
     ],
     introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/readymadegarments0.jpg",
@@ -338,7 +338,7 @@ export const sectorData = {
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/heavy-metal.jpg",
     introTitle: "Heavy Metal Mining",
     introPoints: [
-      "Aaryans Group is entering the mining sector to provide essential raw materials—such as silica, titanium, and silicon—directly feeding into internal verticals including gold refining, semiconductors, and battery manufacturing.",
+      "Aaryans Group is entering the mining sector to provide essential raw materialsâ€”such as silica, titanium, and siliconâ€”directly feeding into internal verticals including gold refining, semiconductors, and battery manufacturing.",
       "The division has executed Letters of Intent (LOI) with strategic overseas partners in South Africa and within India.",
       "All formal paperwork and legal agreements for these mining partnerships were scheduled for full completion by late 2023."
     ],
@@ -723,7 +723,7 @@ export const sectorData = {
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/practical-edu.jpg",
     introTitle: "Education Sector (Practical Knowledge-Based)",
     introPoints: [
-      "The education services sector encompasses public and private institutions—including schools, colleges, universities, and specialized training centers—focused on delivering both theoretical knowledge and vocational expertise.",
+      "The education services sector encompasses public and private institutionsâ€”including schools, colleges, universities, and specialized training centersâ€”focused on delivering both theoretical knowledge and vocational expertise.",
       "The Indian education market was estimated at USD 91.7 billion in FY19 and projected to reach USD 101.1 billion by FY2024.",
       "With over 39,931 colleges, 993 universities, and 37.4 million higher education enrollments recorded in FY2019, the sector provides a massive foundation for practical and industry-aligned skill acquisition."
     ],
@@ -771,7 +771,7 @@ export const sectorData = {
     introPoints: [
       "Aaryans Group has executed the takeover of an operational Active Pharmaceutical Ingredient (API) manufacturing plant, with plans to expand capacity for critical pharmaceutical raw materials under the flagship brand.",
       "Investing Rs. 1,140 crores across healthcare verticals, the group is establishing multi-specialty hospitals, diagnostic centers, pathology labs, ENT care facilities, wellness centers (gymnasiums, spas with herbal and natural therapy), and a dedicated free cancer hospital for underprivileged communities.",
-      "The segment leverages internal group synergies—utilizing oxygen from hydrogen production plants and air ambulance support from the aviation vertical—creating 1,200 direct job opportunities."
+      "The segment leverages internal group synergiesâ€”utilizing oxygen from hydrogen production plants and air ambulance support from the aviation verticalâ€”creating 1,200 direct job opportunities."
     ],
     introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/healthcare1.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Healthcare_1.mp4",
@@ -792,7 +792,7 @@ export const sectorData = {
         image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/healthcare3.jpg"
       },
       {
-        text: "Our vision would be to set up hospitals with state of art equipment’s and advance laboratory testing Research Centers which will be manned by the expert medical personnel.",
+        text: "Our vision would be to set up hospitals with state of art equipmentâ€™s and advance laboratory testing Research Centers which will be manned by the expert medical personnel.",
         image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/healthcare4.jpg"
       },
       {
@@ -1022,7 +1022,7 @@ export const sectorData = {
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/import-export.jpg",
     introTitle: "Import And Export",
     introPoints: [
-      "Aaryans Group facilitates cross-border commerce aligning with India’s trade footprint of exporting ~7,500 commodities across 190 nations and importing ~6,000 items from 140 countries.",
+      "Aaryans Group facilitates cross-border commerce aligning with Indiaâ€™s trade footprint of exporting ~7,500 commodities across 190 nations and importing ~6,000 items from 140 countries.",
       "The unit focuses heavily on high-volume export hubs, capitalizing on key contributing manufacturing states (Maharashtra, Gujarat, Karnataka, Tamil Nadu, and Telangana) that drive 70% of total national exports.",
       "Services provide end-to-end global trade management, customs navigation, and international distribution networks."
     ],
@@ -1071,7 +1071,7 @@ export const sectorData = {
     futureTitle: "FUTURE PROSPECTS FOR AARYANS",
     futureProspects: [
       {
-        text: "The digital marketing services are used over an extended period to complete the business's marketing goals and objectives and spread client awareness about the company’s product and services, so offered by it.",
+        text: "The digital marketing services are used over an extended period to complete the business's marketing goals and objectives and spread client awareness about the companyâ€™s product and services, so offered by it.",
         image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/marketing2.jpg" // Image with hikers
       },
       {
@@ -1190,7 +1190,7 @@ export const sectorData = {
     introPoints: [
       "Aaryans Group expands into media production with a dedicated Rs. 50 crore investment in Sumukh Chitra, creating and funding content for internal channels and external clients from its operational base in Pune.",
       "The venture is part of a broader Rs. 3,442 crore multi-vertical initiative generating 980 jobs, which includes launching a free-to-air channel across major DTH platforms.",
-      "The theater wing has successfully produced two Marathi plays—'Pahile Na Mee Tula' (50+ shows) and 'Urmilayan' (25+ shows)—with 'Urmilayan' securing 8 Zee Natya Gaurav awards and 1 Akhil Bharatiya Marathi Natya Parishad honor."
+      "The theater wing has successfully produced two Marathi playsâ€”'Pahile Na Mee Tula' (50+ shows) and 'Urmilayan' (25+ shows)â€”with 'Urmilayan' securing 8 Zee Natya Gaurav awards and 1 Akhil Bharatiya Marathi Natya Parishad honor."
     ],
     introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/sumukh-chitra.jpg",
     video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Theatre_1.mp4",
@@ -1796,11 +1796,11 @@ export const sectorData = {
   introTitle: "Hydrogen Economy / Mukti Vehicle",
   introPoints: [
     "MUKTI is a mobile green-hydrogen technology demonstrator that retrofits a conventional diesel vehicle into an electric vehicle and demonstrates the complete hydrogen value chain, including electrolysis, hydrogen production, handling, storage, dispensing, and fuel-cell electricity generation.",
-    "MUKTI demonstrates clean-energy alternatives to conventional diesel-generator applications, aligned with India’s National Green Hydrogen Mission, while integrating renewable energy, hydrogen safety, dispensing, fuel-cell power generation, and electric-vehicle retrofitting.",
-    "MUKTI functions as a “Lab on Wheels” by taking practical hydrogen education and hands-on demonstrations to schools, colleges, universities, industries, exhibitions, and communities, helping people understand the journey from renewable electricity to hydrogen production, storage, dispensing, fuel-cell power, and useful clean energy."
+    "MUKTI demonstrates clean-energy alternatives to conventional diesel-generator applications, aligned with Indiaâ€™s National Green Hydrogen Mission, while integrating renewable energy, hydrogen safety, dispensing, fuel-cell power generation, and electric-vehicle retrofitting.",
+    "MUKTI functions as a â€œLab on Wheelsâ€ by taking practical hydrogen education and hands-on demonstrations to schools, colleges, universities, industries, exhibitions, and communities, helping people understand the journey from renewable electricity to hydrogen production, storage, dispensing, fuel-cell power, and useful clean energy."
   ],
   introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/mukti-vehicle1.jpg",
-  video: "/assets/videos/MuktiVehicle.mp4"
+  video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/mukti_1.MP4"
 },
   "bhakti-vehicle": {
     tag: "Hydrogen Economy",
@@ -1811,11 +1811,11 @@ export const sectorData = {
     introTitle: " Hydrogen Economy / Bhakti Vehicle",
     introPoints: [
     "BHAKTI is an indigenous hydrogen-assisted dual-fuel technology that blends hydrogen with petrol in existing ICE vehicles, providing a practical transition to hydrogen mobility without replacing the vehicle platform or fuel infrastructure.",
-    "The retrofit system integrates hydrogen storage, pressure and flow control, air–fuel–hydrogen management, engine controls, sensors, and electronic monitoring, with the exhibition vehicle serving as the engineering demonstration platform and supporting India’s National Green Hydrogen Mission.",
+    "The retrofit system integrates hydrogen storage, pressure and flow control, airâ€“fuelâ€“hydrogen management, engine controls, sensors, and electronic monitoring, with the exhibition vehicle serving as the engineering demonstration platform and supporting Indiaâ€™s National Green Hydrogen Mission.",
     "TRINETRA provides layered hydrogen safety through containment and pressure control, flashback protection, leak detection, abnormal-condition monitoring, warning, and automatic shutdown, enabling safer study of hydrogen combustion, emissions reduction, retrofit engineering, vehicle safety, and intelligent hydrogen controls."
   ],
   introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/bhakti.jpg",
-  video: "/assets/videos/BhaktiVehicle.mp4"
+  video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/bhakti_1.mp4"
     
   },
   "rocket-engine-hydrogen": {
@@ -1842,12 +1842,12 @@ export const sectorData = {
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/soham-plant.jpg",
     introTitle: "Hydrogen Economy / Soham Plant",
     introPoints: [
-    "SOHAM is an indigenous automated hydrogen-generation platform addressing the challenges of hydrogen transport and storage through safe, compact, decentralized, on-demand production, aligned with India’s National Green Hydrogen Mission and its targets of 5 MMT/year production, ₹8 lakh crore investment, and 6 lakh+ jobs.",
-    "SOHAM demonstrates Aaryans’ chemical-reaction-based hydrogen generation using automated feedstock management, reactor instrumentation, purification, drying, process monitoring, and hydrogen handling, with development toward a 100 kg/day modular platform and the exhibition unit representing its engineering demonstration stage.",
+    "SOHAM is an indigenous automated hydrogen-generation platform addressing the challenges of hydrogen transport and storage through safe, compact, decentralized, on-demand production, aligned with Indiaâ€™s National Green Hydrogen Mission and its targets of 5 MMT/year production, â‚¹8 lakh crore investment, and 6 lakh+ jobs.",
+    "SOHAM demonstrates Aaryansâ€™ chemical-reaction-based hydrogen generation using automated feedstock management, reactor instrumentation, purification, drying, process monitoring, and hydrogen handling, with development toward a 100 kg/day modular platform and the exhibition unit representing its engineering demonstration stage.",
     "The platform integrates PLC automation, monitoring, controlled dosing, purification, safety interlocks, emergency shutdown, and IoT data acquisition, creating a foundation for predictive control and Digital Twin integration and enabling distributed hydrogen generation at industrial, research, remote, and demonstration sites.",
   ],
   introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/soham.jpg",
-    video: "/assets/videos/SohamPlant.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/soham_1.mp4"
   },
 
   // ==========================================
