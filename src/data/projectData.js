@@ -148,7 +148,7 @@ export const sectorData = {
     subtitle: "PHONE",
     description: "Precision electronics manufacturing utilizing robotic SMT lines for next-generation hardware.",
     image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/cell.jpg",
-    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/cell_1.mp4"
+    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/Cell_1.mp4"
   },
   "drone-mfg": {
     tag: "Manufacturing Sector",
