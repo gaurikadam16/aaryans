@@ -22,12 +22,12 @@ const Gallery = () => {
       source: 'Sanchar Representative',
       content: `Shri Suvarnasiddheshwar Project ₹1.5 crore donation from 'Aryans' Sanchar Representative Solapur, 6th – Aryans Group of Companies, through Chairman Mukund Jagtap, has donated ₹1.5 crore towards the Shri Suvarnasiddheshwar Project of the village deity Shri Siddheshwar Devasthan (Temple Trust). This donation was made at the hands of NCP President Sharad Pawar, and the amount has been successfully deposited into the bank account of Shri Siddheshwar Temple Trust. The project is being developed on Donagaon Road in Solapur under the guidance of former Mayor Mahesh Kothe. The groundbreaking ceremony of Solapur’s first IT Park was conducted at the hands of Nationalist Congress Party (NCP) President Sharad Pawar. At the event, Mukund Jagtap, Chairman of Aryans Group of Companies, donated ₹1.5 crore to Shri Siddheshwar Devasthan on the occasion of his granddaughter’s birthday. This amount was deposited into the temple trust's bank account on Friday. On behalf of the temple trust, President Dharmajyot Kadadi and the Shri Siddheshwar devotees expressed their heartfelt gratitude to Mukund Jagtap and the Aryans Group of Companies. Former Mayor was also present at the event. A contribution of ₹76 crore from the Aryan Group to the Chief Minister's Care Fund and the Police Relief Fund. Mumbai (Representative): The police play an important role in keeping lawlessness and disorder in society under control. Additionally, the Chief Minister's Care Fund provides assistance to individuals in the state who are facing any kind of hardship. With a strong sense of social responsibility, the Aryan Group contributed ₹76 crore as a symbolic yet significant gesture to both these funds. Chief Minister Eknath Shinde and Deputy Chief Minister Devendra Fadnavis appreciated the Aryan Group’s social contribution and expressed that if entrepreneurs maintain such social awareness, the progress of society will not be delayed. On behalf of the Aryan Group, its CEO Manohar Jagtap donated ₹25 crore to the Police Relief Fund and ₹51 crore to the Chief Minister’s Care Fund. On this occasion, Chief Minister Eknath Shinde, Deputy Chief Minister Devendra Fadnavis, State Education Minister Deepak Kesarkar, Shambhuraje Desai, and others were present. The Aryan Group believes that we owe something to society and that we should strive to repay our social debt. In alignment with this ideology, we are making our contribution. Both of these funds serve the welfare of society, and being aware of this, we are offering our support. Chief Minister Eknath Shinde said, Being grateful toward society is a teaching passed down by our saints. The Jagtap family and the Aryan Group are practicing this teaching. I appreciate and commend this group for their social awareness and commitment.`
     },
-    { id: 1, year: '2023', type: 'Image', title: 'IT Park Site View', fileName: 'gallery1.jpeg' },
-    { id: 2, year: '2023', type: 'Image', title: 'Groundbreaking Event', fileName: 'gallery2.jpeg' },
-    { id: 3, year: '2022', type: 'Image', title: 'Project Planning', fileName: 'gallery3.jpeg' },
-    { id: 4, year: '2022', type: 'Image', title: 'Community Outreach', fileName: 'gallery4.jpeg' },
-    { id: 5, year: '2021', type: 'Image', title: 'Donation Ceremony', fileName: 'gallery5.jpeg' },
-    { id: 6, year: '2021', type: 'Image', title: 'Core Team Meeting', fileName: 'gallery6.jpeg' }
+    { id: 1, year: '2023', type: 'Image', title: 'IT Park Site View', fileName: 'https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/gallery1.jpg' },
+    { id: 2, year: '2023', type: 'Image', title: 'Groundbreaking Event', fileName: 'https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/gallery2.jpg' },
+    { id: 3, year: '2022', type: 'Image', title: 'Project Planning', fileName: 'https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/gallery3.jpg' },
+    { id: 4, year: '2022', type: 'Image', title: 'Community Outreach', fileName: 'https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/gallery4.jpg' },
+    { id: 5, year: '2021', type: 'Image', title: 'Donation Ceremony', fileName: 'https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/gallery5.jpg' },
+    { id: 6, year: '2021', type: 'Image', title: 'Core Team Meeting', fileName: 'https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/gallery6.jpg' }
   ];
 
   const filteredItems = galleryData.filter(item => {
@@ -36,18 +36,21 @@ const Gallery = () => {
     return yearMatch && typeMatch;
   });
 
-  const heroStyle = {
-    backgroundImage: `linear-gradient(180deg, rgba(15, 23, 42, 0.75) 0%, rgba(15, 23, 42, 0.65) 100%), url('https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/gallery.jpg')`,
-  };
-
   return (
     <div className="gallery-page-container">
-      {/* HERO SECTION */}
-      <header className="gallery-hero-section" style={heroStyle}>
-        <div className="gallery-hero-text-box">
-          <h1 className="gallery-hero-title">Visual Gallery</h1>
-          <div className="gallery-hero-accent-line"></div>
-          <p className="gallery-hero-subtitle">Innovation and Excellence in Focus</p>
+      {/* HERO SECTION (same structure as Career hero) */}
+      <header className="gallery-hero-section">
+        <img
+          src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/gallery.jpg"
+          alt="Gallery"
+          className="gallery-hero-image"
+        />
+        <div className="gallery-hero-overlay">
+          <div className="gallery-hero-text-box">
+            <h1 className="gallery-hero-title">Visual Gallery</h1>
+            <div className="gallery-hero-accent-line"></div>
+            <p className="gallery-hero-subtitle">Innovation and Excellence in Focus</p>
+          </div>
         </div>
       </header>
 

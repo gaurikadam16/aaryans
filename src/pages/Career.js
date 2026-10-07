@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import './Career.css';
 const HubspotFormInit = ({ portalId, formId, region }) => {
@@ -92,9 +93,9 @@ const Career = () => {
         <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/career.jpg" alt="Career" className="hero-full-image" />
         <div className="hero-overlay-dark">
           <div className="hero-content">
-            <h1 className="hero-title" data-text="CAREER">CAREER</h1>
+            <h1 className="hero-title">Career</h1>
             <div className="innovation-line"></div>
-            <p className="hero-subtitle"> Global Impact • Your Future</p>
+            <p className="hero-subtitle">Global Impact • Your Future</p>
           </div>
         </div>
       </section>

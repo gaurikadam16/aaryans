@@ -104,7 +104,11 @@ const COMING_SOON_KEYS = [
   // Graphene
   'grapheneoxidematerial',
   'grapheneink',
-  'graphenethermalmaterial'
+  'graphenethermalmaterial',
+
+  "injectables",
+  "active-pharmaceutical-ingredients",
+  "intravenous-fluids"
 ];
 
 const ProjectDetail = () => {

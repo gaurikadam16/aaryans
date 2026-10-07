@@ -147,7 +147,7 @@ const AboutUs = () => {
             {/* SMITA JAGTAP */}
             <div className="lead-card">
               <div className="lead-image-box">
-                <img src="/images/smitajagtap.jpg" alt="Smita Jagtap" />
+                <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/smitaj.jpg" alt="Smita Jagtap" />
               </div>
               <div className="lead-info">
                 <h4>Smita Jagtap</h4>
@@ -158,7 +158,7 @@ const AboutUs = () => {
             {/* MUKUND JAGTAP */}
             <div className="lead-card">
               <div className="lead-image-box">
-                <img src="/images/mukundjagtap.jpg" alt="Mukund Jagtap" />
+                <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/mukundj.jpg" alt="Mukund Jagtap" />
               </div>
               <div className="lead-info">
                 <h4>Mukund Jagtap</h4>
@@ -169,7 +169,7 @@ const AboutUs = () => {
             {/* MANOHAR M. JAGTAP */}
             <div className="lead-card">
               <div className="lead-image-box">
-                <img src="/images/manoharjagtap.jpg" alt="Manohar M. Jagtap" />
+                <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/manoharj.jpg" alt="Manohar M. Jagtap" />
               </div>
               <div className="lead-info">
                 <h4>Manohar M. Jagtap</h4>

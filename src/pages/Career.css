@@ -12,34 +12,30 @@
   overflow-x: hidden;
 }
 
-/* --- 2. HERO SECTION --- */
+/* --- 2. HERO SECTION (same as Gallery hero) --- */
 .career-hero {
   position: relative;
   width: 100%;
-  height: 550px; 
+  height: 520px;
   overflow: hidden;
   background-color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .hero-full-image {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
-  height: 100%; 
-  object-fit: cover; 
-  object-position: center top; 
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   display: block;
   z-index: 1;
 }
 
 .hero-overlay-dark {
   position: absolute;
-  inset: 0; 
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.55) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,43 +44,81 @@
 
 .hero-content {
   position: relative;
-  text-align: center;
+  width: 100%;
+  max-width: 900px;
+  padding: 0 24px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  justify-content: center;
+  text-align: center;
   z-index: 3;
 }
 
 .hero-title {
-  color: transparent;
-  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 1);
-  font-size: clamp(3rem, 10vw, 7rem);
-  font-weight: 900;
-  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(2.6rem, 6vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: 0.12em;
+  padding-left: 0.12em; /* balances trailing letter-spacing so text is truly centered */
   text-transform: uppercase;
-  letter-spacing: 15px;
-  animation: revealText 1.8s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+  color: #ffffff;
+  margin: 0;
+  opacity: 0;
+  animation: heroTitleIn 1s ease-out forwards;
 }
 
 .innovation-line {
-  width: 120px;
+  width: 80px;
   height: 3px;
   background: #ffffff;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
-  margin-top: 10px;
-  opacity: 0;
-  animation: expandLine 1.5s 1s ease-out forwards;
+  border-radius: 2px;
+  margin: 20px auto;
+  transform: scaleX(0);
+  animation: heroLineIn 0.8s 0.5s ease-out forwards;
 }
 
 .hero-subtitle {
-  color: #ffffff;
-  font-size: 1rem;
-  letter-spacing: 8px;
-  margin-top: 30px;
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(0.85rem, 1.6vw, 1.1rem);
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.25em;
+  padding-left: 0.25em;
   text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
   opacity: 0;
-  animation: fadeInSubtitle 2s 1.5s ease-out forwards;
+  animation: heroFadeUp 0.8s 0.8s ease-out forwards;
+}
+
+/* --- HERO RESPONSIVE --- */
+@media (max-width: 992px) {
+  .career-hero { height: 460px; }
+}
+
+@media (max-width: 768px) {
+  .career-hero { height: 400px; }
+  .hero-content { padding: 0 20px; }
+  .hero-title { letter-spacing: 0.08em; padding-left: 0.08em; }
+  .innovation-line { width: 60px; margin: 16px auto; }
+  .hero-subtitle { letter-spacing: 0.18em; padding-left: 0.18em; }
+}
+
+@media (max-width: 480px) {
+  .career-hero { height: 340px; }
+  .hero-content { padding: 0 16px; }
+  .hero-title { font-size: 2.2rem; letter-spacing: 0.06em; padding-left: 0.06em; }
+  .innovation-line { width: 50px; margin: 14px auto; }
+  .hero-subtitle { font-size: 0.75rem; letter-spacing: 0.12em; padding-left: 0.12em; }
+}
+
+@media (max-width: 360px) {
+  .career-hero { height: 300px; }
+  .hero-title { font-size: 1.9rem; }
+  .hero-subtitle { font-size: 0.7rem; }
 }
 
 /* --- 3. BREADCRUMBS (CENTERED) --- */
@@ -389,22 +423,20 @@
   .internship-btn { width: 100%; padding: 16px 20px; }
 }
 
-@keyframes revealText {
-  0% { letter-spacing: 30px; opacity: 0; transform: translateY(20px); }
-  100% { letter-spacing: 15px; opacity: 1; transform: translateY(0); }
+@keyframes heroTitleIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
-@keyframes expandLine {
-  0% { width: 0; opacity: 0; }
-  100% { width: 120px; opacity: 1; }
+@keyframes heroLineIn {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
 }
-@keyframes fadeInSubtitle {
+@keyframes heroFadeUp {
   from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 0.8; transform: translateY(0); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 @media (max-width: 768px) {
-  .career-hero { height: 450px; }
-  .hero-title { font-size: 3.5rem; letter-spacing: 5px; }
   .search-input-wrapper { flex-direction: column; background: transparent; border: none; }
   .search-input-wrapper input { border: 1px solid #e5dada; border-radius: 0; margin-bottom: 10px; background: #fff; }
   .search-input-wrapper button { padding: 18px; border-radius: 0; }

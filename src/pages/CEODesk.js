@@ -288,7 +288,7 @@ const CEODesk = () => {
         <div className="chairman-container">
           <div className="hero-main-content">
             <h1 className="hero-quote">"Driving Innovation, Building Success"</h1>
-            <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/manoharj.jpg" alt="CEO" className="portrait-main" />
+            <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/manohar.png" alt="CEO" className="portrait-main" />
           </div>
         </div>
       </section>

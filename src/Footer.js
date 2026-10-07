@@ -41,7 +41,7 @@ const Footer = () => {
         <div>
           <h4 className="footer-header">Quick Links</h4>
           <Link to="/about" className="footer-link">About Us</Link>
-          <Link to="/awards" className="footer-link">Awards</Link>
+          
           <Link to="/gallery" className="footer-link">Gallery</Link>
           <Link to="/career" className="footer-link">Career</Link>
           

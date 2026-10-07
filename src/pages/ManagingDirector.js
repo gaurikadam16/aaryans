@@ -19,7 +19,7 @@ const ManagingDirector = () => {
         <div className="chairman-container">
           <div className="hero-main-content">
             <h1 className="hero-quote">"Strategic Leadership, Sustainable Growth"</h1>
-            <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/smitaj.jpg" alt="Managing Director" className="portrait-main" />
+            <img src="https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/smita.png" alt="Managing Director" className="portrait-main" />
           </div>
         </div>
       </section>
