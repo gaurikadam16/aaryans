@@ -14,7 +14,6 @@
   /* Layout Base */
   width: 100%;
   background-color: #ffffff;
-  padding-top: var(--nav-offset); /* pushes the hero below the fixed navbar */
   padding-bottom: var(--section-gap);
   overflow-x: hidden;
   box-sizing: border-box;
@@ -34,6 +33,7 @@
   position: relative;
   width: 100%;
   min-height: 380px;
+  margin-top: var(--nav-offset) !important; /* pushes the hero below the fixed navbar */
   background-color: #fdfdfd;
   display: flex;
   align-items: center;
@@ -77,8 +77,8 @@
   letter-spacing: 1px;
 }
 
-.premium-team-page .text-maroon {
-  color: var(--brand-maroon);
+.premium-team-page .team-hero-lux h1 .text-maroon {
+  color: var(--brand-maroon) !important;
 }
 
 .premium-team-page .hero-accent {
