@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Layout Components
@@ -19,9 +19,19 @@ import OurTeam from './pages/OurTeam';
 
 import Gallery from './pages/Gallery'; 
 
+// Coming Soon (countdown) page
+import ComingSoon, { LAUNCH_DATE } from './pages/ComingSoon';
+
 import './App.css'; 
 
 function App() {
+  // Show the countdown until 8 Oct 2026, 10:00 AM IST, then the full website
+  const [isLive, setIsLive] = useState(Date.now() >= LAUNCH_DATE.getTime());
+
+  if (!isLive) {
+    return <ComingSoon onLaunch={() => setIsLive(true)} />;
+  }
+
   return (
     <Router>
       <div className="app-wrapper">
