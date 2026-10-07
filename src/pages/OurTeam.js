@@ -33,8 +33,7 @@ const OurTeam = () => {
       {/* Hero Section */}
       <section className="team-hero-lux">
         <div className="hero-content">
-          
-          <h1>The Minds Behind <span className="text-maroon">Aaryans</span></h1>
+         <h1>The Minds Behind <span className="text-maroon">Aaryans</span></h1>
           <div className="hero-accent"></div>
         </div>
       </section>
