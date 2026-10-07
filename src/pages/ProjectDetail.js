@@ -108,29 +108,29 @@ const COMING_SOON_KEYS = [
 
   // Healthcare Sector
   'injectables',
-  'active-pharmaceutical-ingredients',
-  'intravenous-fluids',
+  'activepharmaceuticalingredients',
+  'intravenousfluids',
 
   // Manufacturing Sector
-  'cell-phone',
-  'drone-mfg',
-  'electrolyzers-for-hydrogen-fuel',
+  'cellphone',
+  'dronemfg',
+  'electrolyzersforhydrogen-fuel',
 
   // Industry Sector
-  'chemical-industries',
+  'chemicalindustries',
 
   // Mining Sector
-  'crypto-mining',
+  'cryptomining',
 
   // Power Generation
-  'cng-generation',
+  'cnggeneration',
 
   // Services Sector
-  'sea-and-river-aviation',
+  'seaandriveraviation',
 
   // Tech & Innovation
-  'space-services',
-  'wave-energy-generation',
+  'spaceservices',
+  'waveenergygeneration',
 ];
 
 const ProjectDetail = () => {
