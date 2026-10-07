@@ -17,6 +17,7 @@ const cleanKey = (str = '') => {
 };
 
 // Target project keys that need the modal
+// Target project keys that need the modal
 const COMING_SOON_KEYS = [
   // Initial keys
   'aaryansfabbriefcase',
@@ -97,7 +98,6 @@ const COMING_SOON_KEYS = [
   'datacentresetup',
 
   // Information Technology
-  
   'entertainmentappidiotbox',
   'financialappmytreasury',
 
@@ -106,9 +106,31 @@ const COMING_SOON_KEYS = [
   'grapheneink',
   'graphenethermalmaterial',
 
-  "injectables",
-  "active-pharmaceutical-ingredients",
-  "intravenous-fluids"
+  // Healthcare Sector
+  'injectables',
+  'active-pharmaceutical-ingredients',
+  'intravenous-fluids',
+
+  // Manufacturing Sector
+  'cell-phone',
+  'drone-mfg',
+  'electrolyzers-for-hydrogen-fuel',
+
+  // Industry Sector
+  'chemical-industries',
+
+  // Mining Sector
+  'crypto-mining',
+
+  // Power Generation
+  'cng-generation',
+
+  // Services Sector
+  'sea-and-river-aviation',
+
+  // Tech & Innovation
+  'space-services',
+  'wave-energy-generation',
 ];
 
 const ProjectDetail = () => {
