@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { FaLinkedinIn } from 'react-icons/fa';
@@ -10,6 +10,10 @@ import 'swiper/css/pagination';
 import './OurTeam.css';
 
 const OurTeam = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const teamData = [
     {
       category: "Visionary Leadership",

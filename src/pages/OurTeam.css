@@ -9,13 +9,16 @@
   --text-dark: #1a1a1a;
   --transition-smooth: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
   --section-gap: 50px;
+  --nav-offset: 120px; /* height of your fixed navbar - change here if needed */
 
   /* Layout Base */
   width: 100%;
   background-color: #ffffff;
+  padding-top: var(--nav-offset); /* pushes the hero below the fixed navbar */
   padding-bottom: var(--section-gap);
   overflow-x: hidden;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 .premium-team-page *,
@@ -29,40 +32,53 @@
    ========================================================================== */
 .premium-team-page .team-hero-lux {
   position: relative;
-  min-height: 280px;
+  width: 100%;
+  min-height: 380px;
   background-color: #fdfdfd;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 90px 20px;
+  padding: 60px 24px;
   border-bottom: 1px solid #f0f0f0;
 }
 
 .premium-team-page .hero-content {
   position: relative;
   z-index: 2;
+  width: 100%;
   max-width: 900px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .premium-team-page .premium-tag {
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 5px;
+  padding-left: 5px; /* balances trailing letter-spacing so text is truly centered */
   color: var(--brand-maroon);
   font-weight: 700;
   font-size: 0.85rem;
-  margin-bottom: 8px;
+  line-height: 1.4;
+  margin: 0 0 12px;
 }
 
 .premium-team-page .team-hero-lux h1 {
   font-size: clamp(2.2rem, 5vw, 3.8rem);
   color: var(--text-dark);
-  margin: 10px 0 15px;
+  margin: 0 0 20px;
   text-transform: uppercase;
   font-weight: 900;
   line-height: 1.15;
+  letter-spacing: 1px;
+}
+
+.premium-team-page .text-maroon {
+  color: var(--brand-maroon);
 }
 
 .premium-team-page .hero-accent {
@@ -76,7 +92,7 @@
     var(--brand-maroon),
     transparent
   );
-  margin: 15px auto 0;
+  margin: 0 auto;
   border-radius: 0;
 }
 
@@ -263,12 +279,25 @@
   color: #ffffff !important;
 }
 
+.premium-team-page .swiper-pagination-bullet-active {
+  background: var(--brand-maroon) !important;
+}
+
 /* ==========================================================================
    6. RESPONSIVE MEDIA QUERIES
    ========================================================================== */
 
 /* Tablet (Max 1024px) */
 @media (max-width: 1024px) {
+  .premium-team-page {
+    --nav-offset: 100px;
+  }
+
+  .premium-team-page .team-hero-lux {
+    min-height: 340px;
+    padding: 50px 24px;
+  }
+
   .premium-team-page .category-row-wrapper {
     padding: 0 30px;
   }
@@ -282,11 +311,29 @@
 @media (max-width: 768px) {
   .premium-team-page {
     --section-gap: 30px;
+    --nav-offset: 80px;
   }
 
   .premium-team-page .team-hero-lux {
-    padding: 40px 15px;
-    min-height: 220px;
+    min-height: 280px;
+    padding: 40px 20px;
+  }
+
+  .premium-team-page .premium-tag {
+    font-size: 0.75rem;
+    letter-spacing: 4px;
+    padding-left: 4px;
+    margin-bottom: 10px;
+  }
+
+  .premium-team-page .team-hero-lux h1 {
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+  }
+
+  .premium-team-page .hero-accent {
+    width: 80px;
+    height: 3px;
   }
 
   .premium-team-page .category-row-wrapper {
@@ -303,5 +350,43 @@
 
   .premium-team-page .team-swiper {
     padding-bottom: 35px !important;
+  }
+}
+
+/* Small Mobile (Max 480px) */
+@media (max-width: 480px) {
+  .premium-team-page .team-hero-lux {
+    min-height: 240px;
+    padding: 32px 16px;
+  }
+
+  .premium-team-page .premium-tag {
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    padding-left: 3px;
+  }
+
+  .premium-team-page .team-hero-lux h1 {
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+  }
+
+  .premium-team-page .hero-accent {
+    width: 60px;
+  }
+
+  .premium-team-page .header-text {
+    padding-left: 14px;
+  }
+
+  .premium-team-page .row-header p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Extra Small (Max 360px) */
+@media (max-width: 360px) {
+  .premium-team-page .team-hero-lux h1 {
+    font-size: 1.55rem;
   }
 }
