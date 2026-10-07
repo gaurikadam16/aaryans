@@ -30,6 +30,10 @@ const Gallery = () => {
     { id: 6, year: '2021', type: 'Image', title: 'Core Team Meeting', fileName: 'https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/gallery6.jpg' }
   ];
 
+  // Use full URLs (Vercel Blob) as-is; add a local folder only for plain file names
+  const getMediaSrc = (fileName, folder) =>
+    /^https?:\/\//.test(fileName) ? fileName : `/${folder}/${fileName}`;
+
   const filteredItems = galleryData.filter(item => {
     const yearMatch = selectedYear === 'All' || item.year === selectedYear;
     const typeMatch = selectedType === 'All' || item.type === selectedType;
@@ -113,9 +117,9 @@ const Gallery = () => {
                     <span className="year-tag-overlay">{item.year}</span>
                     <span className="type-tag-overlay">{item.type}</span>
                     {item.type === 'Image' ? (
-                      <img src={`/images/${item.fileName}`} alt={item.title} loading="lazy" />
+                      <img src={getMediaSrc(item.fileName, 'images')} alt={item.title} loading="lazy" />
                     ) : (
-                      <video controls><source src={`/videos/${item.fileName}`} /></video>
+                      <video controls><source src={getMediaSrc(item.fileName, 'videos')} /></video>
                     )}
                   </div>
                   <div className="media-body">

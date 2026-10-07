@@ -297,35 +297,49 @@
   color: #001a33;
 }
 
+.lead-subtitle {
+  font-size: 1.1rem;
+  color: #555555;
+  line-height: 1.7;
+  margin: 12px 0 0;
+}
+
 .leadership-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 35px;
+  align-items: stretch;
 }
 
 .lead-card {
   background-color: #ffffff;
   border-radius: 4px;
-  padding: 20px;
+  padding: 20px 20px 28px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
   transition: transform 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.04);
   border: 1px solid #f0f0f0;
 }
 
+/* Taller portrait box so the full head and upper body stay visible */
 .lead-image-box {
   width: 100%;
-  aspect-ratio: 4 / 3.5;
+  aspect-ratio: 3 / 4;
   overflow: hidden;
   border-radius: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  background-color: #f7f7f7;
 }
 
 .lead-image-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center; /* never crop the head */
   display: block;
+  transform-origin: top center;
   transition: transform 0.5s ease;
 }
 
@@ -336,13 +350,17 @@
 }
 
 .lead-card:hover img {
-  transform: scale(1.06);
+  transform: scale(1.04);
+}
+
+.lead-info {
+  margin-top: auto;
 }
 
 .lead-info h4 {
   font-size: 1.45rem;
   color: #001a33;
-  margin: 0 0 6px;
+  margin: 0 0 8px;
   font-weight: 800;
 }
 
@@ -352,6 +370,7 @@
   text-transform: uppercase;
   font-size: 0.75rem;
   letter-spacing: 2px;
+  margin: 0;
 }
 
 /* ==========================================================================
@@ -377,6 +396,10 @@
   
   .vm-grid-split {
     gap: 40px;
+  }
+
+  .leadership-grid {
+    gap: 25px;
   }
 }
 
@@ -432,6 +455,17 @@
 
   .leadership-header {
     text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .lead-subtitle {
+    font-size: 1rem;
+  }
+
+  .lead-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
   }
 
   .vm-main-photo {
@@ -440,5 +474,16 @@
 
   .vm-box {
     padding: 25px;
+  }
+}
+
+/* Small Mobile (Max 480px) */
+@media (max-width: 480px) {
+  .lead-card {
+    padding: 14px 14px 22px;
+  }
+
+  .lead-info h4 {
+    font-size: 1.25rem;
   }
 }
