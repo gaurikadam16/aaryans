@@ -97,9 +97,7 @@ const COMING_SOON_KEYS = [
   // Digital Infrastructure
   'datacentresetup',
 
-  // Information Technology
-  'entertainmentappidiotbox',
-  'financialappmytreasury',
+ 
 
   // Graphene
   'grapheneoxidematerial',
