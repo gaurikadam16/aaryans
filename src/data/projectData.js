@@ -1,4 +1,6 @@
-﻿export const sectorData = {
+﻿import { image } from "framer-motion/client";
+
+export const sectorData = {
   // --- AGRICULTURE ---
 "hydroponic-farming": {
     tag: "Agriculture Sector",
@@ -1305,7 +1307,7 @@
     title: "LUKAPP",
     subtitle: "AARYANS SEARCH ENGINE",
     description: "Building a localized, multilingual search infrastructure that prioritizes Indian data privacy and regional context.",
-    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/lukaap.mp4",
+    image: "/assets/videos/lukaap.mp4",
     introTitle: "LukAap - India's AI Search Engine",
     introPoints: [
       "LukAap is an AI-powered search engine built for India that delivers direct answers with source citations in seconds via text or voice across 12 Indian languages without needing a signup[cite: 1].",
@@ -1313,7 +1315,7 @@
       "Designed to democratize AI search for students, professionals, homemakers, smart shoppers, elderly users, and small business owners nationwide[cite: 1]."
     ],
     introImage: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/lukaap.jpg",
-    video: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/assets/videos/SearchEngine_1.mp4"
+    video: "/assets/videos/lukaap.mp4"
   },
   "information-technology-services-and-business": {
     tag: "Tech & Innovation",
@@ -1937,22 +1939,35 @@
   // ==========================================
   // INFORMATION TECHNOLOGY
   // ==========================================
- 
-  "entertainment-app-idiot-box": {
+   "entertainment-app-idiot-box": {
     tag: "Information Technology",
     title: "ENTERTAINMENT APP",
     subtitle: "IDIOT BOX",
     description: "Interactive digital streaming application delivering high-definition on-demand video, live broadcasts, and multi-user synchronized watch party experiences.",
-    image: "/images/idiot-box.jpg",
-    video: "/assets/videos/IdiotBox.mp4"
+    image: "/images/ott.jpg",
+    introTitle: "Idiot Box - Entertainment Streaming App",
+    introPoints: [
+      "Idiot Box is a digital entertainment platform that brings high-definition on-demand movies, shows, and live broadcasts together in a single, easy-to-use app.",
+      "Synchronized watch parties let friends and families stream the same content together in real time, with interactive features that make viewing a shared experience.",
+      "Built for smartphones, tablets, and smart TVs, the app offers personalized recommendations and smooth playback across devices and network conditions."
+    ],
+    introImage: "/images/ott_1.jpeg",
+    video: "/assets/videos/ott.mp4"
   },
   "financial-app-my-treasury": {
     tag: "Information Technology",
     title: "FINANCIAL APP",
     subtitle: "MY TREASURY",
     description: "Smart personal and enterprise finance management app providing automated portfolio tracking, investment analytics, budgeting, and secure digital payments.",
-    image: "/images/my-treasury.jpg",
-    video: "/assets/videos/MyTreasury.mp4"
+    image: "/images/myteasury.png",
+    introTitle: "My Treasury - Smart Finance Management",
+    introPoints: [
+      "My Treasury is a finance management app for individuals and enterprises that brings portfolio tracking, budgeting, and payments into one secure dashboard.",
+      "Automated investment analytics give users clear insight into performance, spending patterns, and opportunities to grow their savings.",
+      "Bank-grade security protects every digital payment and transaction, giving users full control of their finances from any device."
+    ],
+    introImage: "/images/myteasury.png",
+    video: "/assets/videos/myteasury.mp4"
   },
 
   // ==========================================
