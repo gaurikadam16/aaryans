@@ -65,10 +65,11 @@ const Home = () => {
 
   const heroSlides = [
     {
-      image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hero1.jpg",
-      overline: "News Uncut",
-      title: "Voice of the People, Rhythm of the Soul.",
-      subtext: "Delivering raw, unfiltered perspectives and real stories."
+  image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hydrogen.jpg",
+  overline: "Hydrogen Power",
+  title: "Clean Energy, Powering Tomorrow.",
+  subtext: "Harnessing the universe's most abundant element for a zero-emission future."
+
     },
     {
       image: "https://zxvv4tusqcw9wo0o.public.blob.vercel-storage.com/images/hero2.jpg",
